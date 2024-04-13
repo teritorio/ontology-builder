@@ -3,7 +3,9 @@
 set -e
 
 # Import DOC_TOURISM and DOC_CITY
-source .env
+[[ -f .env ]] && source .env
+
+mkdir -p build
 
 # Tourism
 curl -L "${DOC_TOURISM}/export?format=csv&gid=2097204395" > ontology-tourism-superclass.csv
@@ -14,7 +16,7 @@ ruby ontology-build.rb tourism 'Ontology Tourism' \
     ontology-tourism-superclass.csv \
     ontology-tourism.csv \
     ontology-tourism-extra_tags.csv \
-    ontology-tourism.json
+    build/teritorio-tourism-ontology-1.0.json
 
 # City
 curl -L "${DOC_CITY}/export?format=csv&gid=2097204395" > ontology-city-superclass.csv
@@ -25,4 +27,4 @@ ruby ontology-build.rb city 'Ontology City' \
     ontology-city-superclass.csv \
     ontology-city.csv \
     ontology-city-extra_tags.csv \
-    ontology-city.json \
+    build/teritorio-city-ontology-1.0.json
