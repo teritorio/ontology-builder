@@ -3202,9 +3202,29 @@
             "disabled"
           ]
         },
-        "government": {
+        "government_france_service": {
           "label": {
-            "en": "government",
+            "en": "government_france_service",
+            "fr": "France Service"
+          },
+          "zoom": 11,
+          "style": "⬤",
+          "priority": 20,
+          "osm_tags": [
+            "[government=public_service][office=government][operator:wikidata=Q24931343]"
+          ],
+          "osm_tags_extra": [
+            "base",
+            "address",
+            "contact",
+            "ref",
+            "opening",
+            "disabled"
+          ]
+        },
+        "government_tax": {
+          "label": {
+            "en": "government_tax",
             "fr": "centre des impôts"
           },
           "zoom": 11,
@@ -8779,6 +8799,12 @@
       "collection_times": {
         "label": {
           "fr": "heure de levée"
+        },
+        "values": null
+      },
+      "opening_hours:url": {
+        "label": {
+          "fr": "Adresse Web pour les horaires d'ouverture"
         },
         "values": null
       }
