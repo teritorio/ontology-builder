@@ -3211,7 +3211,7 @@
           "style": "⬤",
           "priority": 20,
           "osm_tags": [
-            "[government=public_service][office=government][operator:wikidata=Q24931343]"
+            "[\"operator:wikidata\"=Q24931343][government=public_service][office=government]"
           ],
           "osm_tags_extra": [
             "base",
