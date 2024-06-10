@@ -151,6 +151,12 @@ hierarchy = csv.group_by{ |row| row["#{theme}_superclass"] }.collect{ |superclas
     class: c.merge(pop || {}),
   }]
 }.to_h
+
+if hierarchy.size == 0
+  puts 'ERROR: empty ontology'
+  exit 1
+end
+
 file = File.open(ontology_json, 'w')
 file.write(JSON.pretty_generate({
   name: name,
