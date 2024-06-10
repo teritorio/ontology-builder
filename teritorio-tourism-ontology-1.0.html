@@ -1,0 +1,4337 @@
+<html><head>
+  <title>Ontology Tourism</title>
+  <link rel='stylesheet' href='https://unpkg.com/@teritorio/font-teritorio/teritorio/teritorio.css'>
+  <style>
+  table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+  }
+  </style>
+</head>
+<body><h1>Ontology Tourism</h1><table><tr>
+  <th></th><th>superclass_id</th><th>superclass label</th>
+  <th></th><th>class_id</th><th>class label</th>
+  <th></th><th>subclass_id</th><th>subclass label</th>
+  <th>i</th><th>z</th><th>p</th>
+  <th>Overpass</th>
+  <th>Extra tags</th>
+  </tr><tr><td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-products'></i></center>
+  </td><td>products</td><td colspan='99'>en: products, fr: Produits locaux</td></tr><tr><td></td><td></td><td></td><td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-craft'></i></center>
+  </td><td>craft</td><td colspan='99'>en: craft, fr: Artisans</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-tailor_workshop'></i></center>
+  </td>
+  <td>tailor_workshop</td>
+  <td>en: tailor_workshop, fr: tailleur (atelier)</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>400</td>
+  <td>[craft=tailor]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-beekeeper'></i></center>
+  </td>
+  <td>beekeeper</td>
+  <td>en: beekeeper, fr: apiculteur, local</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>400</td>
+  <td>[craft=beekeeper]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-handicraft'></i></center>
+  </td>
+  <td>handicraft</td>
+  <td>en: handicraft, fr: artisanat manuel ("fait-main")</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=handicraft]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-basket_maker'></i></center>
+  </td>
+  <td>basket_maker</td>
+  <td>en: basket_maker, fr: vannier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=basket_maker]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-coffee_roaster'></i></center>
+  </td>
+  <td>coffee_roaster</td>
+  <td>en: coffee_roaster, fr: brasserie artisanale</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[craft=coffee_roaster]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-brewery'></i></center>
+  </td>
+  <td>brewery</td>
+  <td>en: brewery, fr: torrefacteur</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[craft=brewery]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-luthier'></i></center>
+  </td>
+  <td>luthier</td>
+  <td>en: luthier, fr: luthier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=luthier]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-jeweller'></i></center>
+  </td>
+  <td>jeweller</td>
+  <td>en: jeweller, fr: bijoutier-joaillier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=jeweller]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-distillery'></i></center>
+  </td>
+  <td>distillery</td>
+  <td>en: distillery, fr: distillerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=distillery]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-grinding_mill'></i></center>
+  </td>
+  <td>grinding_mill</td>
+  <td>en: grinding_mill, fr: moulin broyeur</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=grinding_mill]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-pottery'></i></center>
+  </td>
+  <td>pottery</td>
+  <td>en: pottery, fr: potier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=pottery]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-leather_workshop'></i></center>
+  </td>
+  <td>leather_workshop</td>
+  <td>en: leather_workshop, fr: maroquinier (atelier)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=leather]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-leather_shop'></i></center>
+  </td>
+  <td>leather_shop</td>
+  <td>en: leather_shop, fr: maroquinier (boutique)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[shop=leather]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sculptor'></i></center>
+  </td>
+  <td>sculptor</td>
+  <td>en: sculptor, fr: sculpteur</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=sculptor]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-winery'></i></center>
+  </td>
+  <td>winery</td>
+  <td>en: winery, fr: chai</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>500</td>
+  <td>[craft=winery]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-oil_mill'></i></center>
+  </td>
+  <td>oil_mill</td>
+  <td>en: oil_mill, fr: moulin à huile</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>200</td>
+  <td>[craft=oil_mill]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-farm'></i></center>
+  </td>
+  <td>farm</td>
+  <td>en: farm, fr: produit de la ferme</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>200</td>
+  <td>[shop=farm]</td>
+  <td>base, address, contact, ref, opening, production, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-carpet'></i></center>
+  </td>
+  <td>carpet</td>
+  <td>en: carpet, fr: magasin de tapis</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[shop=carpet]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-alcohol'></i></center>
+  </td>
+  <td>alcohol</td>
+  <td>en: alcohol, fr: vente d’alcool (caviste)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[shop=alcohol]</td>
+  <td>base, address, contact, ref, opening, production, acces_restriction</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-chocolate'></i></center>
+  </td>
+  <td>chocolate</td>
+  <td>en: chocolate, fr: chocolatier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[shop=chocolate]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-deli'></i></center>
+  </td>
+  <td>deli</td>
+  <td>en: deli, fr: épicerie fine</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[shop=deli]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f25c05; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-tailor_shop'></i></center>
+  </td>
+  <td>tailor_shop</td>
+  <td>en: tailor_shop, fr: tailleur (boutique)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[shop=tailor]</td>
+  <td>base, address, contact, ref, opening, production</td>
+  </tr><tr><td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-local_shop'></i></center>
+  </td><td>local_shop</td><td colspan='99'>en: local_shop, fr: Commerces de proximité</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-supermarket'></i></center>
+  </td>
+  <td>supermarket</td>
+  <td>en: supermarket, fr: supermarché</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=supermarket]</td>
+  <td>base, address, contact, ref, opening, disabled, commercial_details, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-convenience'></i></center>
+  </td>
+  <td>convenience</td>
+  <td>en: convenience, fr: épicerie</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>300</td>
+  <td>[shop=convenience]</td>
+  <td>base, address, contact, ref, opening, disabled, commercial_details, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-greengrocer'></i></center>
+  </td>
+  <td>greengrocer</td>
+  <td>en: greengrocer, fr: primeur</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=greengrocer]</td>
+  <td>base, address, contact, ref, opening, disabled, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bakery'></i></center>
+  </td>
+  <td>bakery</td>
+  <td>en: bakery, fr: boulangerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[shop=bakery]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-vending_machine_seafood'></i></center>
+  </td>
+  <td>vending_machine_seafood</td>
+  <td>en: vending_machine_seafood, fr: distributeur de fruits de mer & poissons</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[amenity=vending_machine][vending=seafood]</td>
+  <td>base, address, contact, ref, opening, disabled, fee</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-vending_machine_vegetables'></i></center>
+  </td>
+  <td>vending_machine_vegetables</td>
+  <td>en: vending_machine_vegetables, fr: distributeur de légumes</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[amenity=vending_machine][vending=vegetables]</td>
+  <td>base, address, contact, ref, opening, disabled, fee</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-vending_machine_bread'></i></center>
+  </td>
+  <td>vending_machine_bread</td>
+  <td>en: vending_machine_bread, fr: distributeur de pain</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[amenity=vending_machine][vending=bread]</td>
+  <td>base, address, contact, ref, opening, disabled, fee</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-vending_machine_food'></i></center>
+  </td>
+  <td>vending_machine_food</td>
+  <td>en: vending_machine_food, fr: distributeur de nourriture</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[amenity=vending_machine][vending=food]</td>
+  <td>base, address, contact, ref, opening, disabled, fee</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-vending_machine_pizza'></i></center>
+  </td>
+  <td>vending_machine_pizza</td>
+  <td>en: vending_machine_pizza, fr: distributeur de pizza</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[amenity=vending_machine][vending=pizza]</td>
+  <td>base, address, contact, ref, opening, disabled, fee</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-shoemaker'></i></center>
+  </td>
+  <td>shoemaker</td>
+  <td>en: shoemaker, fr: cordonnier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=shoemaker] or</br>[shop=shoe_repair]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-dressmaker'></i></center>
+  </td>
+  <td>dressmaker</td>
+  <td>en: dressmaker, fr: couturier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=dressmaker]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-locksmith'></i></center>
+  </td>
+  <td>locksmith</td>
+  <td>en: locksmith, fr: serrurier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=locksmith]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-clockmaker'></i></center>
+  </td>
+  <td>clockmaker</td>
+  <td>en: clockmaker, fr: horloger</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[craft=watchmaker] or</br>[craft=clockmaker]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-tobacco'></i></center>
+  </td>
+  <td>tobacco</td>
+  <td>en: tobacco, fr: bureau de tabacs</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=tobacco]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cannabis'></i></center>
+  </td>
+  <td>cannabis</td>
+  <td>en: cannabis, fr: vente canabis</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=cannabis]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-e-cigarette'></i></center>
+  </td>
+  <td>e-cigarette</td>
+  <td>en: e-cigarette, fr: vente de cigarettes éléctroniques</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=e-cigarette]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-newsagent'></i></center>
+  </td>
+  <td>newsagent</td>
+  <td>en: newsagent, fr: presses</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=newsagent]</td>
+  <td>base, address, contact, ref, opening, disabled, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-photo'></i></center>
+  </td>
+  <td>photo</td>
+  <td>en: photo, fr: photographe</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=photo]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-kiosk'></i></center>
+  </td>
+  <td>kiosk</td>
+  <td>en: kiosk, fr: kiosque (à journaux, tabac)</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>400</td>
+  <td>[shop=kiosk]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-chemist'></i></center>
+  </td>
+  <td>chemist</td>
+  <td>en: chemist, fr: droguerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=chemist]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-marketplace'></i></center>
+  </td>
+  <td>marketplace</td>
+  <td>en: marketplace, fr: marché</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>100</td>
+  <td>[amenity=marketplace]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sports'></i></center>
+  </td>
+  <td>sports</td>
+  <td>en: sports, fr: magasin d’articles de sports</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=sports]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-butcher'></i></center>
+  </td>
+  <td>butcher</td>
+  <td>en: butcher, fr: boucher</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[shop=butcher]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hairdresser'></i></center>
+  </td>
+  <td>hairdresser</td>
+  <td>en: hairdresser, fr: coiffeur</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=hairdresser]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-seafood'></i></center>
+  </td>
+  <td>seafood</td>
+  <td>en: seafood, fr: poissonnerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[shop=seafood]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cheese'></i></center>
+  </td>
+  <td>cheese</td>
+  <td>en: cheese, fr: fromager</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=cheese]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00b3cc; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-florist'></i></center>
+  </td>
+  <td>florist</td>
+  <td>en: florist, fr: fleuriste</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=florist]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-services'></i></center>
+  </td><td>services</td><td colspan='99'>en: services, fr: Services de proximité</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bank'></i></center>
+  </td>
+  <td>bank</td>
+  <td>en: bank, fr: banque</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[amenity=bank]</td>
+  <td>base, address, contact, ref, opening, disabled, commercial_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-atm'></i></center>
+  </td>
+  <td>atm</td>
+  <td>en: atm, fr: DAB</td>
+  <td>•</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[amenity=atm]</td>
+  <td>base, address, contact, ref, opening, disabled, commercial_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-photo_booth'></i></center>
+  </td>
+  <td>photo_booth</td>
+  <td>en: photo_booth, fr: photomaton</td>
+  <td>•</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[amenity=photo_booth]</td>
+  <td>base, address, contact, ref, opening, disabled, commercial_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-car_wash'></i></center>
+  </td>
+  <td>car_wash</td>
+  <td>en: car_wash, fr: station de lavage de voiture</td>
+  <td>•</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[amenity=car_wash]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-post_office'></i></center>
+  </td>
+  <td>post_office</td>
+  <td>en: post_office, fr: poste</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>200</td>
+  <td>[amenity=post_office]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-internet_cafe'></i></center>
+  </td>
+  <td>internet_cafe</td>
+  <td>en: internet_cafe, fr: Internet Café</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>200</td>
+  <td>[amenity=internet_cafe]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-coworking_space'></i></center>
+  </td>
+  <td>coworking_space</td>
+  <td>en: coworking_space, fr: espace de coworking</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[amenity=coworking_space]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-coworking_office'></i></center>
+  </td>
+  <td>coworking_office</td>
+  <td>en: coworking_office, fr: bureaux en coworking</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[office=coworking]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-laundry'></i></center>
+  </td>
+  <td>laundry</td>
+  <td>en: laundry, fr: laverie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=laundry]</td>
+  <td>base, address, contact, ref, opening, disabled, fee</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-dry_cleaning'></i></center>
+  </td>
+  <td>dry_cleaning</td>
+  <td>en: dry_cleaning, fr: pressing</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=dry_cleaning]</td>
+  <td>base, address, contact, ref, opening, disabled, fee</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-massage'></i></center>
+  </td>
+  <td>massage</td>
+  <td>en: massage, fr: salon de massage</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=massage]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-estate_agent'></i></center>
+  </td>
+  <td>estate_agent</td>
+  <td>en: estate_agent, fr: agence immobilière</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[office=estate_agent]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fuel'></i></center>
+  </td>
+  <td>fuel</td>
+  <td>en: fuel, fr: station services</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>700</td>
+  <td>[amenity=fuel]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-car_repair'></i></center>
+  </td>
+  <td>car_repair</td>
+  <td>en: car_repair, fr: garage automobile (hors concessionnaire)</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>700</td>
+  <td>[shop=car_repair]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-vehicle_inspection'></i></center>
+  </td>
+  <td>vehicle_inspection</td>
+  <td>en: vehicle_inspection, fr: centre de contrôle technique</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>700</td>
+  <td>[amenity=vehicle_inspection]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-motorcycle_repair'></i></center>
+  </td>
+  <td>motorcycle_repair</td>
+  <td>en: motorcycle_repair, fr: garage moto (hors concessionnaire)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=motorcycle_repair]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-driving_school'></i></center>
+  </td>
+  <td>driving_school</td>
+  <td>en: driving_school, fr: auto-école</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[amenity=driving_school]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-car_parts'></i></center>
+  </td>
+  <td>car_parts</td>
+  <td>en: car_parts, fr: accessoires automobile</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=car_parts]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-information'></i></center>
+  </td>
+  <td>information</td>
+  <td>en: information, fr: office de tourisme</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>50</td>
+  <td>[access!=customers][information=office][tourism=information]</td>
+  <td>base, address, contact, ref, opening, disabled, activity_details, bicycle</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-townhall'></i></center>
+  </td>
+  <td>townhall</td>
+  <td>en: townhall, fr: mairie (hôtel de ville)</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>300</td>
+  <td>[amenity=townhall]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-chamber'></i></center>
+  </td>
+  <td>chamber</td>
+  <td>en: chamber, fr: chambre consulaire</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>300</td>
+  <td>[office=chamber]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-government_france_service'></i></center>
+  </td>
+  <td>government_france_service</td>
+  <td>en: government_france_service, fr: France Service</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>300</td>
+  <td>["operator:wikidata"=Q24931343][government=public_service][office=government]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-government_tax'></i></center>
+  </td>
+  <td>government_tax</td>
+  <td>en: government_tax, fr: centre des impôts</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>300</td>
+  <td>[government=tax][office=government]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-notary'></i></center>
+  </td>
+  <td>notary</td>
+  <td>en: notary, fr: notaires</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>300</td>
+  <td>[office=notary]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-architect'></i></center>
+  </td>
+  <td>architect</td>
+  <td>en: architect, fr: architectes</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>300</td>
+  <td>[office=architect]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-insurance'></i></center>
+  </td>
+  <td>insurance</td>
+  <td>en: insurance, fr: agent d'assurances</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>300</td>
+  <td>[office=insurance]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-employment_agency'></i></center>
+  </td>
+  <td>employment_agency</td>
+  <td>en: employment_agency, fr: agence pour l'emploi</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>300</td>
+  <td>[office=employment_agency]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-copyshop'></i></center>
+  </td>
+  <td>copyshop</td>
+  <td>en: copyshop, fr: photocopies, reprographie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=copyshop]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-ticket'></i></center>
+  </td>
+  <td>ticket</td>
+  <td>en: ticket, fr: billeterie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=ticket]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-travel_agency'></i></center>
+  </td>
+  <td>travel_agency</td>
+  <td>en: travel_agency, fr: agence de voyage</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=travel_agency] or</br>[office=travel_agent]</td>
+  <td>base, address, contact, ref, opening, disabled</td>
+  </tr><tr><td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-safety'></i></center>
+  </td><td>safety</td><td colspan='99'>en: safety, fr: Santé, Secours</td></tr><tr><td></td><td></td><td></td><td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-care'></i></center>
+  </td><td>care</td><td colspan='99'>en: care, fr: Soins</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-pharmacy'></i></center>
+  </td>
+  <td>pharmacy</td>
+  <td>en: pharmacy, fr: pharmacie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>100</td>
+  <td>[amenity=pharmacy]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-doctor'></i></center>
+  </td>
+  <td>doctor</td>
+  <td>en: doctor, fr: médecin</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[amenity=doctors] or</br>[healthcare=doctor]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-doctor_specialist'></i></center>
+  </td>
+  <td>doctor_specialist</td>
+  <td>en: doctor_specialist, fr: médecin spécialiste</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>50</td>
+  <td>["healthcare:speciality"][amenity=doctors] or</br>["healthcare:speciality"][healthcare=doctor]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-dentist'></i></center>
+  </td>
+  <td>dentist</td>
+  <td>en: dentist, fr: dentiste</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[amenity=dentist] or</br>[healthcare=dentist]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-nurse'></i></center>
+  </td>
+  <td>nurse</td>
+  <td>en: nurse, fr: infirmiers</td>
+  <td>•</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[healthcare=nurse]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-physiotherapist'></i></center>
+  </td>
+  <td>physiotherapist</td>
+  <td>en: physiotherapist, fr: kinésithérapeute</td>
+  <td>•</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[healthcare=physiotherapist]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-osteopath'></i></center>
+  </td>
+  <td>osteopath</td>
+  <td>en: osteopath, fr: Osthéopathe</td>
+  <td>•</td>
+  <td>17</td>
+  <td>50</td>
+  <td>["healthcare:speciality"=osteopathy][healthcare=physiotherapist]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-veterinary'></i></center>
+  </td>
+  <td>veterinary</td>
+  <td>en: veterinary, fr: vétérinaire</td>
+  <td>•</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[amenity=veterinary]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-healthcare_centre'></i></center>
+  </td>
+  <td>healthcare_centre</td>
+  <td>en: healthcare_centre, fr: maison de santé</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>50</td>
+  <td>[healthcare=centre]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-laboratory'></i></center>
+  </td>
+  <td>laboratory</td>
+  <td>en: laboratory, fr: laboratoire d'analyse médicale</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>50</td>
+  <td>[healthcare=laboratory]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-animal_shelter'></i></center>
+  </td>
+  <td>animal_shelter</td>
+  <td>en: animal_shelter, fr: refuge pour animaux</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[amenity=animal_shelter]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-emergency'></i></center>
+  </td><td>emergency</td><td colspan='99'>en: emergency, fr: Urgence</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hospital'></i></center>
+  </td>
+  <td>hospital</td>
+  <td>en: hospital, fr: hôpitaux</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>0</td>
+  <td>[amenity=hospital][emergency=yes]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-clinic'></i></center>
+  </td>
+  <td>clinic</td>
+  <td>en: clinic, fr: clinique</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>0</td>
+  <td>[amenity=clinic][emergency=yes]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-emergency_ward_entrance'></i></center>
+  </td>
+  <td>emergency_ward_entrance</td>
+  <td>en: emergency_ward_entrance, fr: entrée des urgences</td>
+  <td>•</td>
+  <td>16</td>
+  <td>50</td>
+  <td>[emergency=emergency_ward_entrance][entrance=emergency]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-defibrillator'></i></center>
+  </td>
+  <td>defibrillator</td>
+  <td>en: defibrillator, fr: défibrillateur</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>0</td>
+  <td>[emergency=defibrillator]</td>
+  <td>base, address, contact, ref, opening, disabled, safety, buildings_details</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-rescue'></i></center>
+  </td><td>rescue</td><td colspan='99'>en: rescue, fr: Secours</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-water_rescue_station'></i></center>
+  </td>
+  <td>water_rescue_station</td>
+  <td>en: water_rescue_station, fr: postes de plage</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>0</td>
+  <td>[emergency=water_rescue_station]</td>
+  <td>base, address, contact, ref, opening, disabled, safety, access</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-lifeguard'></i></center>
+  </td>
+  <td>lifeguard</td>
+  <td>en: lifeguard, fr: station de secours</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>0</td>
+  <td>[emergency=lifeguard]</td>
+  <td>base, address, contact, ref, opening, disabled, safety, access</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-life_ring'></i></center>
+  </td>
+  <td>life_ring</td>
+  <td>en: life_ring, fr: bouées de secours</td>
+  <td>•</td>
+  <td>17</td>
+  <td>4</td>
+  <td>[emergency=life_ring]</td>
+  <td>base, address, contact, ref, opening, disabled, safety, access</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-mountain_rescue'></i></center>
+  </td>
+  <td>mountain_rescue</td>
+  <td>en: mountain_rescue, fr: poste de montagne</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>0</td>
+  <td>[emergency=mountain_rescue]</td>
+  <td>base, address, contact, ref, opening, disabled, safety, access</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-police'></i></center>
+  </td>
+  <td>police</td>
+  <td>en: police, fr: police</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>0</td>
+  <td>[amenity=police]</td>
+  <td>base, address, contact, ref, opening, disabled, safety, access</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fire_station'></i></center>
+  </td>
+  <td>fire_station</td>
+  <td>en: fire_station, fr: station de pompiers</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>0</td>
+  <td>[amenity=fire_station]</td>
+  <td>base, address, contact, ref, opening, disabled, safety, access</td>
+  </tr><tr><td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-mobility'></i></center>
+  </td><td>mobility</td><td colspan='99'>en: mobility, fr: Mobilité</td></tr><tr><td></td><td></td><td></td><td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-railway'></i></center>
+  </td><td>railway</td><td colspan='99'>en: railway, fr: Train (tram, métro)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-station'></i></center>
+  </td>
+  <td>station</td>
+  <td>en: station, fr: gare de train</td>
+  <td>⬤</td>
+  <td>12</td>
+  <td>60</td>
+  <td>[railway=station]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-halt'></i></center>
+  </td>
+  <td>halt</td>
+  <td>en: halt, fr: halte de train</td>
+  <td>◯</td>
+  <td>13</td>
+  <td>60</td>
+  <td>[railway=halt]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-train_station_entrance'></i></center>
+  </td>
+  <td>train_station_entrance</td>
+  <td>en: train_station_entrance, fr: entrée de gare de train</td>
+  <td>•</td>
+  <td>17</td>
+  <td>60</td>
+  <td>[railway=train_station_entrance]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-subway_entrance'></i></center>
+  </td>
+  <td>subway_entrance</td>
+  <td>en: subway_entrance, fr: bouche de métro</td>
+  <td>◯</td>
+  <td>17</td>
+  <td>60</td>
+  <td>[railway=subway_entrance]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-tram_stop'></i></center>
+  </td>
+  <td>tram_stop</td>
+  <td>en: tram_stop, fr: arrêt de tramway</td>
+  <td>◯</td>
+  <td>17</td>
+  <td>60</td>
+  <td>[railway=tram_stop]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-motorway'></i></center>
+  </td><td>motorway</td><td colspan='99'>en: motorway, fr: Auto (voitures, bus…)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bus_station'></i></center>
+  </td>
+  <td>bus_station</td>
+  <td>en: bus_station, fr: gare routière</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>70</td>
+  <td>[amenity=bus_station][public_transport=station]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bus_stop'></i></center>
+  </td>
+  <td>bus_stop</td>
+  <td>en: bus_stop, fr: arrêt de bus, car</td>
+  <td>◯</td>
+  <td>17</td>
+  <td>70</td>
+  <td>[!seasonal][highway=bus_stop]</td>
+  <td>base, access, disabled, activity_details, equipments</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bus_stop_seasonal'></i></center>
+  </td>
+  <td>bus_stop_seasonal</td>
+  <td>en: bus_stop_seasonal, fr: arrêt de bus saisonnier</td>
+  <td>◯</td>
+  <td>17</td>
+  <td>70</td>
+  <td>[highway=bus_stop][seasonal]</td>
+  <td>base, access, disabled, activity_details, equipments</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-parking'></i></center>
+  </td>
+  <td>parking</td>
+  <td>en: parking, fr: parking voiture (public)</td>
+  <td>◯</td>
+  <td>15</td>
+  <td>100</td>
+  <td>[amenity=parking][name]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-parking_space'></i></center>
+  </td>
+  <td>parking_space</td>
+  <td>en: parking_space, fr: place PMR</td>
+  <td>◯</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[amenity=parking_space][parking_space=disabled]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-parking_carpool'></i></center>
+  </td>
+  <td>parking_carpool</td>
+  <td>en: parking_carpool, fr: parking avec covoiturage</td>
+  <td>◯</td>
+  <td>15</td>
+  <td>150</td>
+  <td>[amenity=car_pooling] or</br>[amenity=parking][carpool=designated]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-car_pooling'></i></center>
+  </td>
+  <td>car_pooling</td>
+  <td>en: car_pooling, fr: station de covoiturage</td>
+  <td>◯</td>
+  <td>17</td>
+  <td>70</td>
+  <td>[amenity=car_pooling]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hitchhiking'></i></center>
+  </td>
+  <td>hitchhiking</td>
+  <td>en: hitchhiking, fr: point relais d'auto-stop</td>
+  <td>◯</td>
+  <td>17</td>
+  <td>70</td>
+  <td>[highway=hitchhiking]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-taxi'></i></center>
+  </td>
+  <td>taxi</td>
+  <td>en: taxi, fr: station de taxi</td>
+  <td>◯</td>
+  <td>16</td>
+  <td>70</td>
+  <td>[amenity=taxi]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-motorway_junction'></i></center>
+  </td>
+  <td>motorway_junction</td>
+  <td>en: motorway_junction, fr: sortie d’autoroute (jonction)</td>
+  <td>•</td>
+  <td>13</td>
+  <td>70</td>
+  <td>[highway=motorway_junction][ref]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-toll_booth'></i></center>
+  </td>
+  <td>toll_booth</td>
+  <td>en: toll_booth, fr: gare de péage (autoute)</td>
+  <td>•</td>
+  <td>13</td>
+  <td>70</td>
+  <td>[barrier=toll_booth]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-aeroway'></i></center>
+  </td><td>aeroway</td><td colspan='99'>en: aeroway, fr: Avion</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-aerodrome'></i></center>
+  </td>
+  <td>aerodrome</td>
+  <td>en: aerodrome, fr: aéroport</td>
+  <td>⬤</td>
+  <td>11</td>
+  <td>0</td>
+  <td>[aerodrome=international][aeroway=aerodrome]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-terminal'></i></center>
+  </td>
+  <td>terminal</td>
+  <td>en: terminal, fr: terminal d'aeroport</td>
+  <td>⬤</td>
+  <td>12</td>
+  <td>0</td>
+  <td>[aeroway=terminal]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-waterway'></i></center>
+  </td><td>waterway</td><td colspan='99'>en: waterway, fr: Bateau</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-ferry_terminal'></i></center>
+  </td>
+  <td>ferry_terminal</td>
+  <td>en: ferry_terminal, fr: terminal de ferry</td>
+  <td>⬤</td>
+  <td>12</td>
+  <td>60</td>
+  <td>[amenity=ferry_terminal]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-dock'></i></center>
+  </td>
+  <td>dock</td>
+  <td>en: dock, fr: dock, cale à bateau</td>
+  <td>•</td>
+  <td>17</td>
+  <td>60</td>
+  <td>[waterway=dock]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-slipway'></i></center>
+  </td>
+  <td>slipway</td>
+  <td>en: slipway, fr: rampes de mise à l'eau</td>
+  <td>•</td>
+  <td>17</td>
+  <td>60</td>
+  <td>[leisure=slipway]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-motorboat_rental'></i></center>
+  </td>
+  <td>motorboat_rental</td>
+  <td>en: motorboat_rental, fr: location de bateau à moteur</td>
+  <td>•</td>
+  <td>17</td>
+  <td>60</td>
+  <td>[amenity=boat_rental][motorboat_rental=yes]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bicycle'></i></center>
+  </td><td>bicycle</td><td colspan='99'>en: bicycle, fr: Vélo et moto (etc)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bicycle_rental'></i></center>
+  </td>
+  <td>bicycle_rental</td>
+  <td>en: bicycle_rental, fr: loueur de vélo (et autres)</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>200</td>
+  <td>["service:bicycle:rental"=yes][shop~"bicycle|sports"]</td>
+  <td>base, access, disabled, bicycle</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bicycle_pump'></i></center>
+  </td>
+  <td>bicycle_pump</td>
+  <td>en: bicycle_pump, fr: loueur de vélo (et autres)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>["service:bicycle:pump"=yes]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bicycle_repair'></i></center>
+  </td>
+  <td>bicycle_repair</td>
+  <td>en: bicycle_repair, fr: réparateur vélo</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>200</td>
+  <td>["service:bicycle:repair"=yes][shop=bicycle]</td>
+  <td>base, access, disabled, bicycle</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-scooter'></i></center>
+  </td>
+  <td>scooter</td>
+  <td>en: scooter, fr: magasin de trotinette (location éventuelle)</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>200</td>
+  <td>[shop=scooter]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bicycle_parking'></i></center>
+  </td>
+  <td>bicycle_parking</td>
+  <td>en: bicycle_parking, fr: parking vélo</td>
+  <td>◯</td>
+  <td>17</td>
+  <td>200</td>
+  <td>[amenity=bicycle_parking]</td>
+  <td>base, access, disabled, bicycle</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-motorcycle_parking'></i></center>
+  </td>
+  <td>motorcycle_parking</td>
+  <td>en: motorcycle_parking, fr: parking moto</td>
+  <td>◯</td>
+  <td>17</td>
+  <td>200</td>
+  <td>[amenity=motorcycle_parking]</td>
+  <td>base, access, disabled, acces_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bicycle_docking_station'></i></center>
+  </td>
+  <td>bicycle_docking_station</td>
+  <td>en: bicycle_docking_station, fr: vélo en libre service</td>
+  <td>◯</td>
+  <td>16</td>
+  <td>200</td>
+  <td>[amenity=bicycle_rental]</td>
+  <td>base, access, disabled, bicycle, acces_details, fee</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-compressed_air'></i></center>
+  </td>
+  <td>compressed_air</td>
+  <td>en: compressed_air, fr: borne, point de gonflage</td>
+  <td>•</td>
+  <td>17</td>
+  <td>200</td>
+  <td>[amenity=compressed_air]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cycle_barrier'></i></center>
+  </td>
+  <td>cycle_barrier</td>
+  <td>en: cycle_barrier, fr: barrière vélo</td>
+  <td>•</td>
+  <td>17</td>
+  <td>200</td>
+  <td>[barrier=cycle_barrier]</td>
+  <td>base, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-charging_station'></i></center>
+  </td>
+  <td>charging_station</td>
+  <td>en: charging_station, fr: borne de recharge électrique - voiture</td>
+  <td>◯</td>
+  <td>16</td>
+  <td>200</td>
+  <td>[amenity=charging_station][bicycle!=yes]</td>
+  <td>base, access, disabled, electric_charging, transport_mode_access, fee</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-charging_station_bicycle'></i></center>
+  </td>
+  <td>charging_station_bicycle</td>
+  <td>en: charging_station_bicycle, fr: borne de recharge électrique - vélo</td>
+  <td>◯</td>
+  <td>16</td>
+  <td>200</td>
+  <td>[amenity=charging_station][bicycle=yes]</td>
+  <td>base, access, disabled, electric_charging, transport_mode_access, fee</td>
+  </tr><tr><td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-amenity'></i></center>
+  </td><td>amenity</td><td colspan='99'>en: amenity, fr: Equipement de proximité</td></tr><tr><td></td><td></td><td></td><td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-local_communication'></i></center>
+  </td><td>local_communication</td><td colspan='99'>en: local_communication, fr: Communication (information)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-post_box'></i></center>
+  </td>
+  <td>post_box</td>
+  <td>en: post_box, fr: boites aux lettres</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[amenity=post_box]</td>
+  <td>base, fee, access</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-telephone'></i></center>
+  </td>
+  <td>telephone</td>
+  <td>en: telephone, fr: téléphone</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[amenity=telephone]</td>
+  <td>base, fee, access</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-board_map'></i></center>
+  </td>
+  <td>board_map</td>
+  <td>en: board_map, fr: point d'information touristique</td>
+  <td>•</td>
+  <td>14</td>
+  <td>300</td>
+  <td>["information:board"=map][tourism=information]</td>
+  <td>base, fee, access, activity_details</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sanitary'></i></center>
+  </td><td>sanitary</td><td colspan='99'>en: sanitary, fr: Sanitaires</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-shower'></i></center>
+  </td>
+  <td>shower</td>
+  <td>en: shower, fr: douches</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[amenity=shower]</td>
+  <td>base, fee, access, access, toilets, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-drinking_water'></i></center>
+  </td>
+  <td>drinking_water</td>
+  <td>en: drinking_water, fr: point d'eau</td>
+  <td>◯</td>
+  <td>16</td>
+  <td>300</td>
+  <td>[amenity=drinking_water] or</br>[man_made=water_tape][drinking_water=yes]</td>
+  <td>base, fee, access, access, toilets, disabled, access</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-toilets'></i></center>
+  </td>
+  <td>toilets</td>
+  <td>en: toilets, fr: toilettes</td>
+  <td>◯</td>
+  <td>16</td>
+  <td>300</td>
+  <td>[access!~"no|private"][amenity=toilets]</td>
+  <td>base, fee, access, access, toilets, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-waste'></i></center>
+  </td><td>waste</td><td colspan='99'>en: waste, fr: Poubelle (déchet)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-recycling_centre'></i></center>
+  </td>
+  <td>recycling_centre</td>
+  <td>en: recycling_centre, fr: déchetterie</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>300</td>
+  <td>[amenity=recycling][recycling_type=centre]</td>
+  <td>base, fee, access, access, waste, recycling</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-container'></i></center>
+  </td>
+  <td>container</td>
+  <td>en: container, fr: point de tri</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[access!=customers][amenity=recycling][recycling_type=container]</td>
+  <td>base, fee, access, access, waste, recycling</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-waste_disposal'></i></center>
+  </td>
+  <td>waste_disposal</td>
+  <td>en: waste_disposal, fr: bacs à déchet</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[amenity=waste_disposal]</td>
+  <td>base, fee, access, access, waste, waste</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-waste_basket'></i></center>
+  </td>
+  <td>waste_basket</td>
+  <td>en: waste_basket, fr: poubelle de rue</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[amenity=waste_basket]</td>
+  <td>base, fee, access, access, waste, waste</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-vending_machine'></i></center>
+  </td>
+  <td>vending_machine</td>
+  <td>en: vending_machine, fr: caninet, sacs pour déjections canines</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[amenity=vending_machine][vending=excrement_bags]</td>
+  <td>base, fee, access, access, waste, waste</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-dog_excrement'></i></center>
+  </td>
+  <td>dog_excrement</td>
+  <td>en: dog_excrement, fr: poubelle pour déjections canines</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[amenity=waste_basket][waste=dog_excrement]</td>
+  <td>base, fee, access, access, waste, waste</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sanitary_dump_station'></i></center>
+  </td>
+  <td>sanitary_dump_station</td>
+  <td>en: sanitary_dump_station, fr: aire de vidange de camping car</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[amenity=sanitary_dump_station]</td>
+  <td>base, fee, access, access, waste, waste</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bench'></i></center>
+  </td>
+  <td>bench</td>
+  <td>en: bench, fr: banc</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[amenity=bench]</td>
+  <td>base, fee, access</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-stile'></i></center>
+  </td>
+  <td>stile</td>
+  <td>en: stile, fr: échallier</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[barrier=stile]</td>
+  <td>base, fee, access</td>
+  </tr><tr><td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-remarkable'></i></center>
+  </td><td>remarkable</td><td colspan='99'>en: remarkable, fr: Eléments Notables</td></tr><tr><td></td><td></td><td></td><td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-attraction_activity'></i></center>
+  </td><td>attraction_activity</td><td colspan='99'>en: attraction_activity, fr: Attraction</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-attraction'></i></center>
+  </td>
+  <td>attraction</td>
+  <td>en: attraction, fr: attraction</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>0</td>
+  <td>[tourism=attraction]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-aquarium'></i></center>
+  </td>
+  <td>aquarium</td>
+  <td>en: aquarium, fr: aquarium</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>0</td>
+  <td>[tourism=aquarium]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-theme_park'></i></center>
+  </td>
+  <td>theme_park</td>
+  <td>en: theme_park, fr: parc à thème</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>1</td>
+  <td>[tourism=theme_park]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-maze'></i></center>
+  </td>
+  <td>maze</td>
+  <td>en: maze, fr: labyrinthe</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>1</td>
+  <td>[tourism=maze]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-water_park'></i></center>
+  </td>
+  <td>water_park</td>
+  <td>en: water_park, fr: parc aquatique</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>0</td>
+  <td>[leisure=water_park]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-zoo'></i></center>
+  </td>
+  <td>zoo</td>
+  <td>en: zoo, fr: zoo</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>0</td>
+  <td>[tourism=zoo]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-viewpoint'></i></center>
+  </td>
+  <td>viewpoint</td>
+  <td>en: viewpoint, fr: point de vue</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>100</td>
+  <td>[description][tourism=viewpoint]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-lighthouse'></i></center>
+  </td>
+  <td>lighthouse</td>
+  <td>en: lighthouse, fr: phare</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>30</td>
+  <td>[man_made=lighthouse][name]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-lighthouse_minor'></i></center>
+  </td>
+  <td>lighthouse_minor</td>
+  <td>en: lighthouse_minor, fr: phare mineur</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[man_made=lighthouse]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cave_entrance'></i></center>
+  </td>
+  <td>cave_entrance</td>
+  <td>en: cave_entrance, fr: grottes (visites, connues)</td>
+  <td>•</td>
+  <td>13</td>
+  <td>100</td>
+  <td>[name][natural=cave_entrance]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-waterfall'></i></center>
+  </td>
+  <td>waterfall</td>
+  <td>en: waterfall, fr: chuttes d'eau</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>100</td>
+  <td>[name][waterway=waterfall]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-spring'></i></center>
+  </td>
+  <td>spring</td>
+  <td>en: spring, fr: sources</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[natural=spring]</td>
+  <td>base, address, contact, opening, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-natural_activity'></i></center>
+  </td><td>natural_activity</td><td colspan='99'>en: natural_activity, fr: Aire naturelle d’activités</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-beach_resort'></i></center>
+  </td>
+  <td>beach_resort</td>
+  <td>en: beach_resort, fr: plages</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>0</td>
+  <td>[leisure=beach_resort]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-beach'></i></center>
+  </td>
+  <td>beach</td>
+  <td>en: beach, fr: plages (zone)</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>0</td>
+  <td>[name][natural=beach]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-outdoor_activity'></i></center>
+  </td><td>outdoor_activity</td><td colspan='99'>en: outdoor_activity, fr: Aire d’activité extérieures</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-swimming_area'></i></center>
+  </td>
+  <td>swimming_area</td>
+  <td>en: swimming_area, fr: aire de baignade</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>0</td>
+  <td>[leisure=swimming_area]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-winter_sports'></i></center>
+  </td>
+  <td>winter_sports</td>
+  <td>en: winter_sports, fr: zone de ski</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>0</td>
+  <td>[landuse=winter_sports]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-marina'></i></center>
+  </td>
+  <td>marina</td>
+  <td>en: marina, fr: port de plaisance</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>0</td>
+  <td>[leisure=marina]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fishing'></i></center>
+  </td>
+  <td>fishing</td>
+  <td>en: fishing, fr: zone de pêche</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>0</td>
+  <td>[leisure=fishing]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-stadium'></i></center>
+  </td>
+  <td>stadium</td>
+  <td>en: stadium, fr: stade</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>0</td>
+  <td>[leisure=stadium][sport!~bullfighting]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bullfighting'></i></center>
+  </td>
+  <td>bullfighting</td>
+  <td>en: bullfighting, fr: arène</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>0</td>
+  <td>[leisure=stadium][sport~bullfighting]</td>
+  <td>base</td>
+  </tr><tr><td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-culture'></i></center>
+  </td><td>culture</td><td colspan='99'>en: culture, fr: Culture et patrimoine</td></tr><tr><td></td><td></td><td></td><td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-visit'></i></center>
+  </td><td>visit</td><td colspan='99'>en: visit, fr: Visite (découverte)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-place_of_worship'></i></center>
+  </td>
+  <td>place_of_worship</td>
+  <td>en: place_of_worship, fr: lieux de culte</td>
+  <td>•</td>
+  <td>17</td>
+  <td>40</td>
+  <td>[amenity=place_of_worship]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cathedral'></i></center>
+  </td>
+  <td>cathedral</td>
+  <td>en: cathedral, fr: cathédralle</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>30</td>
+  <td>[building=cathedral]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-church'></i></center>
+  </td>
+  <td>church</td>
+  <td>en: church, fr: église</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>30</td>
+  <td>[building=church]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-mosque'></i></center>
+  </td>
+  <td>mosque</td>
+  <td>en: mosque, fr: mosquée</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>30</td>
+  <td>[building=mosque]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-synagogue'></i></center>
+  </td>
+  <td>synagogue</td>
+  <td>en: synagogue, fr: synagogue</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>30</td>
+  <td>[building=synagogue]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-monastery'></i></center>
+  </td>
+  <td>monastery</td>
+  <td>en: monastery, fr: monastère</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>30</td>
+  <td>[amenity=monastery]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-chapel'></i></center>
+  </td>
+  <td>chapel</td>
+  <td>en: chapel, fr: chapelle</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>30</td>
+  <td>[building=chapel]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-arts_centre'></i></center>
+  </td>
+  <td>arts_centre</td>
+  <td>en: arts_centre, fr: centre d’art</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>30</td>
+  <td>[amenity=arts_centre]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-museum'></i></center>
+  </td>
+  <td>museum</td>
+  <td>en: museum, fr: musées</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>0</td>
+  <td>[tourism=museum]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-heritage'></i></center>
+  </td><td>heritage</td><td colspan='99'>en: heritage, fr: Éléments historiques</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-castle'></i></center>
+  </td>
+  <td>castle</td>
+  <td>en: castle, fr: châteaux</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>30</td>
+  <td>[historic=castle]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-monument'></i></center>
+  </td>
+  <td>monument</td>
+  <td>en: monument, fr: monuments</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>30</td>
+  <td>[historic=monument]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-memorial'></i></center>
+  </td>
+  <td>memorial</td>
+  <td>en: memorial, fr: objet commémoratifs</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[historic=memorial]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-archaeological_site'></i></center>
+  </td>
+  <td>archaeological_site</td>
+  <td>en: archaeological_site, fr: site archéologique</td>
+  <td>•</td>
+  <td>13</td>
+  <td>30</td>
+  <td>[historic=archaeological_site]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-castle_wall'></i></center>
+  </td>
+  <td>castle_wall</td>
+  <td>en: castle_wall, fr: muraille</td>
+  <td>•</td>
+  <td>14</td>
+  <td>800</td>
+  <td>[historic=castle_wall]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-city_wall'></i></center>
+  </td>
+  <td>city_wall</td>
+  <td>en: city_wall, fr: muraille</td>
+  <td>•</td>
+  <td>14</td>
+  <td>800</td>
+  <td>[barrier=city_wall]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-church_heritage'></i></center>
+  </td>
+  <td>church_heritage</td>
+  <td>en: church_heritage, fr: église</td>
+  <td>•</td>
+  <td>14</td>
+  <td>800</td>
+  <td>[historic=church]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-city_gate'></i></center>
+  </td>
+  <td>city_gate</td>
+  <td>en: city_gate, fr: porte de ville</td>
+  <td>•</td>
+  <td>14</td>
+  <td>800</td>
+  <td>[historic=city_gate]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-lavoir'></i></center>
+  </td>
+  <td>lavoir</td>
+  <td>en: lavoir, fr: lavoir</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[amenity=lavoir]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-wayside_cross'></i></center>
+  </td>
+  <td>wayside_cross</td>
+  <td>en: wayside_cross, fr: croix / calvaire</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[historic=wayside_cross]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-wayside_shrine'></i></center>
+  </td>
+  <td>wayside_shrine</td>
+  <td>en: wayside_shrine, fr: oratoire, autel</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[historic=wayside_shrine]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fountain'></i></center>
+  </td>
+  <td>fountain</td>
+  <td>en: fountain, fr: fontaine</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[amenity=fountain]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-show'></i></center>
+  </td><td>show</td><td colspan='99'>en: show, fr: Spectacle</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-theatre'></i></center>
+  </td>
+  <td>theatre</td>
+  <td>en: theatre, fr: théatre</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>100</td>
+  <td>[amenity=theatre]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cinema'></i></center>
+  </td>
+  <td>cinema</td>
+  <td>en: cinema, fr: cinéma</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>100</td>
+  <td>[amenity=cinema]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-gallery'></i></center>
+  </td>
+  <td>gallery</td>
+  <td>en: gallery, fr: gallerie (exposition publiques)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>100</td>
+  <td>[tourism=gallery]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-library'></i></center>
+  </td>
+  <td>library</td>
+  <td>en: library, fr: médiathèque - bibliotheques</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>100</td>
+  <td>[amenity=library]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-public_bookcase'></i></center>
+  </td>
+  <td>public_bookcase</td>
+  <td>en: public_bookcase, fr: boite à livre</td>
+  <td>•</td>
+  <td>16</td>
+  <td>800</td>
+  <td>[amenity=public_bookcase]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-artwork'></i></center>
+  </td>
+  <td>artwork</td>
+  <td>en: artwork, fr: œuvre d'art</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[tourism=artwork]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
+  </tr><tr><td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hosting'></i></center>
+  </td><td>hosting</td><td colspan='99'>en: hosting, fr: Hébergement</td></tr><tr><td></td><td></td><td></td><td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hosting_hotel'></i></center>
+  </td><td>hosting_hotel</td><td colspan='99'>en: hosting_hotel, fr: Hôtel</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hotel'></i></center>
+  </td>
+  <td>hotel</td>
+  <td>en: hotel, fr: hôtel</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>50</td>
+  <td>[tourism=hotel]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-motel'></i></center>
+  </td>
+  <td>motel</td>
+  <td>en: motel, fr: motel</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>50</td>
+  <td>[tourism=motel]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hostel'></i></center>
+  </td>
+  <td>hostel</td>
+  <td>en: hostel, fr: auberge de jeunesse</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>50</td>
+  <td>[tourism=hostel]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-guest_house'></i></center>
+  </td>
+  <td>guest_house</td>
+  <td>en: guest_house, fr: chambre d'hôtes</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[tourism=guest_house]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-animal_boarding'></i></center>
+  </td>
+  <td>animal_boarding</td>
+  <td>en: animal_boarding, fr: pension pour chien</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>30</td>
+  <td>[amenity=animal_boarding]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hosting_resort'></i></center>
+  </td><td>hosting_resort</td><td colspan='99'>en: hosting_resort, fr: Ensemble hôtelier (séjour)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-apartment_resort'></i></center>
+  </td>
+  <td>apartment_resort</td>
+  <td>en: apartment_resort, fr: résidences de tourisme</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[tourism=apartment]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-camp_site'></i></center>
+  </td>
+  <td>camp_site</td>
+  <td>en: camp_site, fr: camping</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>50</td>
+  <td>[tourism=camp_site]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-caravan_site'></i></center>
+  </td>
+  <td>caravan_site</td>
+  <td>en: caravan_site, fr: aire de caravaning</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>50</td>
+  <td>[tourism=caravan_site]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-resort'></i></center>
+  </td>
+  <td>resort</td>
+  <td>en: resort, fr: village vacances</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>50</td>
+  <td>[leisure=resort]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hosting_rental'></i></center>
+  </td><td>hosting_rental</td><td colspan='99'>en: hosting_rental, fr: Location</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-chalet'></i></center>
+  </td>
+  <td>chalet</td>
+  <td>en: chalet, fr: gîtes de groupes / gîte rural</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[tourism=chalet]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-apartment_rental'></i></center>
+  </td>
+  <td>apartment_rental</td>
+  <td>en: apartment_rental, fr: villa et appartements</td>
+  <td>•</td>
+  <td>17</td>
+  <td>30</td>
+  <td>[tourism=apartment]</td>
+  <td>base, address, contact, ref, opening, disabled, hosting</td>
+  </tr><tr><td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-catering'></i></center>
+  </td><td>catering</td><td colspan='99'>en: catering, fr: Restauration</td></tr><tr><td></td><td></td><td></td><td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-catering_food'></i></center>
+  </td><td>catering_food</td><td colspan='99'>en: catering_food, fr: Restaurant</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-restaurant'></i></center>
+  </td>
+  <td>restaurant</td>
+  <td>en: restaurant, fr: restaurant</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>40</td>
+  <td>[amenity=restaurant]</td>
+  <td>base, address, contact, ref, opening, disabled, catering, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fast_food'></i></center>
+  </td>
+  <td>fast_food</td>
+  <td>en: fast_food, fr: snack – restauration rapide</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>40</td>
+  <td>[amenity=fast_food]</td>
+  <td>base, address, contact, ref, opening, disabled, catering, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-food_court'></i></center>
+  </td>
+  <td>food_court</td>
+  <td>en: food_court, fr: aire de restauration</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>40</td>
+  <td>[amenity=food_court]</td>
+  <td>base, address, contact, ref, opening, disabled, catering, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-caterer'></i></center>
+  </td>
+  <td>caterer</td>
+  <td>en: caterer, fr: traiteur</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>40</td>
+  <td>[craft=caterer]</td>
+  <td>base, address, contact, ref, opening, disabled, catering, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-pastry'></i></center>
+  </td>
+  <td>pastry</td>
+  <td>en: pastry, fr: pâtisserie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>40</td>
+  <td>[shop=pastry]</td>
+  <td>base, address, contact, ref, opening, disabled, catering, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-ice_cream'></i></center>
+  </td>
+  <td>ice_cream</td>
+  <td>en: ice_cream, fr: glaciers (dont échoppe)</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>40</td>
+  <td>[amenity=ice_cream]</td>
+  <td>base, address, contact, ref, opening, disabled, catering, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-catering_drink'></i></center>
+  </td><td>catering_drink</td><td colspan='99'>en: catering_drink, fr: Boisson</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-pub'></i></center>
+  </td>
+  <td>pub</td>
+  <td>en: pub, fr: pub</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[amenity=pub]</td>
+  <td>base, address, contact, ref, opening, disabled, catering</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bar'></i></center>
+  </td>
+  <td>bar</td>
+  <td>en: bar, fr: bar</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>50</td>
+  <td>[amenity=bar]</td>
+  <td>base, address, contact, ref, opening, disabled, catering</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #f5b700; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cafe'></i></center>
+  </td>
+  <td>cafe</td>
+  <td>en: cafe, fr: café</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>50</td>
+  <td>[amenity=cafe]</td>
+  <td>base, address, contact, ref, opening, disabled, catering</td>
+  </tr><tr><td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-leisure'></i></center>
+  </td><td>leisure</td><td colspan='99'>en: leisure, fr: Loisirs</td></tr><tr><td></td><td></td><td></td><td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-picnic'></i></center>
+  </td><td>picnic</td><td colspan='99'>en: picnic, fr: Pique Nique</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-picnic_site'></i></center>
+  </td>
+  <td>picnic_site</td>
+  <td>en: picnic_site, fr: aire de pique nique</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>300</td>
+  <td>[tourism=picnic_site]</td>
+  <td>base, leisure, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-picnic_table'></i></center>
+  </td>
+  <td>picnic_table</td>
+  <td>en: picnic_table, fr: table de pique nique</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[leisure=picnic_table]</td>
+  <td>base, leisure, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-firepit'></i></center>
+  </td>
+  <td>firepit</td>
+  <td>en: firepit, fr: emplacement de feu</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[leisure=firepit]</td>
+  <td>base, leisure, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bbq'></i></center>
+  </td>
+  <td>bbq</td>
+  <td>en: bbq, fr: barbeque</td>
+  <td>•</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[amenity=bbq]</td>
+  <td>base, leisure, access, disabled</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hut'></i></center>
+  </td><td>hut</td><td colspan='99'>en: hut, fr: Refuge</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-alpine_hut'></i></center>
+  </td>
+  <td>alpine_hut</td>
+  <td>en: alpine_hut, fr: refuge de montagne</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>100</td>
+  <td>[tourism=alpine_hut]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-wilderness_hut'></i></center>
+  </td>
+  <td>wilderness_hut</td>
+  <td>en: wilderness_hut, fr: bivouac</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>100</td>
+  <td>[tourism=wilderness_hut]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-shelter'></i></center>
+  </td>
+  <td>shelter</td>
+  <td>en: shelter, fr: abri</td>
+  <td>•</td>
+  <td>17</td>
+  <td>100</td>
+  <td>[amenity=shelter]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-park'></i></center>
+  </td><td>park</td><td colspan='99'>en: park, fr: Parc</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-garden'></i></center>
+  </td>
+  <td>garden</td>
+  <td>en: garden, fr: jardins aménagés (botaniques, etc)</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[leisure=garden]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-allotments'></i></center>
+  </td>
+  <td>allotments</td>
+  <td>en: allotments, fr: jardins partagés</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[landuse=allotments]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-park'></i></center>
+  </td>
+  <td>park</td>
+  <td>en: park, fr: parc</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>100</td>
+  <td>[leisure=park][name]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hide'></i></center>
+  </td><td>hide</td><td colspan='99'>en: hide, fr: Observatoire naturel</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-wildlife_hide'></i></center>
+  </td>
+  <td>wildlife_hide</td>
+  <td>en: wildlife_hide, fr: observatoire animalier</td>
+  <td>•</td>
+  <td>17</td>
+  <td>100</td>
+  <td>[leisure=wildlife_hide]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bird_hide'></i></center>
+  </td>
+  <td>bird_hide</td>
+  <td>en: bird_hide, fr: observatoire ornithologique</td>
+  <td>•</td>
+  <td>17</td>
+  <td>100</td>
+  <td>[leisure=bird_hide]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-tower'></i></center>
+  </td>
+  <td>tower</td>
+  <td>en: tower, fr: tour d’observatoire</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>100</td>
+  <td>["tower:type"=observation][man_made=tower]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sport_practice'></i></center>
+  </td><td>sport_practice</td><td colspan='99'>en: sport_practice, fr: Sports</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-athletics'></i></center>
+  </td>
+  <td>athletics</td>
+  <td>en: athletics, fr: athlétisme</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=athletics]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-badminton'></i></center>
+  </td>
+  <td>badminton</td>
+  <td>en: badminton, fr: badminton</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=badminton]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-basketball'></i></center>
+  </td>
+  <td>basketball</td>
+  <td>en: basketball, fr: basketball</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[access!=private][leisure=pitch][sport=basketball]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-beachvolleyball'></i></center>
+  </td>
+  <td>beachvolleyball</td>
+  <td>en: beachvolleyball, fr: beach volley</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[leisure=pitch][sport=beachvolleyball]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bmx'></i></center>
+  </td>
+  <td>bmx</td>
+  <td>en: bmx, fr: BMX</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=bmx]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-canoe'></i></center>
+  </td>
+  <td>canoe</td>
+  <td>en: canoe, fr: canoë-kayak</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>300</td>
+  <td>[sport=canoe]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-climbing'></i></center>
+  </td>
+  <td>climbing</td>
+  <td>en: climbing, fr: escalade</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=climbing]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-climbing_adventure'></i></center>
+  </td>
+  <td>climbing_adventure</td>
+  <td>en: climbing_adventure, fr: parcours acrobatiique</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[leisure=pitch][sport=climbing_adventure]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-billiards'></i></center>
+  </td>
+  <td>billiards</td>
+  <td>en: billiards, fr: billiard</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=billiards]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-boules'></i></center>
+  </td>
+  <td>boules</td>
+  <td>en: boules, fr: boules</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[access!=private][leisure=pitch][sport=boules]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cycling'></i></center>
+  </td>
+  <td>cycling</td>
+  <td>en: cycling, fr: cyclisme</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=cycling]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-futsal'></i></center>
+  </td>
+  <td>futsal</td>
+  <td>en: futsal, fr: futsal (foot en salle)</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=futsal]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-diving'></i></center>
+  </td>
+  <td>diving</td>
+  <td>en: diving, fr: plongeon</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=diving]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-free_flying'></i></center>
+  </td>
+  <td>free_flying</td>
+  <td>en: free_flying, fr: vol libre</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=free_flying]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-gymnastics'></i></center>
+  </td>
+  <td>gymnastics</td>
+  <td>en: gymnastics, fr: gymnastique</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=gymnastics]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-handball'></i></center>
+  </td>
+  <td>handball</td>
+  <td>en: handball, fr: handball</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[leisure=pitch][sport=handball]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-ice_hockey'></i></center>
+  </td>
+  <td>ice_hockey</td>
+  <td>en: ice_hockey, fr: hochey sur glace</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=ice_hockey]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-horse_racing'></i></center>
+  </td>
+  <td>horse_racing</td>
+  <td>en: horse_racing, fr: courses hippiques</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=horse_racing]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-karting'></i></center>
+  </td>
+  <td>karting</td>
+  <td>en: karting, fr: karting</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[leisure=pitch][sport=karting]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-kitesurfing'></i></center>
+  </td>
+  <td>kitesurfing</td>
+  <td>en: kitesurfing, fr: kite surf</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=kitesurfing]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-motocross'></i></center>
+  </td>
+  <td>motocross</td>
+  <td>en: motocross, fr: motocross</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=motocross]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-motor'></i></center>
+  </td>
+  <td>motor</td>
+  <td>en: motor, fr: sport mécaninques</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=motor]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-multi'></i></center>
+  </td>
+  <td>multi</td>
+  <td>en: multi, fr: multisports</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[access!=private][leisure=pitch][sport=multi]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-orienteering'></i></center>
+  </td>
+  <td>orienteering</td>
+  <td>en: orienteering, fr: course d’orientation</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=orienteering]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-paddle_tennis'></i></center>
+  </td>
+  <td>paddle_tennis</td>
+  <td>en: paddle_tennis, fr: paddle-tennis</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=paddle_tennis]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-paintball'></i></center>
+  </td>
+  <td>paintball</td>
+  <td>en: paintball, fr: paint ball</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=paintball]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-pelota'></i></center>
+  </td>
+  <td>pelota</td>
+  <td>en: pelota, fr: pelote basque</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[leisure=pitch][sport=pelota]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-racquet'></i></center>
+  </td>
+  <td>racquet</td>
+  <td>en: racquet, fr: sport de raquettes</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=racquet]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-squash'></i></center>
+  </td>
+  <td>squash</td>
+  <td>en: squash, fr: squash</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[leisure=pitch][sport=squash]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-rowing'></i></center>
+  </td>
+  <td>rowing</td>
+  <td>en: rowing, fr: aviron</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=rowing]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-rugby'></i></center>
+  </td>
+  <td>rugby</td>
+  <td>en: rugby, fr: rugby</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=rugby]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-rugby_league'></i></center>
+  </td>
+  <td>rugby_league</td>
+  <td>en: rugby_league, fr: rugby à XIII</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=rugby_league]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-rugby_union'></i></center>
+  </td>
+  <td>rugby_union</td>
+  <td>en: rugby_union, fr: rugby à XV</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=rugby_union]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-running'></i></center>
+  </td>
+  <td>running</td>
+  <td>en: running, fr: course à pied</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=running]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sailing_school'></i></center>
+  </td>
+  <td>sailing_school</td>
+  <td>en: sailing_school, fr: école de voile</td>
+  <td>•</td>
+  <td>14</td>
+  <td>300</td>
+  <td>[amenity=sailing_school]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sailing'></i></center>
+  </td>
+  <td>sailing</td>
+  <td>en: sailing, fr: voile</td>
+  <td>•</td>
+  <td>14</td>
+  <td>300</td>
+  <td>[sport=sailing]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-scuba_diving'></i></center>
+  </td>
+  <td>scuba_diving</td>
+  <td>en: scuba_diving, fr: plongée sous-marine</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=scuba_diving]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-shooting'></i></center>
+  </td>
+  <td>shooting</td>
+  <td>en: shooting, fr: sports de tir</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=shooting]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-skateboard'></i></center>
+  </td>
+  <td>skateboard</td>
+  <td>en: skateboard, fr: skateboard</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[leisure=pitch][sport=skateboard]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-soccer'></i></center>
+  </td>
+  <td>soccer</td>
+  <td>en: soccer, fr: footbal</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=soccer]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-surfing'></i></center>
+  </td>
+  <td>surfing</td>
+  <td>en: surfing, fr: surf</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=surfing]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-swimming'></i></center>
+  </td>
+  <td>swimming</td>
+  <td>en: swimming, fr: natation</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=swimming]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-table_soccer'></i></center>
+  </td>
+  <td>table_soccer</td>
+  <td>en: table_soccer, fr: babby foot</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=table_soccer]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-table_tennis'></i></center>
+  </td>
+  <td>table_tennis</td>
+  <td>en: table_tennis, fr: tennis de table</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=table_tennis]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-tennis'></i></center>
+  </td>
+  <td>tennis</td>
+  <td>en: tennis, fr: tennis</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[leisure=pitch][sport=tennis]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-volleyball'></i></center>
+  </td>
+  <td>volleyball</td>
+  <td>en: volleyball, fr: voleyball</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[leisure=pitch][sport=volleyball]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-water_ski'></i></center>
+  </td>
+  <td>water_ski</td>
+  <td>en: water_ski, fr: ski nautique</td>
+  <td>•</td>
+  <td>14</td>
+  <td>500</td>
+  <td>[sport=water_ski]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-yoga'></i></center>
+  </td>
+  <td>yoga</td>
+  <td>en: yoga, fr: yoga</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[sport=yoga]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-community_centre'></i></center>
+  </td>
+  <td>community_centre</td>
+  <td>en: community_centre, fr: centre d’activité (salles, salles associatives)</td>
+  <td>•</td>
+  <td>17</td>
+  <td>200</td>
+  <td>["community_centre:for"!~"juvenile|child"][amenity=community_centre]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-casino'></i></center>
+  </td>
+  <td>casino</td>
+  <td>en: casino, fr: casino</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[amenity=casino]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-nightclub'></i></center>
+  </td>
+  <td>nightclub</td>
+  <td>en: nightclub, fr: night-club</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>200</td>
+  <td>[amenity=nightclub]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-swimming_pool_leisure'></i></center>
+  </td>
+  <td>swimming_pool_leisure</td>
+  <td>en: swimming_pool_leisure, fr: piscine</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[leisure=swimming_pool][name]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-swimming_centre'></i></center>
+  </td>
+  <td>swimming_centre</td>
+  <td>en: swimming_centre, fr: centre aquatique</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[leisure=sports_centre][sport=swimming]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-spa'></i></center>
+  </td>
+  <td>spa</td>
+  <td>en: spa, fr: spa</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[leisure=spa]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-public_bath'></i></center>
+  </td>
+  <td>public_bath</td>
+  <td>en: public_bath, fr: thermes</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[amenity=public_bath]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-playground'></i></center>
+  </td>
+  <td>playground</td>
+  <td>en: playground, fr: aire de jeux</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[access!=private][leisure=playground]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-dog_park'></i></center>
+  </td>
+  <td>dog_park</td>
+  <td>en: dog_park, fr: parc canin</td>
+  <td>•</td>
+  <td>17</td>
+  <td>500</td>
+  <td>[leisure=dog_park]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-golf_course'></i></center>
+  </td>
+  <td>golf_course</td>
+  <td>en: golf_course, fr: terrain de golf</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[leisure=golf_course][name]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-golf_course_minor'></i></center>
+  </td>
+  <td>golf_course_minor</td>
+  <td>en: golf_course_minor, fr: terrain de golf</td>
+  <td>•</td>
+  <td>16</td>
+  <td>300</td>
+  <td>[leisure=golf_course]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-ice_rink'></i></center>
+  </td>
+  <td>ice_rink</td>
+  <td>en: ice_rink, fr: patinoire</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>200</td>
+  <td>[leisure=ice_rink]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-horse_riding'></i></center>
+  </td>
+  <td>horse_riding</td>
+  <td>en: horse_riding, fr: centre équestre</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[leisure=horse_riding]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sport'></i></center>
+  </td>
+  <td>sport</td>
+  <td>en: sport, fr: club de tennis</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[club=sport][sport=tennis]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-surf_school'></i></center>
+  </td>
+  <td>surf_school</td>
+  <td>en: surf_school, fr: école de surf</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>200</td>
+  <td>[amenity=surf_school]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-miniature_golf'></i></center>
+  </td>
+  <td>miniature_golf</td>
+  <td>en: miniature_golf, fr: golf miniature</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>200</td>
+  <td>[leisure=miniature_golf]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-pitch'></i></center>
+  </td>
+  <td>pitch</td>
+  <td>en: pitch, fr: terrain de sport</td>
+  <td>•</td>
+  <td>17</td>
+  <td>501</td>
+  <td>[leisure=pitch]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sports_centre'></i></center>
+  </td>
+  <td>sports_centre</td>
+  <td>en: sports_centre, fr: centre sportif</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>201</td>
+  <td>[leisure=sports_centre]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bowling_alley'></i></center>
+  </td>
+  <td>bowling_alley</td>
+  <td>en: bowling_alley, fr: bowling</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[leisure=bowling_alley]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-escape_game'></i></center>
+  </td>
+  <td>escape_game</td>
+  <td>en: escape_game, fr: escape game</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[leisure=escape_game]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-dojo'></i></center>
+  </td>
+  <td>dojo</td>
+  <td>en: dojo, fr: dojo</td>
+  <td>•</td>
+  <td>17</td>
+  <td>200</td>
+  <td>[amenity=dojo]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fitness_centre'></i></center>
+  </td>
+  <td>fitness_centre</td>
+  <td>en: fitness_centre, fr: centre fitness</td>
+  <td>•</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[leisure=fitness_centre]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fitness_station'></i></center>
+  </td>
+  <td>fitness_station</td>
+  <td>en: fitness_station, fr: équipement de fitness</td>
+  <td>•</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[leisure=fitness_station]</td>
+  <td>base, leisure</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-trinquete'></i></center>
+  </td>
+  <td>trinquete</td>
+  <td>en: trinquete, fr: place de pelote (trinquet)</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>200</td>
+  <td>[leisure=sports_centre][sport=pelota]</td>
+  <td>base, leisure</td>
+  </tr><tr><td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-public_landmark'></i></center>
+  </td><td>public_landmark</td><td colspan='99'>en: public_landmark, fr: Points de repaire du territoire</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-courthouse'></i></center>
+  </td>
+  <td>courthouse</td>
+  <td>en: courthouse, fr: tribunal, palais de justice</td>
+  <td>•</td>
+  <td>16</td>
+  <td>100</td>
+  <td>[amenity=courthouse]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-embassy'></i></center>
+  </td>
+  <td>embassy</td>
+  <td>en: embassy, fr: ambassade</td>
+  <td>•</td>
+  <td>16</td>
+  <td>100</td>
+  <td>[amenity=embassy]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-grave_yard'></i></center>
+  </td>
+  <td>grave_yard</td>
+  <td>en: grave_yard, fr: cimetière</td>
+  <td>•</td>
+  <td>14</td>
+  <td>100</td>
+  <td>[amenity=grave_yard]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cemetery'></i></center>
+  </td>
+  <td>cemetery</td>
+  <td>en: cemetery, fr: cimetière</td>
+  <td>•</td>
+  <td>14</td>
+  <td>100</td>
+  <td>[landuse=cemetery]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-school'></i></center>
+  </td>
+  <td>school</td>
+  <td>en: school, fr: écoles</td>
+  <td>•</td>
+  <td>16</td>
+  <td>100</td>
+  <td>[amenity=school]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-college'></i></center>
+  </td>
+  <td>college</td>
+  <td>en: college, fr: établissement d'enseignement supérieur</td>
+  <td>•</td>
+  <td>16</td>
+  <td>100</td>
+  <td>[amenity=college]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-university'></i></center>
+  </td>
+  <td>university</td>
+  <td>en: university, fr: université</td>
+  <td>•</td>
+  <td>14</td>
+  <td>100</td>
+  <td>[amenity=university]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-prison'></i></center>
+  </td>
+  <td>prison</td>
+  <td>en: prison, fr: prison</td>
+  <td>•</td>
+  <td>16</td>
+  <td>100</td>
+  <td>[amenity=prison]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-mall'></i></center>
+  </td>
+  <td>mall</td>
+  <td>en: mall, fr: centre commerciaux</td>
+  <td>•</td>
+  <td>14</td>
+  <td>100</td>
+  <td>[shop=mall]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-border_control'></i></center>
+  </td>
+  <td>border_control</td>
+  <td>en: border_control, fr: point de contrôle douanier</td>
+  <td>•</td>
+  <td>16</td>
+  <td>100</td>
+  <td>[barrier=border_control]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-brownfield'></i></center>
+  </td>
+  <td>brownfield</td>
+  <td>en: brownfield, fr: friches industrielles</td>
+  <td>•</td>
+  <td>14</td>
+  <td>100</td>
+  <td>[landuse=brownfield]</td>
+  <td>base</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #1d1d1b; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-mountain_pass'></i></center>
+  </td>
+  <td>mountain_pass</td>
+  <td>en: mountain_pass, fr: cols</td>
+  <td>•</td>
+  <td>13</td>
+  <td>100</td>
+  <td>[mountain_pass=yes][name]</td>
+  <td>base</td>
+  </tr><tr><td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-shopping'></i></center>
+  </td><td>shopping</td><td colspan='99'>en: shopping, fr: Commerces</td></tr><tr><td></td><td></td><td></td><td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sport_supply'></i></center>
+  </td><td>sport_supply</td><td colspan='99'>en: sport_supply, fr: Sport</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bicycle_shop'></i></center>
+  </td>
+  <td>bicycle_shop</td>
+  <td>en: bicycle_shop, fr: magasin de vélos et accessoires</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>500</td>
+  <td>[shop=bicycle]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-surf'></i></center>
+  </td>
+  <td>surf</td>
+  <td>en: surf, fr: magasin de surf (surfshop)</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[shop=surf]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-outdoor'></i></center>
+  </td>
+  <td>outdoor</td>
+  <td>en: outdoor, fr: magasin outdoor</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>500</td>
+  <td>[shop=outdoor]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-feed'></i></center>
+  </td><td>feed</td><td colspan='99'>en: feed, fr: Alimentation</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-coffee'></i></center>
+  </td>
+  <td>coffee</td>
+  <td>en: coffee, fr: magasin de café (torrefacteur)</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>400</td>
+  <td>[shop=coffee]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-beverages'></i></center>
+  </td>
+  <td>beverages</td>
+  <td>en: beverages, fr: magasin de boissons (diverses)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[shop=beverages]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-confectionery'></i></center>
+  </td>
+  <td>confectionery</td>
+  <td>en: confectionery, fr: confiserie (bonbons)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[shop=confectionery]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-frozen_food'></i></center>
+  </td>
+  <td>frozen_food</td>
+  <td>en: frozen_food, fr: produits surgelés</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>400</td>
+  <td>[shop=frozen_food]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping, services_details</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-various_supply'></i></center>
+  </td><td>various_supply</td><td colspan='99'>en: various_supply, fr: Équipement</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-computer'></i></center>
+  </td>
+  <td>computer</td>
+  <td>en: computer, fr: magasin d’informatique</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=computer]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-camera'></i></center>
+  </td>
+  <td>camera</td>
+  <td>en: camera, fr: magasin photo</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=camera]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-mobile_phone'></i></center>
+  </td>
+  <td>mobile_phone</td>
+  <td>en: mobile_phone, fr: magasin de téléphonie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=mobile_phone]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-electronics'></i></center>
+  </td>
+  <td>electronics</td>
+  <td>en: electronics, fr: magasin d’électronique</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=electronics]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hifi'></i></center>
+  </td>
+  <td>hifi</td>
+  <td>en: hifi, fr: magasin de HIFI</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=hifi]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-agrarian'></i></center>
+  </td>
+  <td>agrarian</td>
+  <td>en: agrarian, fr: magasin de matériel agricole</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=agrarian]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-gas'></i></center>
+  </td>
+  <td>gas</td>
+  <td>en: gas, fr: vente de gas</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=gas]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-garden_centre'></i></center>
+  </td>
+  <td>garden_centre</td>
+  <td>en: garden_centre, fr: jardinerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=garden_centre]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-doityourself'></i></center>
+  </td>
+  <td>doityourself</td>
+  <td>en: doityourself, fr: magasin de bricolage</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=doityourself]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-musical_instrument'></i></center>
+  </td>
+  <td>musical_instrument</td>
+  <td>en: musical_instrument, fr: magasin d’instrument de musique</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=musical_instrument]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-toys'></i></center>
+  </td>
+  <td>toys</td>
+  <td>en: toys, fr: magasin de jouet</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=toys]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-stationery'></i></center>
+  </td>
+  <td>stationery</td>
+  <td>en: stationery, fr: margasin d’articles de bureau</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=stationery]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-video'></i></center>
+  </td>
+  <td>video</td>
+  <td>en: video, fr: magasin de vidéo</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=video]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-video_games'></i></center>
+  </td>
+  <td>video_games</td>
+  <td>en: video_games, fr: magasin de jeu vidéo</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=video_games]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-rental'></i></center>
+  </td>
+  <td>rental</td>
+  <td>en: rental, fr: boutique de location de matériel</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=rental]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-beauty'></i></center>
+  </td>
+  <td>beauty</td>
+  <td>en: beauty, fr: salon de beauté (esthéticien.e)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=beauty]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-erotic'></i></center>
+  </td>
+  <td>erotic</td>
+  <td>en: erotic, fr: sex-shop</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=erotic]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-optician'></i></center>
+  </td>
+  <td>optician</td>
+  <td>en: optician, fr: opticien</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=optician]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-health_food'></i></center>
+  </td>
+  <td>health_food</td>
+  <td>en: health_food, fr: magasin de nutrition</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=health_food][shop=nutrition_supplements]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hearing_aids'></i></center>
+  </td>
+  <td>hearing_aids</td>
+  <td>en: hearing_aids, fr: audioprothésiste</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>700</td>
+  <td>[shop=hearing_aids]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-medical_supply'></i></center>
+  </td>
+  <td>medical_supply</td>
+  <td>en: medical_supply, fr: dourniture de matériel médical</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>700</td>
+  <td>[shop=medical_supply]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hardware'></i></center>
+  </td>
+  <td>hardware</td>
+  <td>en: hardware, fr: quincaillerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=hardware]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-general'></i></center>
+  </td>
+  <td>general</td>
+  <td>en: general, fr: magasin général (vente au comptoir)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=general]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-lamps'></i></center>
+  </td>
+  <td>lamps</td>
+  <td>en: lamps, fr: magasin de luminaires</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=lamps]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-furniture'></i></center>
+  </td>
+  <td>furniture</td>
+  <td>en: furniture, fr: magasin de mobilier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=furniture]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-kitchen'></i></center>
+  </td>
+  <td>kitchen</td>
+  <td>en: kitchen, fr: cuisiniste</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=kitchen]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-swimming_pool_shop'></i></center>
+  </td>
+  <td>swimming_pool_shop</td>
+  <td>en: swimming_pool_shop, fr: pisciniste</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=swimming_pool]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fireplace'></i></center>
+  </td>
+  <td>fireplace</td>
+  <td>en: fireplace, fr: magasin de cheminées</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=fireplace]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bed'></i></center>
+  </td>
+  <td>bed</td>
+  <td>en: bed, fr: magasin de literie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=bed]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-household_linen'></i></center>
+  </td>
+  <td>household_linen</td>
+  <td>en: household_linen, fr: magasin de linges de maison</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=household_linen]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bathroom_furnishing'></i></center>
+  </td>
+  <td>bathroom_furnishing</td>
+  <td>en: bathroom_furnishing, fr: fournitures pour salles de bains</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=bathroom_furnishing]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-paint'></i></center>
+  </td>
+  <td>paint</td>
+  <td>en: paint, fr: magasin de peintures</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=paint]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-car'></i></center>
+  </td>
+  <td>car</td>
+  <td>en: car, fr: vendeur de voiture, concessionnaire</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=car]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-caravan'></i></center>
+  </td>
+  <td>caravan</td>
+  <td>en: caravan, fr: vendeur de caravanes & camping car</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=caravan]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-boat'></i></center>
+  </td>
+  <td>boat</td>
+  <td>en: boat, fr: vendeur de bateau</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=boat]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-motorcycle'></i></center>
+  </td>
+  <td>motorcycle</td>
+  <td>en: motorcycle, fr: vendeur de moto</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=motorcycle]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-weapons'></i></center>
+  </td>
+  <td>weapons</td>
+  <td>en: weapons, fr: armurier, chasse</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=weapons]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-charity'></i></center>
+  </td>
+  <td>charity</td>
+  <td>en: charity, fr: magasin exploité par un organisme de bienfaisance</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=charity]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fishing_shop'></i></center>
+  </td>
+  <td>fishing_shop</td>
+  <td>en: fishing_shop, fr: magasin d'articles de pêches</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=fishing]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-groundskeeping'></i></center>
+  </td>
+  <td>groundskeeping</td>
+  <td>en: groundskeeping, fr: magasin de matériel agricole & de jardin</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=groundskeeping]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-wholesale'></i></center>
+  </td>
+  <td>wholesale</td>
+  <td>en: wholesale, fr: wholesale (ventre en gros)</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=wholesale]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fashion'></i></center>
+  </td><td>fashion</td><td colspan='99'>en: fashion, fr: Mode  (luxe, cadeaux, habillement, etc)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-boutique'></i></center>
+  </td>
+  <td>boutique</td>
+  <td>en: boutique, fr: petit magazin de mode</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=boutique]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-clothes_underwear'></i></center>
+  </td>
+  <td>clothes_underwear</td>
+  <td>en: clothes_underwear, fr: magasin de sous-vetements</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[clothes=underwear][shop=clothes]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-clothes'></i></center>
+  </td>
+  <td>clothes</td>
+  <td>en: clothes, fr: magasin de vetements</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=clothes]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-hat'></i></center>
+  </td>
+  <td>hat</td>
+  <td>en: hat, fr: magasin de chapeaux</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=hat]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-second_hand'></i></center>
+  </td>
+  <td>second_hand</td>
+  <td>en: second_hand, fr: friperie</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>700</td>
+  <td>[shop=second_hand]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-bag'></i></center>
+  </td>
+  <td>bag</td>
+  <td>en: bag, fr: bagagerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=bag]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-watches'></i></center>
+  </td>
+  <td>watches</td>
+  <td>en: watches, fr: horlogerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=watches]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-interior_decoration'></i></center>
+  </td>
+  <td>interior_decoration</td>
+  <td>en: interior_decoration, fr: décoration intérieure</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=interior_decoration]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-jewelry'></i></center>
+  </td>
+  <td>jewelry</td>
+  <td>en: jewelry, fr: bijoutier</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=jewelry]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-perfumery'></i></center>
+  </td>
+  <td>perfumery</td>
+  <td>en: perfumery, fr: parfumeur</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=perfumery]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cosmetics'></i></center>
+  </td>
+  <td>cosmetics</td>
+  <td>en: cosmetics, fr: parfumerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=cosmetics]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-fabric'></i></center>
+  </td>
+  <td>fabric</td>
+  <td>en: fabric, fr: magasin de tissus</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=fabric]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-sewing'></i></center>
+  </td>
+  <td>sewing</td>
+  <td>en: sewing, fr: mercerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=sewing]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-perfume'></i></center>
+  </td>
+  <td>perfume</td>
+  <td>en: perfume, fr: parfumeur</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=perfume]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-accessories'></i></center>
+  </td>
+  <td>accessories</td>
+  <td>en: accessories, fr: accessoires</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=accessories]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-shoes'></i></center>
+  </td>
+  <td>shoes</td>
+  <td>en: shoes, fr: boutique de chaussures</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=shoes]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-gift'></i></center>
+  </td>
+  <td>gift</td>
+  <td>en: gift, fr: boutique de cadeaux</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=gift]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-tattoo'></i></center>
+  </td>
+  <td>tattoo</td>
+  <td>en: tattoo, fr: tatoueur</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>700</td>
+  <td>[shop=tattoo]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-culture'></i></center>
+  </td><td>culture</td><td colspan='99'>en: culture, fr: Culture (produits culturel)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-art'></i></center>
+  </td>
+  <td>art</td>
+  <td>en: art, fr: galerie d’art privé</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=art]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-antiques'></i></center>
+  </td>
+  <td>antiques</td>
+  <td>en: antiques, fr: brocantes, antiquité</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=antiques]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-music'></i></center>
+  </td>
+  <td>music</td>
+  <td>en: music, fr: disquaire</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=music]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-books'></i></center>
+  </td>
+  <td>books</td>
+  <td>en: books, fr: librairie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>600</td>
+  <td>[shop=books]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-animals'></i></center>
+  </td><td>animals</td><td colspan='99'>en: animals, fr: Animaux</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-pet'></i></center>
+  </td>
+  <td>pet</td>
+  <td>en: pet, fr: animalerie</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[shop=pet]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #808080; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-pet_grooming'></i></center>
+  </td>
+  <td>pet_grooming</td>
+  <td>en: pet_grooming, fr: toilettage</td>
+  <td>⬤</td>
+  <td>17</td>
+  <td>1000</td>
+  <td>[shop=pet_grooming]</td>
+  <td>base, address, contact, ref, opening, disabled, shopping</td>
+  </tr></table></body></html>

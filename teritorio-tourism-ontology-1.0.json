@@ -1687,7 +1687,7 @@
               "priority": 50,
               "osm_tags": [
                 "[amenity=doctors]",
-                "[healthacare=doctor]"
+                "[healthcare=doctor]"
               ],
               "osm_tags_extra": [
                 "base",
@@ -1702,7 +1702,7 @@
             "doctor_specialist": {
               "label": {
                 "en": "doctor_specialist",
-                "fr": "médecin spécialite"
+                "fr": "médecin spécialiste"
               },
               "zoom": 17,
               "style": "⬤",
