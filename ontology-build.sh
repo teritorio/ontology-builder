@@ -18,6 +18,8 @@ ruby ontology-build.rb tourism 'Ontology Tourism' \
     ontology-tourism-extra_tags.csv \
     build/teritorio-tourism-ontology-1.0.json
 
+ruby ontology2html.rb build/teritorio-tourism-ontology-1.0.json > build/teritorio-tourism-ontology-1.0.html
+
 # City
 curl -L "${DOC_CITY}/export?format=csv&gid=2097204395" > ontology-city-superclass.csv
 curl -L "${DOC_CITY}/export?format=csv&gid=2004915696" > ontology-city.csv
@@ -28,3 +30,5 @@ ruby ontology-build.rb city 'Ontology City' \
     ontology-city.csv \
     ontology-city-extra_tags.csv \
     build/teritorio-city-ontology-1.0.json
+
+ruby ontology2html.rb build/teritorio-city-ontology-1.0.json > build/teritorio-city-ontology-1.0.html
