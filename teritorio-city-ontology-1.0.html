@@ -100,7 +100,7 @@
     <center><i class='teritorio teritorio-coffee_roaster'></i></center>
   </td>
   <td>coffee_roaster</td>
-  <td>en: coffee_roaster, fr: brasserie artisanale</td>
+  <td>en: coffee_roaster, fr: torrefacteur</td>
   <td>⬤</td>
   <td>16</td>
   <td>500</td>
@@ -111,7 +111,7 @@
     <center><i class='teritorio teritorio-brewery'></i></center>
   </td>
   <td>brewery</td>
-  <td>en: brewery, fr: torrefacteur</td>
+  <td>en: brewery, fr: brasserie artisanale</td>
   <td>⬤</td>
   <td>16</td>
   <td>500</td>
@@ -2057,7 +2057,7 @@
   <td>13</td>
   <td>60</td>
   <td>[railway=station]</td>
-  <td>base, access, disabled</td>
+  <td>base, access, disabled, address, contact, , pening</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-halt'></i></center>
@@ -2068,7 +2068,7 @@
   <td>14</td>
   <td>60</td>
   <td>[railway=halt]</td>
-  <td>base, access, disabled</td>
+  <td>base, access, disabled, address, contact, , pening</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #008ecf; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-train_station_entrance'></i></center>
@@ -2567,6 +2567,17 @@
   <td>base, address, contact, ref, opening, disabled, safety</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-healthcare_radiology'></i></center>
+  </td>
+  <td>healthcare_radiology</td>
+  <td>en: healthcare_radiology, fr: centre de radiologie</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>50</td>
+  <td>["healthcare:speciality"=radiology][healthcare=centre]</td>
+  <td>base, address, contact, ref, opening, disabled, safety</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-laboratory'></i></center>
   </td>
   <td>laboratory</td>
@@ -2965,7 +2976,7 @@
   <td>16</td>
   <td>0</td>
   <td>[name][natural=beach]</td>
-  <td>base</td>
+  <td>base, opening, disabled</td>
   </tr><tr><td></td><td></td><td></td><td style='background: #e50980; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-outdoor_activity'></i></center>
   </td><td>outdoor_activity</td><td colspan='99'>en: outdoor_activity, fr: Aire d’activité extérieures</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
@@ -3037,109 +3048,131 @@
   </tr><tr><td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-culture'></i></center>
   </td><td>culture</td><td colspan='99'>en: culture, fr: Culture et patrimoine</td></tr><tr><td></td><td></td><td></td><td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-visit'></i></center>
-  </td><td>visit</td><td colspan='99'>en: visit, fr: Visite (découverte)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+    <center><i class='teritorio teritorio-artwork'></i></center>
+  </td><td>artwork</td><td colspan='99'>en: artwork, fr: Oeuvres</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-place_of_worship'></i></center>
+    <center><i class='teritorio teritorio-artwork'></i></center>
   </td>
-  <td>place_of_worship</td>
-  <td>en: place_of_worship, fr: lieux de culte</td>
+  <td>artwork</td>
+  <td>en: artwork, fr: œuvre d'art</td>
   <td>•</td>
   <td>17</td>
-  <td>40</td>
-  <td>[amenity=place_of_worship]</td>
-  <td>base, address, contact, opening, disabled, culture</td>
+  <td>800</td>
+  <td>[artwork_type!~statue|sculpture|mural|graffiti][tourism=artwork]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-cathedral'></i></center>
+    <center><i class='teritorio teritorio-statue'></i></center>
   </td>
-  <td>cathedral</td>
-  <td>en: cathedral, fr: cathédralle</td>
-  <td>⬤</td>
-  <td>13</td>
-  <td>30</td>
-  <td>[building=cathedral]</td>
-  <td>base, address, contact, opening, disabled, culture</td>
-  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-church'></i></center>
-  </td>
-  <td>church</td>
-  <td>en: church, fr: église</td>
-  <td>⬤</td>
-  <td>15</td>
-  <td>30</td>
-  <td>[building=church]</td>
-  <td>base, address, contact, opening, disabled, culture</td>
-  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-mosque'></i></center>
-  </td>
-  <td>mosque</td>
-  <td>en: mosque, fr: mosquée</td>
-  <td>⬤</td>
-  <td>15</td>
-  <td>30</td>
-  <td>[building=mosque]</td>
-  <td>base, address, contact, opening, disabled, culture</td>
-  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-synagogue'></i></center>
-  </td>
-  <td>synagogue</td>
-  <td>en: synagogue, fr: synagogue</td>
-  <td>⬤</td>
-  <td>15</td>
-  <td>30</td>
-  <td>[building=synagogue]</td>
-  <td>base, address, contact, opening, disabled, culture</td>
-  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-monastery'></i></center>
-  </td>
-  <td>monastery</td>
-  <td>en: monastery, fr: monastère</td>
-  <td>⬤</td>
-  <td>16</td>
-  <td>30</td>
-  <td>[amenity=monastery]</td>
-  <td>base, address, contact, opening, disabled, culture</td>
-  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-chapel'></i></center>
-  </td>
-  <td>chapel</td>
-  <td>en: chapel, fr: chapelle</td>
+  <td>statue</td>
+  <td>en: statue, fr: statue</td>
   <td>•</td>
   <td>17</td>
-  <td>30</td>
-  <td>[building=chapel]</td>
-  <td>base, address, contact, opening, disabled, culture</td>
+  <td>800</td>
+  <td>[artwork_type=statue][tourism=artwork]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-arts_centre'></i></center>
+    <center><i class='teritorio teritorio-sculpture'></i></center>
   </td>
-  <td>arts_centre</td>
-  <td>en: arts_centre, fr: centre d’art</td>
-  <td>⬤</td>
-  <td>16</td>
-  <td>30</td>
-  <td>[amenity=arts_centre]</td>
-  <td>base, address, contact, opening, disabled, culture</td>
+  <td>sculpture</td>
+  <td>en: sculpture, fr: sculpture</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[artwork_type=sculpture][tourism=artwork]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-museum'></i></center>
+    <center><i class='teritorio teritorio-mural'></i></center>
   </td>
-  <td>museum</td>
-  <td>en: museum, fr: musées</td>
-  <td>⬤</td>
-  <td>14</td>
-  <td>0</td>
-  <td>[tourism=museum]</td>
-  <td>base, address, contact, opening, disabled, culture</td>
+  <td>mural</td>
+  <td>en: mural, fr: peinture murale</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[artwork_type=mural][tourism=artwork]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-graffiti'></i></center>
+  </td>
+  <td>graffiti</td>
+  <td>en: graffiti, fr: streetart</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[artwork_type=graffiti][tourism=artwork]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
   </tr><tr><td></td><td></td><td></td><td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-heritage'></i></center>
   </td><td>heritage</td><td colspan='99'>en: heritage, fr: Éléments historiques</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-water_well'></i></center>
+  </td>
+  <td>water_well</td>
+  <td>en: water_well, fr: puits</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[man_made=water_well]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-windmill'></i></center>
+  </td>
+  <td>windmill</td>
+  <td>en: windmill, fr: moulin à vent</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[man_made=windmill]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-watermill'></i></center>
+  </td>
+  <td>watermill</td>
+  <td>en: watermill, fr: moulin à eau</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[man_made=watermill]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-dovecote'></i></center>
+  </td>
+  <td>dovecote</td>
+  <td>en: dovecote, fr: pigeonnier</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[man_made=dovecote]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-baking_oven'></i></center>
+  </td>
+  <td>baking_oven</td>
+  <td>en: baking_oven, fr: four à pain</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[amenity=baking_oven]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-kiln'></i></center>
+  </td>
+  <td>kiln</td>
+  <td>en: kiln, fr: four à chaux</td>
+  <td>•</td>
+  <td>17</td>
+  <td>800</td>
+  <td>[man_made=kiln]</td>
+  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-castle'></i></center>
   </td>
@@ -3272,6 +3305,107 @@
   <td>[amenity=fountain]</td>
   <td>base, address, contact, opening, disabled, culture</td>
   </tr><tr><td></td><td></td><td></td><td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-visit'></i></center>
+  </td><td>visit</td><td colspan='99'>en: visit, fr: Visite (découverte)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-place_of_worship'></i></center>
+  </td>
+  <td>place_of_worship</td>
+  <td>en: place_of_worship, fr: lieux de culte</td>
+  <td>•</td>
+  <td>17</td>
+  <td>40</td>
+  <td>[amenity=place_of_worship]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-cathedral'></i></center>
+  </td>
+  <td>cathedral</td>
+  <td>en: cathedral, fr: cathédralle</td>
+  <td>⬤</td>
+  <td>13</td>
+  <td>30</td>
+  <td>[building=cathedral]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-church'></i></center>
+  </td>
+  <td>church</td>
+  <td>en: church, fr: église</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>30</td>
+  <td>[building=church]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-mosque'></i></center>
+  </td>
+  <td>mosque</td>
+  <td>en: mosque, fr: mosquée</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>30</td>
+  <td>[building=mosque]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-synagogue'></i></center>
+  </td>
+  <td>synagogue</td>
+  <td>en: synagogue, fr: synagogue</td>
+  <td>⬤</td>
+  <td>15</td>
+  <td>30</td>
+  <td>[building=synagogue]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-monastery'></i></center>
+  </td>
+  <td>monastery</td>
+  <td>en: monastery, fr: monastère</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>30</td>
+  <td>[amenity=monastery]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-chapel'></i></center>
+  </td>
+  <td>chapel</td>
+  <td>en: chapel, fr: chapelle</td>
+  <td>•</td>
+  <td>17</td>
+  <td>30</td>
+  <td>[building=chapel]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-arts_centre'></i></center>
+  </td>
+  <td>arts_centre</td>
+  <td>en: arts_centre, fr: centre d’art</td>
+  <td>⬤</td>
+  <td>16</td>
+  <td>30</td>
+  <td>[amenity=arts_centre]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
+  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
+    <center><i class='teritorio teritorio-museum'></i></center>
+  </td>
+  <td>museum</td>
+  <td>en: museum, fr: musées</td>
+  <td>⬤</td>
+  <td>14</td>
+  <td>0</td>
+  <td>[tourism=museum]</td>
+  <td>base, address, contact, opening, disabled, culture</td>
+  </tr><tr><td></td><td></td><td></td><td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-show'></i></center>
   </td><td>show</td><td colspan='99'>en: show, fr: Spectacle</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
@@ -3328,17 +3462,6 @@
   <td>800</td>
   <td>[amenity=public_bookcase]</td>
   <td>base, address, contact, opening, disabled, culture</td>
-  </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
-    <center><i class='teritorio teritorio-artwork'></i></center>
-  </td>
-  <td>artwork</td>
-  <td>en: artwork, fr: œuvre d'art</td>
-  <td>•</td>
-  <td>17</td>
-  <td>800</td>
-  <td>[tourism=artwork]</td>
-  <td>base, address, contact, opening, disabled, culture, aspects_details, date, size</td>
   </tr><tr><td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-hosting'></i></center>
   </td><td>hosting</td><td colspan='99'>en: hosting, fr: Hébergement</td></tr><tr><td></td><td></td><td></td><td style='background: #99163a; color: white; font-size: 200%; padding: 5px'>
@@ -4207,7 +4330,7 @@
   <td>16</td>
   <td>200</td>
   <td>[amenity=casino]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-nightclub'></i></center>
@@ -4218,7 +4341,7 @@
   <td>17</td>
   <td>200</td>
   <td>[amenity=nightclub]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-swimming_pool_leisure'></i></center>
@@ -4229,7 +4352,7 @@
   <td>16</td>
   <td>200</td>
   <td>[leisure=swimming_pool][name]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-swimming_centre'></i></center>
@@ -4240,7 +4363,7 @@
   <td>15</td>
   <td>200</td>
   <td>[leisure=sports_centre][sport=swimming]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-spa'></i></center>
@@ -4251,7 +4374,7 @@
   <td>15</td>
   <td>200</td>
   <td>[leisure=spa]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-public_bath'></i></center>
@@ -4262,7 +4385,7 @@
   <td>15</td>
   <td>200</td>
   <td>[amenity=public_bath]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-playground'></i></center>
@@ -4273,7 +4396,7 @@
   <td>17</td>
   <td>500</td>
   <td>[access!=private][leisure=playground]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-dog_park'></i></center>
@@ -4284,7 +4407,7 @@
   <td>17</td>
   <td>500</td>
   <td>[leisure=dog_park]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-golf_course'></i></center>
@@ -4295,7 +4418,7 @@
   <td>15</td>
   <td>200</td>
   <td>[leisure=golf_course][name]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-golf_course_minor'></i></center>
@@ -4306,7 +4429,7 @@
   <td>16</td>
   <td>300</td>
   <td>[leisure=golf_course]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-ice_rink'></i></center>
@@ -4317,7 +4440,7 @@
   <td>15</td>
   <td>200</td>
   <td>[leisure=ice_rink]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-horse_riding'></i></center>
@@ -4328,7 +4451,7 @@
   <td>16</td>
   <td>200</td>
   <td>[leisure=horse_riding]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-sport'></i></center>
@@ -4339,7 +4462,7 @@
   <td>16</td>
   <td>200</td>
   <td>[club=sport][sport=tennis]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-surf_school'></i></center>
@@ -4350,7 +4473,7 @@
   <td>17</td>
   <td>200</td>
   <td>[amenity=surf_school]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-miniature_golf'></i></center>
@@ -4361,7 +4484,7 @@
   <td>17</td>
   <td>200</td>
   <td>[leisure=miniature_golf]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-pitch'></i></center>
@@ -4372,7 +4495,7 @@
   <td>17</td>
   <td>501</td>
   <td>[leisure=pitch]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-sports_centre'></i></center>
@@ -4383,7 +4506,7 @@
   <td>16</td>
   <td>201</td>
   <td>[leisure=sports_centre]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-bowling_alley'></i></center>
@@ -4394,7 +4517,7 @@
   <td>16</td>
   <td>200</td>
   <td>[leisure=bowling_alley]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-escape_game'></i></center>
@@ -4405,7 +4528,7 @@
   <td>17</td>
   <td>200</td>
   <td>[leisure=escape_game]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-dojo'></i></center>
@@ -4416,7 +4539,7 @@
   <td>17</td>
   <td>500</td>
   <td>[amenity=dojo]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-fitness_centre'></i></center>
@@ -4427,7 +4550,7 @@
   <td>17</td>
   <td>500</td>
   <td>[leisure=fitness_centre]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-fitness_station'></i></center>
@@ -4438,7 +4561,7 @@
   <td>17</td>
   <td>500</td>
   <td>[leisure=fitness_station]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #00a757; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-trinquete'></i></center>
@@ -4449,7 +4572,7 @@
   <td>16</td>
   <td>200</td>
   <td>[leisure=sports_centre][sport=pelota]</td>
-  <td>base, leisure</td>
+  <td>base, leisure, opening, contact</td>
   </tr><tr><td style='background: #8cc56f; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-nature'></i></center>
   </td><td>nature</td><td colspan='99'>en: nature, fr: Nature</td></tr><tr><td></td><td></td><td></td><td style='background: #8cc56f; color: white; font-size: 200%; padding: 5px'>

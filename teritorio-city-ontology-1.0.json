@@ -153,7 +153,7 @@
         "coffee_roaster": {
           "label": {
             "en": "coffee_roaster",
-            "fr": "brasserie artisanale"
+            "fr": "torrefacteur"
           },
           "zoom": 16,
           "style": "⬤",
@@ -173,7 +173,7 @@
         "brewery": {
           "label": {
             "en": "brewery",
-            "fr": "torrefacteur"
+            "fr": "brasserie artisanale"
           },
           "zoom": 16,
           "style": "⬤",
@@ -3817,7 +3817,11 @@
               "osm_tags_extra": [
                 "base",
                 "access",
-                "disabled"
+                "disabled",
+                "address",
+                "contact",
+                "",
+                "pening"
               ]
             },
             "halt": {
@@ -3834,7 +3838,11 @@
               "osm_tags_extra": [
                 "base",
                 "access",
-                "disabled"
+                "disabled",
+                "address",
+                "contact",
+                "",
+                "pening"
               ]
             },
             "train_station_entrance": {
@@ -4704,6 +4712,27 @@
                 "safety"
               ]
             },
+            "healthcare_radiology": {
+              "label": {
+                "en": "healthcare_radiology",
+                "fr": "centre de radiologie"
+              },
+              "zoom": 15,
+              "style": "⬤",
+              "priority": 50,
+              "osm_tags": [
+                "[\"healthcare:speciality\"=radiology][healthcare=centre]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "safety"
+              ]
+            },
             "laboratory": {
               "label": {
                 "en": "laboratory",
@@ -5465,7 +5494,9 @@
                 "[name][natural=beach]"
               ],
               "osm_tags_extra": [
-                "base"
+                "base",
+                "opening",
+                "disabled"
               ]
             }
           }
@@ -5578,22 +5609,22 @@
       "color_fill": "#76009e",
       "color_line": "#76009e",
       "class": {
-        "visit": {
+        "artwork": {
           "label": {
-            "en": "visit",
-            "fr": "Visite (découverte)"
+            "en": "artwork",
+            "fr": "Oeuvres"
           },
           "subclass": {
-            "place_of_worship": {
+            "artwork": {
               "label": {
-                "en": "place_of_worship",
-                "fr": "lieux de culte"
+                "en": "artwork",
+                "fr": "œuvre d'art"
               },
               "zoom": 17,
               "style": "•",
-              "priority": 40,
+              "priority": 800,
               "osm_tags": [
-                "[amenity=place_of_worship]"
+                "[artwork_type!~statue|sculpture|mural|graffiti][tourism=artwork]"
               ],
               "osm_tags_extra": [
                 "base",
@@ -5601,119 +5632,22 @@
                 "contact",
                 "opening",
                 "disabled",
-                "culture"
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
               ]
             },
-            "cathedral": {
+            "statue": {
               "label": {
-                "en": "cathedral",
-                "fr": "cathédralle"
-              },
-              "zoom": 13,
-              "style": "⬤",
-              "priority": 30,
-              "osm_tags": [
-                "[building=cathedral]"
-              ],
-              "osm_tags_extra": [
-                "base",
-                "address",
-                "contact",
-                "opening",
-                "disabled",
-                "culture"
-              ]
-            },
-            "church": {
-              "label": {
-                "en": "church",
-                "fr": "église"
-              },
-              "zoom": 15,
-              "style": "⬤",
-              "priority": 30,
-              "osm_tags": [
-                "[building=church]"
-              ],
-              "osm_tags_extra": [
-                "base",
-                "address",
-                "contact",
-                "opening",
-                "disabled",
-                "culture"
-              ]
-            },
-            "mosque": {
-              "label": {
-                "en": "mosque",
-                "fr": "mosquée"
-              },
-              "zoom": 15,
-              "style": "⬤",
-              "priority": 30,
-              "osm_tags": [
-                "[building=mosque]"
-              ],
-              "osm_tags_extra": [
-                "base",
-                "address",
-                "contact",
-                "opening",
-                "disabled",
-                "culture"
-              ]
-            },
-            "synagogue": {
-              "label": {
-                "en": "synagogue",
-                "fr": "synagogue"
-              },
-              "zoom": 15,
-              "style": "⬤",
-              "priority": 30,
-              "osm_tags": [
-                "[building=synagogue]"
-              ],
-              "osm_tags_extra": [
-                "base",
-                "address",
-                "contact",
-                "opening",
-                "disabled",
-                "culture"
-              ]
-            },
-            "monastery": {
-              "label": {
-                "en": "monastery",
-                "fr": "monastère"
-              },
-              "zoom": 16,
-              "style": "⬤",
-              "priority": 30,
-              "osm_tags": [
-                "[amenity=monastery]"
-              ],
-              "osm_tags_extra": [
-                "base",
-                "address",
-                "contact",
-                "opening",
-                "disabled",
-                "culture"
-              ]
-            },
-            "chapel": {
-              "label": {
-                "en": "chapel",
-                "fr": "chapelle"
+                "en": "statue",
+                "fr": "statue"
               },
               "zoom": 17,
               "style": "•",
-              "priority": 30,
+              "priority": 800,
               "osm_tags": [
-                "[building=chapel]"
+                "[artwork_type=statue][tourism=artwork]"
               ],
               "osm_tags_extra": [
                 "base",
@@ -5721,19 +5655,22 @@
                 "contact",
                 "opening",
                 "disabled",
-                "culture"
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
               ]
             },
-            "arts_centre": {
+            "sculpture": {
               "label": {
-                "en": "arts_centre",
-                "fr": "centre d’art"
+                "en": "sculpture",
+                "fr": "sculpture"
               },
-              "zoom": 16,
-              "style": "⬤",
-              "priority": 30,
+              "zoom": 17,
+              "style": "•",
+              "priority": 800,
               "osm_tags": [
-                "[amenity=arts_centre]"
+                "[artwork_type=sculpture][tourism=artwork]"
               ],
               "osm_tags_extra": [
                 "base",
@@ -5741,19 +5678,22 @@
                 "contact",
                 "opening",
                 "disabled",
-                "culture"
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
               ]
             },
-            "museum": {
+            "mural": {
               "label": {
-                "en": "museum",
-                "fr": "musées"
+                "en": "mural",
+                "fr": "peinture murale"
               },
-              "zoom": 14,
-              "style": "⬤",
-              "priority": 0,
+              "zoom": 17,
+              "style": "•",
+              "priority": 800,
               "osm_tags": [
-                "[tourism=museum]"
+                "[artwork_type=mural][tourism=artwork]"
               ],
               "osm_tags_extra": [
                 "base",
@@ -5761,7 +5701,33 @@
                 "contact",
                 "opening",
                 "disabled",
-                "culture"
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
+              ]
+            },
+            "graffiti": {
+              "label": {
+                "en": "graffiti",
+                "fr": "streetart"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 800,
+              "osm_tags": [
+                "[artwork_type=graffiti][tourism=artwork]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
               ]
             }
           }
@@ -5772,6 +5738,144 @@
             "fr": "Éléments historiques"
           },
           "subclass": {
+            "water_well": {
+              "label": {
+                "en": "water_well",
+                "fr": "puits"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 800,
+              "osm_tags": [
+                "[man_made=water_well]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
+              ]
+            },
+            "windmill": {
+              "label": {
+                "en": "windmill",
+                "fr": "moulin à vent"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 800,
+              "osm_tags": [
+                "[man_made=windmill]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
+              ]
+            },
+            "watermill": {
+              "label": {
+                "en": "watermill",
+                "fr": "moulin à eau"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 800,
+              "osm_tags": [
+                "[man_made=watermill]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
+              ]
+            },
+            "dovecote": {
+              "label": {
+                "en": "dovecote",
+                "fr": "pigeonnier"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 800,
+              "osm_tags": [
+                "[man_made=dovecote]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
+              ]
+            },
+            "baking_oven": {
+              "label": {
+                "en": "baking_oven",
+                "fr": "four à pain"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 800,
+              "osm_tags": [
+                "[amenity=baking_oven]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
+              ]
+            },
+            "kiln": {
+              "label": {
+                "en": "kiln",
+                "fr": "four à chaux"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 800,
+              "osm_tags": [
+                "[man_made=kiln]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture",
+                "aspects_details",
+                "date",
+                "size"
+              ]
+            },
             "castle": {
               "label": {
                 "en": "castle",
@@ -6014,6 +6118,194 @@
             }
           }
         },
+        "visit": {
+          "label": {
+            "en": "visit",
+            "fr": "Visite (découverte)"
+          },
+          "subclass": {
+            "place_of_worship": {
+              "label": {
+                "en": "place_of_worship",
+                "fr": "lieux de culte"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 40,
+              "osm_tags": [
+                "[amenity=place_of_worship]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture"
+              ]
+            },
+            "cathedral": {
+              "label": {
+                "en": "cathedral",
+                "fr": "cathédralle"
+              },
+              "zoom": 13,
+              "style": "⬤",
+              "priority": 30,
+              "osm_tags": [
+                "[building=cathedral]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture"
+              ]
+            },
+            "church": {
+              "label": {
+                "en": "church",
+                "fr": "église"
+              },
+              "zoom": 15,
+              "style": "⬤",
+              "priority": 30,
+              "osm_tags": [
+                "[building=church]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture"
+              ]
+            },
+            "mosque": {
+              "label": {
+                "en": "mosque",
+                "fr": "mosquée"
+              },
+              "zoom": 15,
+              "style": "⬤",
+              "priority": 30,
+              "osm_tags": [
+                "[building=mosque]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture"
+              ]
+            },
+            "synagogue": {
+              "label": {
+                "en": "synagogue",
+                "fr": "synagogue"
+              },
+              "zoom": 15,
+              "style": "⬤",
+              "priority": 30,
+              "osm_tags": [
+                "[building=synagogue]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture"
+              ]
+            },
+            "monastery": {
+              "label": {
+                "en": "monastery",
+                "fr": "monastère"
+              },
+              "zoom": 16,
+              "style": "⬤",
+              "priority": 30,
+              "osm_tags": [
+                "[amenity=monastery]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture"
+              ]
+            },
+            "chapel": {
+              "label": {
+                "en": "chapel",
+                "fr": "chapelle"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 30,
+              "osm_tags": [
+                "[building=chapel]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture"
+              ]
+            },
+            "arts_centre": {
+              "label": {
+                "en": "arts_centre",
+                "fr": "centre d’art"
+              },
+              "zoom": 16,
+              "style": "⬤",
+              "priority": 30,
+              "osm_tags": [
+                "[amenity=arts_centre]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture"
+              ]
+            },
+            "museum": {
+              "label": {
+                "en": "museum",
+                "fr": "musées"
+              },
+              "zoom": 14,
+              "style": "⬤",
+              "priority": 0,
+              "osm_tags": [
+                "[tourism=museum]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "opening",
+                "disabled",
+                "culture"
+              ]
+            }
+          }
+        },
         "show": {
           "label": {
             "en": "show",
@@ -6120,29 +6412,6 @@
             "opening",
             "disabled",
             "culture"
-          ]
-        },
-        "artwork": {
-          "label": {
-            "en": "artwork",
-            "fr": "œuvre d'art"
-          },
-          "zoom": 17,
-          "style": "•",
-          "priority": 800,
-          "osm_tags": [
-            "[tourism=artwork]"
-          ],
-          "osm_tags_extra": [
-            "base",
-            "address",
-            "contact",
-            "opening",
-            "disabled",
-            "culture",
-            "aspects_details",
-            "date",
-            "size"
           ]
         }
       }
@@ -7582,7 +7851,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "nightclub": {
@@ -7598,7 +7869,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "swimming_pool_leisure": {
@@ -7614,7 +7887,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "swimming_centre": {
@@ -7630,7 +7905,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "spa": {
@@ -7646,7 +7923,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "public_bath": {
@@ -7662,7 +7941,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "playground": {
@@ -7678,7 +7959,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "dog_park": {
@@ -7694,7 +7977,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "golf_course": {
@@ -7710,7 +7995,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "golf_course_minor": {
@@ -7726,7 +8013,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "ice_rink": {
@@ -7742,7 +8031,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "horse_riding": {
@@ -7758,7 +8049,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "sport": {
@@ -7774,7 +8067,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "surf_school": {
@@ -7790,7 +8085,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "miniature_golf": {
@@ -7806,7 +8103,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "pitch": {
@@ -7822,7 +8121,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "sports_centre": {
@@ -7838,7 +8139,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "bowling_alley": {
@@ -7854,7 +8157,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "escape_game": {
@@ -7870,7 +8175,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "dojo": {
@@ -7886,7 +8193,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "fitness_centre": {
@@ -7902,7 +8211,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "fitness_station": {
@@ -7918,7 +8229,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         },
         "trinquete": {
@@ -7934,7 +8247,9 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "opening",
+            "contact"
           ]
         }
       }
