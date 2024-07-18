@@ -918,7 +918,7 @@
         "builder": {
           "label": {
             "en": "builder",
-            "fr": "entreprise de gros oeuvres"
+            "fr": "entreprise de gros œuvres"
           },
           "zoom": 17,
           "style": "⬤",
@@ -5612,7 +5612,7 @@
         "artwork": {
           "label": {
             "en": "artwork",
-            "fr": "Oeuvres"
+            "fr": "Œuvres"
           },
           "subclass": {
             "artwork": {
