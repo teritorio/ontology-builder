@@ -41,7 +41,7 @@ current_tag = {}
 CSV.new(File.new(tags_csv).read, headers: true).collect{ |row|
   row.to_h.transform_values{ |v| v.nil? || v.strip == '' ? nil : v.strip }
 }.collect{ |row|
-  row.slice('tag', 'value', 'name:fr')
+  row.slice('tag', 'array', 'value', 'name:fr')
 }.select{ |row|
   row['tag'] || row['value']
 }.each{ |row|
@@ -52,6 +52,7 @@ CSV.new(File.new(tags_csv).read, headers: true).collect{ |row|
   elsif !tag.nil?
     current_tag = {
       label: { fr: row['name:fr'] },
+      is_array: !row['array'].nil? && row['array'] != '',
       values: row['value'] == '*' ? nil : [],
     }
     current_group[tag] = current_tag
