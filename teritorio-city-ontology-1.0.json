@@ -8842,54 +8842,63 @@
         "label": {
           "fr": "nom du Lieu"
         },
+        "is_array": false,
         "values": null
       },
       "local_name": {
         "label": {
           "fr": "nom local"
         },
+        "is_array": false,
         "values": null
       },
       "alt_name": {
         "label": {
           "fr": "nom alternatif"
         },
+        "is_array": false,
         "values": null
       },
       "old_name": {
         "label": {
           "fr": "ancien nom"
         },
+        "is_array": false,
         "values": null
       },
       "description": {
         "label": {
           "fr": "description"
         },
+        "is_array": false,
         "values": null
       },
       "mapillary": {
         "label": {
           "fr": "image Mapillary"
         },
+        "is_array": false,
         "values": null
       },
       "image": {
         "label": {
           "fr": "image"
         },
+        "is_array": true,
         "values": null
       },
       "wikipedia": {
         "label": {
           "fr": "page Wikipedia"
         },
+        "is_array": false,
         "values": null
       },
       "wikidata": {
         "label": {
           "fr": "identifiant Wikidata"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -8898,72 +8907,84 @@
         "label": {
           "fr": "téléphone"
         },
+        "is_array": true,
         "values": null
       },
       "phone": {
         "label": {
           "fr": "téléphone"
         },
+        "is_array": true,
         "values": null
       },
       "contact:mobile": {
         "label": {
           "fr": "téléphone mobile"
         },
+        "is_array": false,
         "values": null
       },
       "mobile": {
         "label": {
           "fr": "téléphone mobile"
         },
+        "is_array": false,
         "values": null
       },
       "contact:website": {
         "label": {
           "fr": "site web"
         },
+        "is_array": true,
         "values": null
       },
       "website": {
         "label": {
           "fr": "site web"
         },
+        "is_array": true,
         "values": null
       },
       "contact:email": {
         "label": {
           "fr": "email"
         },
+        "is_array": true,
         "values": null
       },
       "email": {
         "label": {
           "fr": "email"
         },
+        "is_array": true,
         "values": null
       },
       "contact:facebook": {
         "label": {
           "fr": "page Facebook"
         },
+        "is_array": false,
         "values": null
       },
       "facebook": {
         "label": {
           "fr": "page Facebook"
         },
+        "is_array": false,
         "values": null
       },
       "contact:instagram": {
         "label": {
           "fr": "compte Instagram"
         },
+        "is_array": false,
         "values": null
       },
       "instagram": {
         "label": {
           "fr": "compte Instagram"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -8972,48 +8993,56 @@
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "addr:housename": {
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "addr:flats": {
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "addr:street": {
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "addr:place": {
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "addr:postcode": {
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "addr:city": {
         "label": {
           "fr": "commune"
         },
+        "is_array": false,
         "values": null
       },
       "addr:country": {
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -9022,42 +9051,49 @@
         "label": {
           "fr": "référence"
         },
+        "is_array": false,
         "values": null
       },
       "uic_ref": {
         "label": {
           "fr": "numéro international UIC"
         },
+        "is_array": false,
         "values": null
       },
       "ref:FR:CRTA": {
         "label": {
           "fr": "code SIT Sirtaqui"
         },
+        "is_array": false,
         "values": null
       },
       "ref:INSEE": {
         "label": {
           "fr": "code INSEE"
         },
+        "is_array": false,
         "values": null
       },
       "ref:FR:NAF": {
         "label": {
           "fr": "code NAF (INSEE)"
         },
+        "is_array": false,
         "values": null
       },
       "ref:FR:SIREN": {
         "label": {
           "fr": "référence SIREN"
         },
+        "is_array": false,
         "values": null
       },
       "ref:FR:SIRET": {
         "label": {
           "fr": "référence SIRET"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -9066,12 +9102,14 @@
         "label": {
           "fr": "horaires d’ouverture"
         },
+        "is_array": false,
         "values": null
       },
       "seasonal": {
         "label": {
           "fr": "activité saisonnière"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9115,12 +9153,14 @@
         "label": {
           "fr": "heure de levée"
         },
+        "is_array": false,
         "values": null
       },
       "opening_hours:url": {
         "label": {
           "fr": "Adresse Web pour les horaires d'ouverture"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -9129,6 +9169,7 @@
         "label": {
           "fr": "accès en fauteuil roulant"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9154,6 +9195,7 @@
         "label": {
           "fr": "bande podotactile"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9173,6 +9215,7 @@
         "label": {
           "fr": "nombre de places réservées (PMR..)"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -9181,6 +9224,7 @@
         "label": {
           "fr": "accès"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9208,6 +9252,7 @@
         "label": {
           "fr": "tarification"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9227,12 +9272,14 @@
         "label": {
           "fr": "monnaie locale"
         },
+        "is_array": false,
         "values": null
       },
       "payment:cash": {
         "label": {
           "fr": "paiement en cash"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9258,6 +9305,7 @@
         "label": {
           "fr": "paiment avec des pièces"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9283,6 +9331,7 @@
         "label": {
           "fr": "paiement avec des billets"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9308,6 +9357,7 @@
         "label": {
           "fr": "paiement par carte"
         },
+        "is_array": false,
         "values": [
           {
             "value": "no",
@@ -9321,6 +9371,7 @@
         "label": {
           "fr": "paiement par carte de débit"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9346,6 +9397,7 @@
         "label": {
           "fr": "paiement par carte de Crédits"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9373,6 +9425,7 @@
         "label": {
           "fr": "voiture"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9392,6 +9445,7 @@
         "label": {
           "fr": "vélo"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9411,6 +9465,7 @@
         "label": {
           "fr": "trotinette"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9430,6 +9485,7 @@
         "label": {
           "fr": "camion"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9449,6 +9505,7 @@
         "label": {
           "fr": "moto"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9470,6 +9527,7 @@
         "label": {
           "fr": "lavabo"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9483,6 +9541,7 @@
         "label": {
           "fr": "accesibilité des toilettes"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9502,6 +9561,7 @@
         "label": {
           "fr": "évacuation"
         },
+        "is_array": false,
         "values": [
           {
             "value": "flush",
@@ -9521,6 +9581,7 @@
         "label": {
           "fr": "table à langer"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9540,12 +9601,14 @@
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "bottle": {
         "label": {
           "fr": "bouteille"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9559,6 +9622,7 @@
         "label": {
           "fr": "point d'eau"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9574,6 +9638,7 @@
         "label": {
           "fr": "autorisation pour les chiens"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9593,12 +9658,14 @@
         "label": {
           "fr": "age maximum"
         },
+        "is_array": false,
         "values": null
       },
       "min_age": {
         "label": {
           "fr": "age mimimum"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -9607,6 +9674,7 @@
         "label": {
           "fr": "supervision"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9626,6 +9694,7 @@
         "label": {
           "fr": "vidéo surveillance"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9645,6 +9714,7 @@
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9664,6 +9734,7 @@
         "label": {
           "fr": "éclairage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9683,18 +9754,21 @@
         "label": {
           "fr": "capacité"
         },
+        "is_array": false,
         "values": null
       },
       "maxstay": {
         "label": {
           "fr": "durée max"
         },
+        "is_array": false,
         "values": null
       },
       "maxheight": {
         "label": {
           "fr": "hauteur maxi"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -9703,6 +9777,7 @@
         "label": {
           "fr": "produits \"bio\""
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9728,6 +9803,7 @@
         "label": {
           "fr": "fait sur place"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9747,6 +9823,7 @@
         "label": {
           "fr": "occasion"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -9766,6 +9843,7 @@
         "label": {
           "fr": "produit(s)"
         },
+        "is_array": true,
         "values": [
           {
             "value": "apple",
@@ -10019,6 +10097,7 @@
         "label": {
           "fr": "produit"
         },
+        "is_array": true,
         "values": [
           {
             "value": "apple",
@@ -10272,6 +10351,7 @@
         "label": {
           "fr": "produit"
         },
+        "is_array": true,
         "values": [
           {
             "value": "apple",
@@ -10525,6 +10605,7 @@
         "label": {
           "fr": "vrac"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -10552,12 +10633,14 @@
         "label": {
           "fr": "opérateur"
         },
+        "is_array": false,
         "values": null
       },
       "operator:type": {
         "label": {
           "fr": "type d'opérateur"
         },
+        "is_array": false,
         "values": [
           {
             "value": "public",
@@ -10577,18 +10660,21 @@
         "label": {
           "fr": "propriétaire"
         },
+        "is_array": false,
         "values": null
       },
       "network": {
         "label": {
           "fr": "réseau"
         },
+        "is_array": false,
         "values": null
       },
       "information": {
         "label": {
           "fr": "type d'information"
         },
+        "is_array": false,
         "values": [
           {
             "value": "office",
@@ -10616,12 +10702,14 @@
         "label": {
           "fr": "site"
         },
+        "is_array": false,
         "values": null
       },
       "brand": {
         "label": {
           "fr": "enseigne"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -10630,18 +10718,21 @@
         "label": {
           "fr": "hauteur"
         },
+        "is_array": false,
         "values": null
       },
       "width": {
         "label": {
           "fr": "largeur"
         },
+        "is_array": false,
         "values": null
       },
       "length": {
         "label": {
           "fr": "longueur (en mètres)"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -10650,6 +10741,7 @@
         "label": {
           "fr": "création"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -10658,6 +10750,7 @@
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -10677,6 +10770,7 @@
         "label": {
           "fr": "localisation"
         },
+        "is_array": false,
         "values": [
           {
             "value": "underground",
@@ -10690,6 +10784,7 @@
         "label": {
           "fr": "niveau"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -10698,6 +10793,7 @@
         "label": {
           "fr": "matériaux"
         },
+        "is_array": false,
         "values": [
           {
             "value": "adobe",
@@ -10891,6 +10987,7 @@
         "label": {
           "fr": "surface"
         },
+        "is_array": false,
         "values": [
           {
             "value": "grass",
@@ -10928,6 +11025,7 @@
         "label": {
           "fr": "couleur"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -10936,12 +11034,14 @@
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "tower:type": {
         "label": {
           "fr": "tour"
         },
+        "is_array": false,
         "values": [
           {
             "value": "observation",
@@ -10955,6 +11055,7 @@
         "label": {
           "fr": "type de panneau"
         },
+        "is_array": false,
         "values": [
           {
             "value": "wildlife",
@@ -10970,6 +11071,7 @@
         "label": {
           "fr": "libre service"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -10989,6 +11091,7 @@
         "label": {
           "fr": "livraison"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11014,6 +11117,7 @@
         "label": {
           "fr": "vente à emporter"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11033,6 +11137,7 @@
         "label": {
           "fr": "vente via un système de drive"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11052,6 +11157,7 @@
         "label": {
           "fr": "distributeur"
         },
+        "is_array": false,
         "values": [
           {
             "value": "excrement_bags",
@@ -11065,6 +11171,7 @@
         "label": {
           "fr": "tabac"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11078,6 +11185,7 @@
         "label": {
           "fr": "accés internet"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11097,6 +11205,7 @@
         "label": {
           "fr": "accès payant"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11118,12 +11227,14 @@
         "label": {
           "fr": "cuisine"
         },
+        "is_array": true,
         "values": null
       },
       "smoking": {
         "label": {
           "fr": "coin fumeur"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11143,6 +11254,7 @@
         "label": {
           "fr": "cocktails"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11156,6 +11268,7 @@
         "label": {
           "fr": "coin extérieur"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11177,12 +11290,14 @@
         "label": {
           "fr": "nombre d'étoiles"
         },
+        "is_array": false,
         "values": null
       },
       "swimming_pool": {
         "label": {
           "fr": "piscine"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11214,6 +11329,7 @@
         "label": {
           "fr": "tentes"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11233,6 +11349,7 @@
         "label": {
           "fr": "caravanes acceptées"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11252,6 +11369,7 @@
         "label": {
           "fr": "machine à laver"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11267,24 +11385,28 @@
         "label": {
           "fr": "ref MHS"
         },
+        "is_array": false,
         "values": null
       },
       "ref:FR:CNC": {
         "label": {
           "fr": "référence CNC"
         },
+        "is_array": false,
         "values": null
       },
       "ref:FR:museofile": {
         "label": {
           "fr": "numéro de référence museofile"
         },
+        "is_array": false,
         "values": null
       },
       "castle_type": {
         "label": {
           "fr": "type de château"
         },
+        "is_array": false,
         "values": [
           {
             "value": "defensive",
@@ -11322,12 +11444,14 @@
         "label": {
           "fr": "intérêt historique"
         },
+        "is_array": false,
         "values": null
       },
       "heritage": {
         "label": {
           "fr": "patrimoine"
         },
+        "is_array": false,
         "values": [
           {
             "value": "2",
@@ -11347,6 +11471,7 @@
         "label": {
           "fr": "type d’oeuvre d’art"
         },
+        "is_array": false,
         "values": [
           {
             "value": "architecture",
@@ -11384,12 +11509,14 @@
         "label": {
           "fr": "sujet"
         },
+        "is_array": false,
         "values": null
       },
       "screen": {
         "label": {
           "fr": "écran"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -11398,6 +11525,7 @@
         "label": {
           "fr": "sport"
         },
+        "is_array": true,
         "values": [
           {
             "value": "soccer",
@@ -11459,6 +11587,7 @@
         "label": {
           "fr": "autorisation"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11490,6 +11619,7 @@
         "label": {
           "fr": "club"
         },
+        "is_array": false,
         "values": [
           {
             "value": "sport",
@@ -11521,6 +11651,7 @@
         "label": {
           "fr": "type de boules"
         },
+        "is_array": false,
         "values": [
           {
             "value": "petanque",
@@ -11546,6 +11677,7 @@
         "label": {
           "fr": "station de fitness"
         },
+        "is_array": false,
         "values": [
           {
             "value": "sign",
@@ -11705,12 +11837,14 @@
         "label": {
           "fr": "code établissement FINESS"
         },
+        "is_array": false,
         "values": null
       },
       "healthcare:speciality": {
         "label": {
           "fr": "spécialité"
         },
+        "is_array": false,
         "values": [
           {
             "value": "osteopathy",
@@ -11796,6 +11930,7 @@
         "label": {
           "fr": "médicament sous ordonnance"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11815,30 +11950,35 @@
         "label": {
           "fr": "localisation"
         },
+        "is_array": false,
         "values": null
       },
       "ref:FR:GeoDAE": {
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "emergency:phone": {
         "label": {
           "fr": "téléphone en cas d'urgence"
         },
+        "is_array": false,
         "values": null
       },
       "opening_hours:lifeguard": {
         "label": {
           "fr": "horaires Surveillance baignade"
         },
+        "is_array": false,
         "values": null
       },
       "police:FR": {
         "label": {
           "fr": "type d'unité de police"
         },
+        "is_array": false,
         "values": [
           {
             "value": "gendarmerie",
@@ -11866,18 +12006,21 @@
         "label": {
           "fr": "code établissement"
         },
+        "is_array": false,
         "values": null
       },
       "kindergarten:FR": {
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "childcare:FR": {
         "label": {
           "fr": "type d'accueil"
         },
+        "is_array": false,
         "values": [
           {
             "value": "accueil_enfants_parents",
@@ -11893,6 +12036,7 @@
         "label": {
           "fr": "DAB"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11912,6 +12056,7 @@
         "label": {
           "fr": "type de carte"
         },
+        "is_array": false,
         "values": [
           {
             "value": "topo",
@@ -11943,6 +12088,7 @@
         "label": {
           "fr": "banc"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11962,6 +12108,7 @@
         "label": {
           "fr": "poupelle d'appoint"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -11981,6 +12128,7 @@
         "label": {
           "fr": "prise de courant électrique"
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -11989,6 +12137,7 @@
         "label": {
           "fr": "type de point"
         },
+        "is_array": false,
         "values": [
           {
             "value": "centre",
@@ -12008,6 +12157,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12021,6 +12171,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12034,6 +12185,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12047,6 +12199,7 @@
         "label": {
           "fr": "recyclage du verre"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12060,6 +12213,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12073,6 +12227,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12086,6 +12241,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12099,6 +12255,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12112,6 +12269,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12125,6 +12283,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12138,6 +12297,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12151,6 +12311,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12170,6 +12331,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12183,6 +12345,7 @@
         "label": {
           "fr": "recyclage"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12196,6 +12359,7 @@
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       }
     },
@@ -12204,6 +12368,7 @@
         "label": {
           "fr": "produit sans emballages"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12223,6 +12388,7 @@
         "label": {
           "fr": "pompe sanitaire"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12236,6 +12402,7 @@
         "label": {
           "fr": "poubelle"
         },
+        "is_array": false,
         "values": [
           {
             "value": "dog_excrement",
@@ -12257,6 +12424,7 @@
         "label": {
           "fr": "réparation de téléphone et tablettes"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12276,6 +12444,7 @@
         "label": {
           "fr": "réparation d'ordinateur"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12295,6 +12464,7 @@
         "label": {
           "fr": "type de chaussures"
         },
+        "is_array": true,
         "values": [
           {
             "value": "women",
@@ -12344,6 +12514,7 @@
         "label": {
           "fr": "vente de patisserie"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12363,6 +12534,7 @@
         "label": {
           "fr": "vente de chocolat"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12376,6 +12548,7 @@
         "label": {
           "fr": "vendeur de rue"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12391,6 +12564,7 @@
         "label": {
           "fr": "type de parking"
         },
+        "is_array": false,
         "values": [
           {
             "value": "surface",
@@ -12430,6 +12604,7 @@
         "label": {
           "fr": "type de parking"
         },
+        "is_array": false,
         "values": [
           {
             "value": "stands",
@@ -12473,6 +12648,7 @@
         "label": {
           "fr": "vente de vélos"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12492,6 +12668,7 @@
         "label": {
           "fr": "location de vélos"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12511,6 +12688,7 @@
         "label": {
           "fr": "nettoyage de vélos"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12530,6 +12708,7 @@
         "label": {
           "fr": "station de gonflage de vélos"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12549,6 +12728,7 @@
         "label": {
           "fr": "réparation de vélos"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12568,6 +12748,7 @@
         "label": {
           "fr": "atelier de réparation libre"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12587,6 +12768,7 @@
         "label": {
           "fr": "vente de vélos d’occasion"
         },
+        "is_array": false,
         "values": [
           {
             "value": "yes",
@@ -12608,12 +12790,14 @@
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       },
       "socket": {
         "label": {
           "fr": null
         },
+        "is_array": false,
         "values": null
       }
     }
