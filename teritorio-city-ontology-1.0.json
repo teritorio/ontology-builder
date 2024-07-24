@@ -5624,7 +5624,7 @@
               "style": "•",
               "priority": 800,
               "osm_tags": [
-                "[artwork_type!~statue|sculpture|mural|graffiti][tourism=artwork]"
+                "[artwork_type!~\"statue|sculpture|mural|graffiti\"][tourism=artwork]"
               ],
               "osm_tags_extra": [
                 "base",
