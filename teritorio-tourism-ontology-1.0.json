@@ -10397,7 +10397,7 @@
         "label": {
           "fr": "distributeur"
         },
-        "is_array": false,
+        "is_array": true,
         "values": [
           {
             "value": "excrement_bags",
