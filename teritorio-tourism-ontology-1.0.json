@@ -572,7 +572,9 @@
             "ref",
             "opening",
             "disabled",
-            "fee"
+            "fee",
+            "amenity_vending_machine_i18n",
+            "vending_seafood_i18n"
           ]
         },
         "vending_machine_vegetables": {
@@ -593,7 +595,9 @@
             "ref",
             "opening",
             "disabled",
-            "fee"
+            "fee",
+            "amenity_vending_machine_i18n",
+            "vending_vegetables_i18n"
           ]
         },
         "vending_machine_bread": {
@@ -614,7 +618,9 @@
             "ref",
             "opening",
             "disabled",
-            "fee"
+            "fee",
+            "amenity_vending_machine_i18n",
+            "vending_bread_i18n"
           ]
         },
         "vending_machine_food": {
@@ -635,7 +641,9 @@
             "ref",
             "opening",
             "disabled",
-            "fee"
+            "fee",
+            "amenity_vending_machine_i18n",
+            "vending_food_i18n"
           ]
         },
         "vending_machine_pizza": {
@@ -656,7 +664,9 @@
             "ref",
             "opening",
             "disabled",
-            "fee"
+            "fee",
+            "amenity_vending_machine_i18n",
+            "vending_pizza_i18n"
           ]
         },
         "shoemaker": {
@@ -1476,7 +1486,8 @@
             "contact",
             "ref",
             "opening",
-            "disabled"
+            "disabled",
+            "office_government_i18n"
           ]
         },
         "government_tax": {
@@ -1496,7 +1507,8 @@
             "contact",
             "ref",
             "opening",
-            "disabled"
+            "disabled",
+            "office_government_i18n"
           ]
         },
         "notary": {
@@ -1937,7 +1949,9 @@
                 "ref",
                 "opening",
                 "disabled",
-                "safety"
+                "safety",
+                "amenity_hospital_i18n",
+                "emergency_yes_i18n"
               ]
             },
             "clinic": {
@@ -1958,7 +1972,9 @@
                 "ref",
                 "opening",
                 "disabled",
-                "safety"
+                "safety",
+                "amenity_clinic_i18n",
+                "emergency_yes_i18n"
               ]
             },
             "emergency_ward_entrance": {
@@ -1979,7 +1995,8 @@
                 "ref",
                 "opening",
                 "disabled",
-                "safety"
+                "safety",
+                "emergency_emergency_ward_entrance_i18n"
               ]
             },
             "defibrillator": {
@@ -2277,7 +2294,8 @@
               "osm_tags_extra": [
                 "base",
                 "access",
-                "disabled"
+                "disabled",
+                "amenity_bus_station_i18n"
               ]
             },
             "bus_stop": {
@@ -2296,7 +2314,8 @@
                 "access",
                 "disabled",
                 "activity_details",
-                "equipments"
+                "equipments",
+                "highway_bus_stop_i18n"
               ]
             },
             "bus_stop_seasonal": {
@@ -2315,7 +2334,8 @@
                 "access",
                 "disabled",
                 "activity_details",
-                "equipments"
+                "equipments",
+                "highway_bus_stop_i18n"
               ]
             },
             "parking": {
@@ -2349,7 +2369,8 @@
               "osm_tags_extra": [
                 "base",
                 "access",
-                "disabled"
+                "disabled",
+                "amenity_parking_space_i18n"
               ]
             },
             "parking_carpool": {
@@ -2477,7 +2498,8 @@
               "osm_tags_extra": [
                 "base",
                 "access",
-                "disabled"
+                "disabled",
+                "aeroway_aerodrome_i18n"
               ]
             },
             "terminal": {
@@ -2570,7 +2592,8 @@
               "osm_tags_extra": [
                 "base",
                 "access",
-                "disabled"
+                "disabled",
+                "amenity_boat_rental_i18n"
               ]
             }
           }
@@ -2760,7 +2783,8 @@
             "disabled",
             "electric_charging",
             "transport_mode_access",
-            "fee"
+            "fee",
+            "amenity_charging_station_i18n"
           ]
         },
         "charging_station_bicycle": {
@@ -2780,7 +2804,8 @@
             "disabled",
             "electric_charging",
             "transport_mode_access",
-            "fee"
+            "fee",
+            "amenity_charging_station_i18n"
           ]
         }
       }
@@ -2898,7 +2923,8 @@
                 "access",
                 "toilets",
                 "disabled",
-                "access"
+                "access",
+                "man_made_water_tape_i18n"
               ]
             },
             "toilets": {
@@ -2946,7 +2972,8 @@
                 "access",
                 "access",
                 "waste",
-                "recycling"
+                "recycling",
+                "amenity_recycling_i18n"
               ]
             },
             "container": {
@@ -2966,7 +2993,8 @@
                 "access",
                 "access",
                 "waste",
-                "recycling"
+                "recycling",
+                "amenity_recycling_i18n"
               ]
             },
             "waste_disposal": {
@@ -3469,7 +3497,8 @@
                 "[leisure=stadium][sport!~bullfighting]"
               ],
               "osm_tags_extra": [
-                "base"
+                "base",
+                "leisure_stadium_i18n"
               ]
             },
             "bullfighting": {
@@ -3484,7 +3513,9 @@
                 "[leisure=stadium][sport~bullfighting]"
               ],
               "osm_tags_extra": [
-                "base"
+                "base",
+                "leisure_stadium_i18n",
+                "sport_bullfighting_i18n"
               ]
             }
           }
@@ -3525,7 +3556,8 @@
                 "culture",
                 "aspects_details",
                 "date",
-                "size"
+                "size",
+                "tourism_artwork_i18n"
               ]
             },
             "statue": {
@@ -3548,7 +3580,9 @@
                 "culture",
                 "aspects_details",
                 "date",
-                "size"
+                "size",
+                "tourism_artwork_i18n",
+                "artwork_type_statue_i18n"
               ]
             },
             "sculpture": {
@@ -3571,7 +3605,9 @@
                 "culture",
                 "aspects_details",
                 "date",
-                "size"
+                "size",
+                "tourism_artwork_i18n",
+                "artwork_type_sculpture_i18n"
               ]
             },
             "mural": {
@@ -3594,7 +3630,9 @@
                 "culture",
                 "aspects_details",
                 "date",
-                "size"
+                "size",
+                "tourism_artwork_i18n",
+                "artwork_type_mural_i18n"
               ]
             },
             "graffiti": {
@@ -3617,7 +3655,9 @@
                 "culture",
                 "aspects_details",
                 "date",
-                "size"
+                "size",
+                "tourism_artwork_i18n",
+                "artwork_type_graffiti_i18n"
               ]
             }
           }
@@ -5043,7 +5083,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "man_made_tower_i18n"
               ]
             }
           }
@@ -5099,7 +5140,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_basketball_i18n"
               ]
             },
             "beachvolleyball": {
@@ -5115,7 +5157,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_beachvolleyball_i18n"
               ]
             },
             "bmx": {
@@ -5179,7 +5222,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_climbing_adventure_i18n"
               ]
             },
             "billiards": {
@@ -5211,7 +5255,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_boules_i18n"
               ]
             },
             "cycling": {
@@ -5307,7 +5352,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_handball_i18n"
               ]
             },
             "ice_hockey": {
@@ -5355,7 +5401,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_karting_i18n"
               ]
             },
             "kitesurfing": {
@@ -5515,7 +5562,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_squash_i18n"
               ]
             },
             "rowing": {
@@ -5675,7 +5723,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_skateboard_i18n"
               ]
             },
             "soccer": {
@@ -5771,7 +5820,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_tennis_i18n"
               ]
             },
             "volleyball": {
@@ -5787,7 +5837,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "sport_volleyball_i18n"
               ]
             },
             "water_ski": {
@@ -5837,7 +5888,8 @@
           ],
           "osm_tags_extra": [
             "base",
-            "leisure"
+            "leisure",
+            "amenity_community_centre_i18n"
           ]
         },
         "casino": {
@@ -7014,7 +7066,8 @@
               "style": "⬤",
               "priority": 700,
               "osm_tags": [
-                "[shop=health_food][shop=nutrition_supplements]"
+                "[shop=health_food]",
+                "[shop=nutrition_supplements]"
               ],
               "osm_tags_extra": [
                 "base",
@@ -7023,7 +7076,9 @@
                 "ref",
                 "opening",
                 "disabled",
-                "shopping"
+                "shopping",
+                "shop_health_food_18n",
+                "shop_nutrition_supplements_18n"
               ]
             },
             "hearing_aids": {
@@ -8106,14 +8161,14 @@
         "label": {
           "fr": "téléphone mobile"
         },
-        "is_array": false,
+        "is_array": true,
         "values": null
       },
       "mobile": {
         "label": {
           "fr": "téléphone mobile"
         },
-        "is_array": false,
+        "is_array": true,
         "values": null
       },
       "contact:website": {
@@ -11984,6 +12039,710 @@
         },
         "is_array": false,
         "values": null
+      }
+    },
+    "sport_bullfighting_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "bullfighting",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_basketball_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "basketball",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_beachvolleyball_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "beachvolleyball",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_climbing_adventure_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "climbing_adventure",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_boules_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "boules",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_handball_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "handball",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_karting_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "karting",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_squash_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "squash",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_skateboard_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "skateboard",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_tennis_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "tennis",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "sport_volleyball_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "volleyball",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "shop_health_food_18n": {
+      "shop": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "health_food",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "shop_nutrition_supplements_18n": {
+      "shop": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "nutrition_supplements",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_vending_machine_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "vending_machine",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_recycling_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "recycling",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_bus_station_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "bus_station",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_parking_space_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "parking_space",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_boat_rental_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "boat_rental",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_charging_station_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "charging_station",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_hospital_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "hospital",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_clinic_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "clinic",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_social_facility_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "social_facility",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_community_centre_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "community_centre",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "amenity_school_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "school",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "vending_seafood_i18n": {
+      "vending": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "seafood",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "vending_vegetables_i18n": {
+      "vending": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "vegetables",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "vending_bread_i18n": {
+      "vending": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "bread",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "vending_food_i18n": {
+      "vending": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "food",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "vending_pizza_i18n": {
+      "vending": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "pizza",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "man_made_advertising_i18n": {
+      "man_made": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "advertising",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "man_made_water_tape_i18n": {
+      "man_made": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "water_tape",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "man_made_tower_i18n": {
+      "man_made": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "tower",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "highway_bus_stop_i18n": {
+      "highway": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "bus_stop",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "leisure_stadium_i18n": {
+      "leisure": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "stadium",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "emergency_yes_i18n": {
+      "emergency": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "yes",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "emergency_emergency_ward_entrance_i18n": {
+      "emergency": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "emergency_ward_entrance",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "artwork_type_statue_i18n": {
+      "artwork_type": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "statue",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "artwork_type_sculpture_i18n": {
+      "artwork_type": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "sculpture",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "artwork_type_mural_i18n": {
+      "artwork_type": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "mural",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "artwork_type_graffiti_i18n": {
+      "artwork_type": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "graffiti",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "office_government_i18n": {
+      "office": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "government",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "information_terminal_i18n": {
+      "information": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "terminal",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "tourism_artwork_i18n": {
+      "tourism": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "artwork",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
+      }
+    },
+    "aeroway_aerodrome_i18n": {
+      "aeroway": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "aerodrome",
+            "label": {
+              "fr": null
+            }
+          }
+        ]
       }
     }
   }
