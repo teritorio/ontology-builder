@@ -1934,7 +1934,7 @@
             "hospital": {
               "label": {
                 "en": "hospital",
-                "fr": "hôpitaux"
+                "fr": "hôpital"
               },
               "zoom": 14,
               "style": "⬤",
@@ -6379,7 +6379,7 @@
         "school": {
           "label": {
             "en": "school",
-            "fr": "écoles"
+            "fr": "école"
           },
           "zoom": 16,
           "style": "•",
@@ -7077,8 +7077,8 @@
                 "opening",
                 "disabled",
                 "shopping",
-                "shop_health_food_18n",
-                "shop_nutrition_supplements_18n"
+                "shop_health_food_i18n",
+                "shop_nutrition_supplements_i18n"
               ]
             },
             "hearing_aids": {
@@ -12051,7 +12051,7 @@
           {
             "value": "bullfighting",
             "label": {
-              "fr": null
+              "fr": "arène"
             }
           }
         ]
@@ -12067,7 +12067,7 @@
           {
             "value": "basketball",
             "label": {
-              "fr": null
+              "fr": "basketball"
             }
           }
         ]
@@ -12083,7 +12083,7 @@
           {
             "value": "beachvolleyball",
             "label": {
-              "fr": null
+              "fr": "beach volley"
             }
           }
         ]
@@ -12099,7 +12099,7 @@
           {
             "value": "climbing_adventure",
             "label": {
-              "fr": null
+              "fr": "parcours acrobatiique"
             }
           }
         ]
@@ -12115,7 +12115,7 @@
           {
             "value": "boules",
             "label": {
-              "fr": null
+              "fr": "boules"
             }
           }
         ]
@@ -12131,7 +12131,7 @@
           {
             "value": "handball",
             "label": {
-              "fr": null
+              "fr": "handball"
             }
           }
         ]
@@ -12147,7 +12147,7 @@
           {
             "value": "karting",
             "label": {
-              "fr": null
+              "fr": "karting"
             }
           }
         ]
@@ -12163,7 +12163,7 @@
           {
             "value": "squash",
             "label": {
-              "fr": null
+              "fr": "squash"
             }
           }
         ]
@@ -12179,7 +12179,7 @@
           {
             "value": "skateboard",
             "label": {
-              "fr": null
+              "fr": "skateboard"
             }
           }
         ]
@@ -12195,7 +12195,7 @@
           {
             "value": "tennis",
             "label": {
-              "fr": null
+              "fr": "tennis"
             }
           }
         ]
@@ -12211,13 +12211,13 @@
           {
             "value": "volleyball",
             "label": {
-              "fr": null
+              "fr": "voleyball"
             }
           }
         ]
       }
     },
-    "shop_health_food_18n": {
+    "shop_health_food_i18n": {
       "shop": {
         "label": {
           "fr": null
@@ -12227,13 +12227,13 @@
           {
             "value": "health_food",
             "label": {
-              "fr": null
+              "fr": "magasin de nutrition"
             }
           }
         ]
       }
     },
-    "shop_nutrition_supplements_18n": {
+    "shop_nutrition_supplements_i18n": {
       "shop": {
         "label": {
           "fr": null
@@ -12243,7 +12243,7 @@
           {
             "value": "nutrition_supplements",
             "label": {
-              "fr": null
+              "fr": "suppléments nutritionnels"
             }
           }
         ]
@@ -12259,7 +12259,7 @@
           {
             "value": "vending_machine",
             "label": {
-              "fr": null
+              "fr": "distributeur automatique"
             }
           }
         ]
@@ -12275,7 +12275,7 @@
           {
             "value": "recycling",
             "label": {
-              "fr": null
+              "fr": "recyclage"
             }
           }
         ]
@@ -12291,7 +12291,7 @@
           {
             "value": "bus_station",
             "label": {
-              "fr": null
+              "fr": "gare routière"
             }
           }
         ]
@@ -12307,7 +12307,7 @@
           {
             "value": "parking_space",
             "label": {
-              "fr": null
+              "fr": "places de parking"
             }
           }
         ]
@@ -12323,7 +12323,7 @@
           {
             "value": "boat_rental",
             "label": {
-              "fr": null
+              "fr": "location de bateau"
             }
           }
         ]
@@ -12339,7 +12339,7 @@
           {
             "value": "charging_station",
             "label": {
-              "fr": null
+              "fr": "borne de recharge électrique"
             }
           }
         ]
@@ -12355,7 +12355,7 @@
           {
             "value": "hospital",
             "label": {
-              "fr": null
+              "fr": "hôpital"
             }
           }
         ]
@@ -12371,7 +12371,7 @@
           {
             "value": "clinic",
             "label": {
-              "fr": null
+              "fr": "clinique"
             }
           }
         ]
@@ -12387,7 +12387,7 @@
           {
             "value": "social_facility",
             "label": {
-              "fr": null
+              "fr": "établissement de services sociaux"
             }
           }
         ]
@@ -12403,7 +12403,7 @@
           {
             "value": "community_centre",
             "label": {
-              "fr": null
+              "fr": "centre d’activité"
             }
           }
         ]
@@ -12419,7 +12419,7 @@
           {
             "value": "school",
             "label": {
-              "fr": null
+              "fr": "école"
             }
           }
         ]
@@ -12435,7 +12435,7 @@
           {
             "value": "seafood",
             "label": {
-              "fr": null
+              "fr": "vente de fruits de mer & poissons"
             }
           }
         ]
@@ -12451,7 +12451,7 @@
           {
             "value": "vegetables",
             "label": {
-              "fr": null
+              "fr": "vente de légumes"
             }
           }
         ]
@@ -12467,7 +12467,7 @@
           {
             "value": "bread",
             "label": {
-              "fr": null
+              "fr": "vente de pain"
             }
           }
         ]
@@ -12483,7 +12483,7 @@
           {
             "value": "food",
             "label": {
-              "fr": null
+              "fr": "vente de nourriture"
             }
           }
         ]
@@ -12499,7 +12499,7 @@
           {
             "value": "pizza",
             "label": {
-              "fr": null
+              "fr": "vente de pizza"
             }
           }
         ]
@@ -12515,7 +12515,7 @@
           {
             "value": "advertising",
             "label": {
-              "fr": null
+              "fr": "panneau d'affichage"
             }
           }
         ]
@@ -12531,7 +12531,7 @@
           {
             "value": "water_tape",
             "label": {
-              "fr": null
+              "fr": "point d'eau"
             }
           }
         ]
@@ -12547,7 +12547,7 @@
           {
             "value": "tower",
             "label": {
-              "fr": null
+              "fr": "tour"
             }
           }
         ]
@@ -12563,7 +12563,7 @@
           {
             "value": "bus_stop",
             "label": {
-              "fr": null
+              "fr": "arrêt de bus, car"
             }
           }
         ]
@@ -12579,7 +12579,7 @@
           {
             "value": "stadium",
             "label": {
-              "fr": null
+              "fr": "stade"
             }
           }
         ]
@@ -12595,7 +12595,7 @@
           {
             "value": "yes",
             "label": {
-              "fr": null
+              "fr": "urgence"
             }
           }
         ]
@@ -12611,7 +12611,7 @@
           {
             "value": "emergency_ward_entrance",
             "label": {
-              "fr": null
+              "fr": "entrée des urgences"
             }
           }
         ]
@@ -12627,7 +12627,7 @@
           {
             "value": "statue",
             "label": {
-              "fr": null
+              "fr": "statue"
             }
           }
         ]
@@ -12643,7 +12643,7 @@
           {
             "value": "sculpture",
             "label": {
-              "fr": null
+              "fr": "sculpture"
             }
           }
         ]
@@ -12659,7 +12659,7 @@
           {
             "value": "mural",
             "label": {
-              "fr": null
+              "fr": "peinture murale"
             }
           }
         ]
@@ -12675,7 +12675,7 @@
           {
             "value": "graffiti",
             "label": {
-              "fr": null
+              "fr": "streetart"
             }
           }
         ]
@@ -12691,7 +12691,7 @@
           {
             "value": "government",
             "label": {
-              "fr": null
+              "fr": "bureaux gouvernementaux"
             }
           }
         ]
@@ -12707,7 +12707,7 @@
           {
             "value": "terminal",
             "label": {
-              "fr": null
+              "fr": "panneau électronique d'information"
             }
           }
         ]
@@ -12723,7 +12723,7 @@
           {
             "value": "artwork",
             "label": {
-              "fr": null
+              "fr": "œuvre d'art"
             }
           }
         ]
@@ -12739,7 +12739,7 @@
           {
             "value": "aerodrome",
             "label": {
-              "fr": null
+              "fr": "aéroport"
             }
           }
         ]
