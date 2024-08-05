@@ -13055,7 +13055,7 @@
         "label": {
           "fr": null
         },
-        "is_array": true,
+        "is_array": false,
         "values": [
           {
             "value": "health_food",
@@ -13071,7 +13071,7 @@
         "label": {
           "fr": null
         },
-        "is_array": true,
+        "is_array": false,
         "values": [
           {
             "value": "nutrition_supplements",
