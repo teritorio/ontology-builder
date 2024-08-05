@@ -13577,6 +13577,22 @@
           }
         ]
       }
+    },
+    "healthcare_speciality_radiology_i18n": {
+      "healthcare:speciality": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "radiology",
+            "label": {
+              "fr": "centre de radiologie"
+            }
+          }
+        ]
+      }
     }
   }
 }
