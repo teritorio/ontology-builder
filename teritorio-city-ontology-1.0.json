@@ -4032,7 +4032,10 @@
               "osm_tags_extra": [
                 "base",
                 "access",
-                "disabled"
+                "disabled",
+                "amenity_parking_i18n",
+                "amenity_car_pooling_i18n",
+                "carpool_designated_i18n"
               ]
             },
             "car_pooling": {
@@ -7149,6 +7152,7 @@
               "osm_tags_extra": [
                 "base",
                 "leisure",
+                "leisure_pitch_i18n",
                 "sport_basketball_i18n"
               ]
             },
@@ -7166,6 +7170,7 @@
               "osm_tags_extra": [
                 "base",
                 "leisure",
+                "leisure_pitch_i18n",
                 "sport_beachvolleyball_i18n"
               ]
             },
@@ -7231,6 +7236,7 @@
               "osm_tags_extra": [
                 "base",
                 "leisure",
+                "leisure_pitch_i18n",
                 "sport_climbing_adventure_i18n"
               ]
             },
@@ -7264,6 +7270,7 @@
               "osm_tags_extra": [
                 "base",
                 "leisure",
+                "leisure_pitch_i18n",
                 "sport_boules_i18n"
               ]
             },
@@ -7361,6 +7368,7 @@
               "osm_tags_extra": [
                 "base",
                 "leisure",
+                "leisure_pitch_i18n",
                 "sport_handball_i18n"
               ]
             },
@@ -7474,7 +7482,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "leisure_pitch_i18n"
               ]
             },
             "orienteering": {
@@ -7538,7 +7547,8 @@
               ],
               "osm_tags_extra": [
                 "base",
-                "leisure"
+                "leisure",
+                "leisure_pitch_i18n"
               ]
             },
             "racquet": {
@@ -7571,6 +7581,7 @@
               "osm_tags_extra": [
                 "base",
                 "leisure",
+                "leisure_pitch_i18n",
                 "sport_squash_i18n"
               ]
             },
@@ -7732,6 +7743,7 @@
               "osm_tags_extra": [
                 "base",
                 "leisure",
+                "leisure_pitch_i18n",
                 "sport_skateboard_i18n"
               ]
             },
@@ -7829,6 +7841,7 @@
               "osm_tags_extra": [
                 "base",
                 "leisure",
+                "leisure_pitch_i18n",
                 "sport_tennis_i18n"
               ]
             },
@@ -7846,6 +7859,7 @@
               "osm_tags_extra": [
                 "base",
                 "leisure",
+                "leisure_pitch_i18n",
                 "sport_volleyball_i18n"
               ]
             },
@@ -8131,7 +8145,8 @@
             "base",
             "leisure",
             "opening",
-            "contact"
+            "contact",
+            "sport_tennis_i18n"
           ]
         },
         "surf_school": {
@@ -13589,6 +13604,102 @@
             "value": "radiology",
             "label": {
               "fr": "centre de radiologie"
+            }
+          }
+        ]
+      }
+    },
+    "leisure_pitch_i18n": {
+      "leisure": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "pitch",
+            "label": {
+              "fr": "terrain de sport"
+            }
+          }
+        ]
+      }
+    },
+    "sport_multi_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "multi",
+            "label": {
+              "fr": "multisports"
+            }
+          }
+        ]
+      }
+    },
+    "sport_pelota_i18n": {
+      "sport": {
+        "label": {
+          "fr": null
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "pelota",
+            "label": {
+              "fr": "pelote basque"
+            }
+          }
+        ]
+      }
+    },
+    "amenity_parking_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "parking",
+            "label": {
+              "fr": "parking voiture"
+            }
+          }
+        ]
+      }
+    },
+    "amenity_car_pooling_i18n": {
+      "amenity": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "car_pooling",
+            "label": {
+              "fr": "parking pour covoiturage"
+            }
+          }
+        ]
+      }
+    },
+    "carpool_designated_i18n": {
+      "carpool": {
+        "label": {
+          "fr": null
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "designated",
+            "label": {
+              "fr": "covoiturage"
             }
           }
         ]
