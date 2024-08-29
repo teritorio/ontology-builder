@@ -119,6 +119,7 @@ hierarchy = csv.group_by{ |row| row["#{theme}_superclass"] }.collect{ |superclas
   }.group_by{ |r| r["#{theme}_class"] }.collect{ |classs, sc|
     sc0 = sc[0]
     sc = sc.collect{ |rr|
+      rr['attributes'].any?{ |a| a == '' } and raise "Error: invalid attribute: #{rr['attributes'].inspect}"
       value = rr['name_over_value'] || rr['value']
       [value, {
         label: { en: value, fr: rr['name:fr'] },
