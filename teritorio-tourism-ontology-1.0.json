@@ -1878,7 +1878,8 @@
                 "ref",
                 "opening",
                 "disabled",
-                "safety"
+                "safety",
+                "healthcare_speciality_radiology_i18n"
               ]
             },
             "laboratory": {
