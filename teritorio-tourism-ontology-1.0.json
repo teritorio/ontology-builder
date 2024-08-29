@@ -2196,8 +2196,7 @@
                 "disabled",
                 "address",
                 "contact",
-                "",
-                "pening"
+                "opening"
               ]
             },
             "halt": {
@@ -2217,8 +2216,7 @@
                 "disabled",
                 "address",
                 "contact",
-                "",
-                "pening"
+                "opening"
               ]
             },
             "train_station_entrance": {
