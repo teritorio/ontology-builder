@@ -9196,7 +9196,7 @@
         "label": {
           "fr": "activité saisonnière"
         },
-        "is_array": false,
+        "is_array": true,
         "values": [
           {
             "value": "yes",
