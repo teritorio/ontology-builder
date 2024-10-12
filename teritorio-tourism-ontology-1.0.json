@@ -7616,7 +7616,7 @@
               "style": "⬤",
               "priority": 700,
               "osm_tags": [
-                "[shop=clothes]"
+                "[clothes!=underwear][shop=clothes]"
               ],
               "osm_tags_extra": [
                 "base",
@@ -12869,6 +12869,15 @@
             }
           }
         ]
+      }
+    },
+    "shop_clothes_i18n": {
+      "shop": {
+        "label": {
+          "fr": "magasin de vetements"
+        },
+        "is_array": true,
+        "values": null
       }
     }
   }
