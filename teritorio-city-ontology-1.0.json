@@ -4759,8 +4759,7 @@
                 "ref",
                 "opening",
                 "disabled",
-                "safety",
-                "healthcare_speciality_radiology_i18n"
+                "safety"
               ]
             },
             "laboratory": {
@@ -11931,7 +11930,7 @@
         "label": {
           "fr": "spécialité"
         },
-        "is_array": false,
+        "is_array": true,
         "values": [
           {
             "value": "osteopathy",
@@ -12009,6 +12008,12 @@
             "value": "biology",
             "label": {
               "fr": "analyse"
+            }
+          },
+          {
+            "value": "radiology",
+            "label": {
+              "fr": "centre de radiologie"
             }
           }
         ]
@@ -13587,22 +13592,6 @@
             "value": "aerodrome",
             "label": {
               "fr": "aéroport"
-            }
-          }
-        ]
-      }
-    },
-    "healthcare_speciality_radiology_i18n": {
-      "healthcare:speciality": {
-        "label": {
-          "fr": null
-        },
-        "is_array": false,
-        "values": [
-          {
-            "value": "radiology",
-            "label": {
-              "fr": "centre de radiologie"
             }
           }
         ]
