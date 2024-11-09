@@ -9359,7 +9359,14 @@
           "fr": "monnaie locale"
         },
         "is_array": false,
-        "values": null
+        "values": [
+          {
+            "value": "EUSK",
+            "label": {
+              "fr": "accepte l'Eusko"
+            }
+          }
+        ]
       },
       "payment:cash": {
         "label": {
@@ -10096,7 +10103,7 @@
           {
             "value": "meat",
             "label": {
-              "fr": "viandes, cuteries"
+              "fr": "viandes, charcuteries"
             }
           },
           {
@@ -10834,7 +10841,7 @@
     "buildings_details": {
       "indoor": {
         "label": {
-          "fr": null
+          "fr": "en interieur"
         },
         "is_array": false,
         "values": [
@@ -12324,7 +12331,7 @@
           {
             "value": "yes",
             "label": {
-              "fr": "boites de conserve et canettes métaliques"
+              "fr": "boites de conserve et canettes métalliques"
             }
           }
         ]
