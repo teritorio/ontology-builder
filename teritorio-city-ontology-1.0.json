@@ -1122,7 +1122,7 @@
           "style": "⬤",
           "priority": 300,
           "osm_tags": [
-            "[shop=e-cigarette]"
+            "[shop=\"e-cigarette\"]"
           ],
           "osm_tags_extra": [
             "base",
