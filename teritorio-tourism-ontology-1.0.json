@@ -2842,6 +2842,23 @@
                 "access"
               ]
             },
+            "parcel_locker": {
+              "label": {
+                "en": "parcel_locker",
+                "fr": "consignes automatiques de colis"
+              },
+              "zoom": 17,
+              "style": "•",
+              "priority": 1000,
+              "osm_tags": [
+                "[amenity=parcel_locker]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "fee",
+                "access"
+              ]
+            },
             "telephone": {
               "label": {
                 "en": "telephone",
