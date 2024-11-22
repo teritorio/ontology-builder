@@ -3404,7 +3404,12 @@
               "osm_tags_extra": [
                 "base",
                 "fee",
-                "access"
+                "access",
+                "opening",
+                "commercial_details",
+                "activity_details",
+                "acces_details",
+                "parcel_locker"
               ]
             },
             "telephone": {
@@ -12530,6 +12535,63 @@
             "value": "cigarettes",
             "label": {
               "fr": "cendrier"
+            }
+          }
+        ]
+      }
+    },
+    "parcel_locker": {
+      "parcel_pickup": {
+        "label": {
+          "fr": "possibilité de rétirer les colis"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "yes",
+            "label": {
+              "fr": "possibilité de rétirer les colis"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr": "pas de possibilité de rétirer les colis"
+            }
+          }
+        ]
+      },
+      "parcel_mail_in": {
+        "label": {
+          "fr": "possibilité de déposer des colis pour envoi"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "yes",
+            "label": {
+              "fr": "possibilité de déposer des colis pour envoi"
+            }
+          }
+        ]
+      },
+      "parcel_locker:type": {
+        "label": {
+          "fr": "type de consigne"
+        },
+        "is_array": false,
+        "values": null
+      },
+      "refrigerated": {
+        "label": {
+          "fr": "consigne réfrigéré"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "yes",
+            "label": {
+              "fr": "consigne réfrigéré"
             }
           }
         ]
