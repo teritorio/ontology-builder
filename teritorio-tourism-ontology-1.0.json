@@ -2861,7 +2861,8 @@
                 "commercial_details",
                 "activity_details",
                 "acces_details",
-                "parcel_locker"
+                "parcel_locker",
+                "buildings_details"
               ]
             },
             "telephone": {
@@ -5585,7 +5586,7 @@
                 "fr": "squash"
               },
               "zoom": 17,
-              "style": "•",
+              "style": "⬤",
               "priority": 500,
               "osm_tags": [
                 "[leisure=pitch][sport=squash]"
@@ -5683,7 +5684,7 @@
                 "fr": "école de voile"
               },
               "zoom": 14,
-              "style": "•",
+              "style": "⬤",
               "priority": 300,
               "osm_tags": [
                 "[amenity=sailing_school]"
@@ -5699,7 +5700,7 @@
                 "fr": "voile"
               },
               "zoom": 14,
-              "style": "•",
+              "style": "⬤",
               "priority": 300,
               "osm_tags": [
                 "[sport=sailing]"
@@ -5715,7 +5716,7 @@
                 "fr": "plongée sous-marine"
               },
               "zoom": 14,
-              "style": "•",
+              "style": "⬤",
               "priority": 500,
               "osm_tags": [
                 "[sport=scuba_diving]"
@@ -6913,6 +6914,27 @@
               "priority": 700,
               "osm_tags": [
                 "[shop=musical_instrument]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "shopping"
+              ]
+            },
+            "baby_goods": {
+              "label": {
+                "en": "baby_goods",
+                "fr": "magasin d'articles pour bébé"
+              },
+              "zoom": 17,
+              "style": "⬤",
+              "priority": 700,
+              "osm_tags": [
+                "[shop=baby_goods]"
               ],
               "osm_tags_extra": [
                 "base",

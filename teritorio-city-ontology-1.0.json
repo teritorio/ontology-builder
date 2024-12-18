@@ -1810,6 +1810,27 @@
                 "shopping"
               ]
             },
+            "baby_goods": {
+              "label": {
+                "en": "baby_goods",
+                "fr": "magasin d'articles pour bébé"
+              },
+              "zoom": 17,
+              "style": "⬤",
+              "priority": 700,
+              "osm_tags": [
+                "[shop=baby_goods]"
+              ],
+              "osm_tags_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "shopping"
+              ]
+            },
             "toys": {
               "label": {
                 "en": "toys",
@@ -3409,7 +3430,8 @@
                 "commercial_details",
                 "activity_details",
                 "acces_details",
-                "parcel_locker"
+                "parcel_locker",
+                "buildings_details"
               ]
             },
             "telephone": {
@@ -7707,7 +7729,7 @@
                 "fr": "voile"
               },
               "zoom": 15,
-              "style": "•",
+              "style": "⬤",
               "priority": 300,
               "osm_tags": [
                 "[sport=sailing]"
@@ -7723,7 +7745,7 @@
                 "fr": "plongée sous-marine"
               },
               "zoom": 14,
-              "style": "•",
+              "style": "⬤",
               "priority": 500,
               "osm_tags": [
                 "[sport=scuba_diving]"
