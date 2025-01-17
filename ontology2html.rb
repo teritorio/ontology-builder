@@ -21,8 +21,8 @@ def leaf(color_fill, color_line, font, id, c)
   <td>#{c["style"]}</td>
   <td>#{c["zoom"]}</td>
   <td>#{c["priority"]}</td>
-  <td>#{c["osm_tags"].join(' or</br>')}</td>
-  <td>#{c["osm_tags_extra"].join(', ')}</td>
+  <td>#{c["osm_selector"].join(' or</br>')}</td>
+  <td>#{c["properties_extra"].join(', ')}</td>
   </tr>"
 end
 
@@ -47,17 +47,17 @@ html += "<tr>
   <th>Overpass</th>
   <th>Extra tags</th>
   </tr>"
-ontology["superclass"].each { |superclass_id, superclass|
+ontology["group"].each { |superclass_id, superclass|
   color_fill = superclass["color_fill"]
-  html += "<tr>#{icon(color_fill, superclass_id)}<td>#{superclass_id}</td><td colspan='99'>#{i18n(superclass["label"])}</td></tr>"
-  superclass["class"].each { |class_id, classs|
-    if classs["subclass"]
-      html += "<tr><td></td><td></td><td></td>#{icon(color_fill, class_id)}<td>#{class_id}</td><td colspan='99'>#{i18n(classs["label"])}</td></tr>"
-      classs["subclass"].each { |subclass_id, subclass|
+  html += "<tr>#{icon(color_fill, superclass["icon"])}<td>#{superclass_id}</td><td colspan='99'>#{i18n(superclass["label"])}</td></tr>"
+  superclass["group"].each { |class_id, classs|
+    if classs["group"]
+      html += "<tr><td></td><td></td><td></td>#{icon(color_fill, classs["icon"])}<td>#{class_id}</td><td colspan='99'>#{i18n(classs["label"])}</td></tr>"
+      classs["group"].each { |subclass_id, subclass|
         html += leaf(
           color_fill,
           superclass["color_line"],
-          subclass_id,
+          subclass["icon"],
           subclass_id,
           subclass,
         )
@@ -66,7 +66,7 @@ ontology["superclass"].each { |superclass_id, superclass|
       html += leaf(
         color_fill,
         superclass["color_line"],
-        class_id,
+        classs["icon"],
         class_id,
         classs,
       )
