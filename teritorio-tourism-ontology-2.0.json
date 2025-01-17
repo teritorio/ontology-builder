@@ -6,6 +6,7 @@
         "en_GB": "products",
         "fr_FR": "Produits locaux"
       },
+      "icon": "products",
       "color_fill": "#f25c05",
       "color_line": "#f25c05",
       "group": {
@@ -14,12 +15,14 @@
             "en_GB": "craft",
             "fr_FR": "Artisans"
           },
+          "icon": "craft",
           "group": {
             "tailor_workshop": {
               "label": {
                 "en_GB": "tailor_workshop",
                 "fr_FR": "tailleur (atelier)"
               },
+              "icon": "tailor_workshop",
               "zoom": 15,
               "style": "⬤",
               "priority": 400,
@@ -40,6 +43,7 @@
                 "en_GB": "beekeeper",
                 "fr_FR": "apiculteur, local"
               },
+              "icon": "beekeeper",
               "zoom": 15,
               "style": "⬤",
               "priority": 400,
@@ -60,6 +64,7 @@
                 "en_GB": "handicraft",
                 "fr_FR": "artisanat manuel (\"fait-main\")"
               },
+              "icon": "handicraft",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -80,6 +85,7 @@
                 "en_GB": "basket_maker",
                 "fr_FR": "vannier"
               },
+              "icon": "basket_maker",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -100,6 +106,7 @@
                 "en_GB": "coffee_roaster",
                 "fr_FR": "torrefacteur"
               },
+              "icon": "coffee_roaster",
               "zoom": 16,
               "style": "⬤",
               "priority": 500,
@@ -120,6 +127,7 @@
                 "en_GB": "brewery",
                 "fr_FR": "brasserie artisanale"
               },
+              "icon": "brewery",
               "zoom": 16,
               "style": "⬤",
               "priority": 500,
@@ -140,6 +148,7 @@
                 "en_GB": "luthier",
                 "fr_FR": "luthier"
               },
+              "icon": "luthier",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -160,6 +169,7 @@
                 "en_GB": "jeweller",
                 "fr_FR": "bijoutier-joaillier"
               },
+              "icon": "jeweller",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -180,6 +190,7 @@
                 "en_GB": "distillery",
                 "fr_FR": "distillerie"
               },
+              "icon": "distillery",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -200,6 +211,7 @@
                 "en_GB": "grinding_mill",
                 "fr_FR": "moulin broyeur"
               },
+              "icon": "grinding_mill",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -220,6 +232,7 @@
                 "en_GB": "pottery",
                 "fr_FR": "potier"
               },
+              "icon": "pottery",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -240,6 +253,7 @@
                 "en_GB": "leather_workshop",
                 "fr_FR": "maroquinier (atelier)"
               },
+              "icon": "leather_workshop",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -260,6 +274,7 @@
                 "en_GB": "leather_shop",
                 "fr_FR": "maroquinier (boutique)"
               },
+              "icon": "leather_shop",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -280,6 +295,7 @@
                 "en_GB": "sculptor",
                 "fr_FR": "sculpteur"
               },
+              "icon": "sculptor",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -300,6 +316,7 @@
                 "en_GB": "winery",
                 "fr_FR": "chai"
               },
+              "icon": "winery",
               "zoom": 15,
               "style": "⬤",
               "priority": 500,
@@ -322,6 +339,7 @@
             "en_GB": "oil_mill",
             "fr_FR": "moulin à huile"
           },
+          "icon": "oil_mill",
           "zoom": 17,
           "style": "⬤",
           "priority": 200,
@@ -342,6 +360,7 @@
             "en_GB": "farm",
             "fr_FR": "produit de la ferme"
           },
+          "icon": "farm",
           "zoom": 15,
           "style": "⬤",
           "priority": 200,
@@ -363,6 +382,7 @@
             "en_GB": "carpet",
             "fr_FR": "magasin de tapis"
           },
+          "icon": "carpet",
           "zoom": 17,
           "style": "⬤",
           "priority": 500,
@@ -383,6 +403,7 @@
             "en_GB": "alcohol",
             "fr_FR": "vente d’alcool (caviste)"
           },
+          "icon": "alcohol",
           "zoom": 17,
           "style": "⬤",
           "priority": 500,
@@ -404,6 +425,7 @@
             "en_GB": "chocolate",
             "fr_FR": "chocolatier"
           },
+          "icon": "chocolate",
           "zoom": 17,
           "style": "⬤",
           "priority": 500,
@@ -424,6 +446,7 @@
             "en_GB": "deli",
             "fr_FR": "épicerie fine"
           },
+          "icon": "deli",
           "zoom": 17,
           "style": "⬤",
           "priority": 500,
@@ -444,6 +467,7 @@
             "en_GB": "tailor_shop",
             "fr_FR": "tailleur (boutique)"
           },
+          "icon": "tailor_shop",
           "zoom": 17,
           "style": "⬤",
           "priority": 500,
@@ -466,6 +490,7 @@
         "en_GB": "local_shop",
         "fr_FR": "Commerces de proximité"
       },
+      "icon": "local_shop",
       "color_fill": "#00b3cc",
       "color_line": "#00a0c4",
       "group": {
@@ -474,6 +499,7 @@
             "en_GB": "supermarket",
             "fr_FR": "supermarché"
           },
+          "icon": "supermarket",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -496,6 +522,7 @@
             "en_GB": "convenience",
             "fr_FR": "épicerie"
           },
+          "icon": "convenience",
           "zoom": 16,
           "style": "⬤",
           "priority": 300,
@@ -518,6 +545,7 @@
             "en_GB": "greengrocer",
             "fr_FR": "primeur"
           },
+          "icon": "greengrocer",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -539,6 +567,7 @@
             "en_GB": "bakery",
             "fr_FR": "boulangerie"
           },
+          "icon": "bakery",
           "zoom": 17,
           "style": "⬤",
           "priority": 400,
@@ -559,6 +588,7 @@
             "en_GB": "vending_machine_seafood",
             "fr_FR": "distributeur de fruits de mer & poissons"
           },
+          "icon": "vending_machine_seafood",
           "zoom": 17,
           "style": "⬤",
           "priority": 400,
@@ -582,6 +612,7 @@
             "en_GB": "vending_machine_vegetables",
             "fr_FR": "distributeur de légumes"
           },
+          "icon": "vending_machine_vegetables",
           "zoom": 17,
           "style": "⬤",
           "priority": 400,
@@ -605,6 +636,7 @@
             "en_GB": "vending_machine_bread",
             "fr_FR": "distributeur de pain"
           },
+          "icon": "vending_machine_bread",
           "zoom": 17,
           "style": "⬤",
           "priority": 400,
@@ -628,6 +660,7 @@
             "en_GB": "vending_machine_food",
             "fr_FR": "distributeur de nourriture"
           },
+          "icon": "vending_machine_food",
           "zoom": 17,
           "style": "⬤",
           "priority": 400,
@@ -651,6 +684,7 @@
             "en_GB": "vending_machine_pizza",
             "fr_FR": "distributeur de pizza"
           },
+          "icon": "vending_machine_pizza",
           "zoom": 17,
           "style": "⬤",
           "priority": 400,
@@ -674,6 +708,7 @@
             "en_GB": "shoemaker",
             "fr_FR": "cordonnier"
           },
+          "icon": "shoemaker",
           "zoom": 17,
           "style": "⬤",
           "priority": 500,
@@ -695,6 +730,7 @@
             "en_GB": "dressmaker",
             "fr_FR": "couturier"
           },
+          "icon": "dressmaker",
           "zoom": 17,
           "style": "⬤",
           "priority": 500,
@@ -715,6 +751,7 @@
             "en_GB": "locksmith",
             "fr_FR": "serrurier"
           },
+          "icon": "locksmith",
           "zoom": 17,
           "style": "⬤",
           "priority": 500,
@@ -735,6 +772,7 @@
             "en_GB": "clockmaker",
             "fr_FR": "horloger"
           },
+          "icon": "clockmaker",
           "zoom": 17,
           "style": "⬤",
           "priority": 500,
@@ -756,6 +794,7 @@
             "en_GB": "tobacco",
             "fr_FR": "bureau de tabacs"
           },
+          "icon": "tobacco",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -776,6 +815,7 @@
             "en_GB": "cannabis",
             "fr_FR": "vente canabis"
           },
+          "icon": "cannabis",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -796,6 +836,7 @@
             "en_GB": "e-cigarette",
             "fr_FR": "vente de cigarettes éléctroniques"
           },
+          "icon": "e-cigarette",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -816,6 +857,7 @@
             "en_GB": "newsagent",
             "fr_FR": "presses"
           },
+          "icon": "newsagent",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -837,6 +879,7 @@
             "en_GB": "photo",
             "fr_FR": "photographe"
           },
+          "icon": "photo",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -857,6 +900,7 @@
             "en_GB": "kiosk",
             "fr_FR": "kiosque (à journaux, tabac)"
           },
+          "icon": "kiosk",
           "zoom": 16,
           "style": "⬤",
           "priority": 400,
@@ -877,6 +921,7 @@
             "en_GB": "chemist",
             "fr_FR": "droguerie"
           },
+          "icon": "chemist",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -897,6 +942,7 @@
             "en_GB": "marketplace",
             "fr_FR": "marché"
           },
+          "icon": "marketplace",
           "zoom": 14,
           "style": "⬤",
           "priority": 100,
@@ -917,6 +963,7 @@
             "en_GB": "sports",
             "fr_FR": "magasin d’articles de sports"
           },
+          "icon": "sports",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -937,6 +984,7 @@
             "en_GB": "butcher",
             "fr_FR": "boucher"
           },
+          "icon": "butcher",
           "zoom": 17,
           "style": "⬤",
           "priority": 400,
@@ -957,6 +1005,7 @@
             "en_GB": "hairdresser",
             "fr_FR": "coiffeur"
           },
+          "icon": "hairdresser",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -977,6 +1026,7 @@
             "en_GB": "seafood",
             "fr_FR": "poissonnerie"
           },
+          "icon": "seafood",
           "zoom": 17,
           "style": "⬤",
           "priority": 400,
@@ -997,6 +1047,7 @@
             "en_GB": "cheese",
             "fr_FR": "fromager"
           },
+          "icon": "cheese",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -1017,6 +1068,7 @@
             "en_GB": "florist",
             "fr_FR": "fleuriste"
           },
+          "icon": "florist",
           "zoom": 17,
           "style": "⬤",
           "priority": 600,
@@ -1039,6 +1091,7 @@
         "en_GB": "services",
         "fr_FR": "Services de proximité"
       },
+      "icon": "services",
       "color_fill": "#2a62ac",
       "color_line": "#2a62ac",
       "group": {
@@ -1047,6 +1100,7 @@
             "en_GB": "bank",
             "fr_FR": "banque"
           },
+          "icon": "bank",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1068,6 +1122,7 @@
             "en_GB": "atm",
             "fr_FR": "DAB"
           },
+          "icon": "atm",
           "zoom": 17,
           "style": "•",
           "priority": 700,
@@ -1089,6 +1144,7 @@
             "en_GB": "photo_booth",
             "fr_FR": "photomaton"
           },
+          "icon": "photo_booth",
           "zoom": 17,
           "style": "•",
           "priority": 700,
@@ -1110,6 +1166,7 @@
             "en_GB": "car_wash",
             "fr_FR": "station de lavage de voiture"
           },
+          "icon": "car_wash",
           "zoom": 17,
           "style": "•",
           "priority": 700,
@@ -1130,6 +1187,7 @@
             "en_GB": "post_office",
             "fr_FR": "poste"
           },
+          "icon": "post_office",
           "zoom": 16,
           "style": "⬤",
           "priority": 200,
@@ -1150,6 +1208,7 @@
             "en_GB": "internet_cafe",
             "fr_FR": "Internet Café"
           },
+          "icon": "internet_cafe",
           "zoom": 16,
           "style": "⬤",
           "priority": 200,
@@ -1170,6 +1229,7 @@
             "en_GB": "coworking_space",
             "fr_FR": "espace de coworking"
           },
+          "icon": "coworking_space",
           "zoom": 16,
           "style": "⬤",
           "priority": 500,
@@ -1190,6 +1250,7 @@
             "en_GB": "coworking_office",
             "fr_FR": "bureaux en coworking"
           },
+          "icon": "coworking_office",
           "zoom": 16,
           "style": "⬤",
           "priority": 500,
@@ -1210,6 +1271,7 @@
             "en_GB": "laundry",
             "fr_FR": "laverie"
           },
+          "icon": "laundry",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1231,6 +1293,7 @@
             "en_GB": "dry_cleaning",
             "fr_FR": "pressing"
           },
+          "icon": "dry_cleaning",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1252,6 +1315,7 @@
             "en_GB": "massage",
             "fr_FR": "salon de massage"
           },
+          "icon": "massage",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1272,6 +1336,7 @@
             "en_GB": "estate_agent",
             "fr_FR": "agence immobilière"
           },
+          "icon": "estate_agent",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1292,6 +1357,7 @@
             "en_GB": "fuel",
             "fr_FR": "station services"
           },
+          "icon": "fuel",
           "zoom": 15,
           "style": "⬤",
           "priority": 700,
@@ -1312,6 +1378,7 @@
             "en_GB": "car_repair",
             "fr_FR": "garage automobile (hors concessionnaire)"
           },
+          "icon": "car_repair",
           "zoom": 16,
           "style": "⬤",
           "priority": 700,
@@ -1332,6 +1399,7 @@
             "en_GB": "vehicle_inspection",
             "fr_FR": "centre de contrôle technique"
           },
+          "icon": "vehicle_inspection",
           "zoom": 16,
           "style": "⬤",
           "priority": 700,
@@ -1352,6 +1420,7 @@
             "en_GB": "motorcycle_repair",
             "fr_FR": "garage moto (hors concessionnaire)"
           },
+          "icon": "motorcycle_repair",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1372,6 +1441,7 @@
             "en_GB": "driving_school",
             "fr_FR": "auto-école"
           },
+          "icon": "driving_school",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1392,6 +1462,7 @@
             "en_GB": "car_parts",
             "fr_FR": "accessoires automobile"
           },
+          "icon": "car_parts",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1412,6 +1483,7 @@
             "en_GB": "information",
             "fr_FR": "office de tourisme"
           },
+          "icon": "information",
           "zoom": 13,
           "style": "⬤",
           "priority": 50,
@@ -1434,6 +1506,7 @@
             "en_GB": "townhall",
             "fr_FR": "mairie (hôtel de ville)"
           },
+          "icon": "townhall",
           "zoom": 15,
           "style": "⬤",
           "priority": 300,
@@ -1454,6 +1527,7 @@
             "en_GB": "chamber",
             "fr_FR": "chambre consulaire"
           },
+          "icon": "chamber",
           "zoom": 15,
           "style": "⬤",
           "priority": 300,
@@ -1474,6 +1548,7 @@
             "en_GB": "government_france_service",
             "fr_FR": "France Service"
           },
+          "icon": "government_france_service",
           "zoom": 17,
           "style": "⬤",
           "priority": 300,
@@ -1495,6 +1570,7 @@
             "en_GB": "government_tax",
             "fr_FR": "centre des impôts"
           },
+          "icon": "government_tax",
           "zoom": 17,
           "style": "⬤",
           "priority": 300,
@@ -1516,6 +1592,7 @@
             "en_GB": "notary",
             "fr_FR": "notaires"
           },
+          "icon": "notary",
           "zoom": 17,
           "style": "⬤",
           "priority": 300,
@@ -1536,6 +1613,7 @@
             "en_GB": "architect",
             "fr_FR": "architectes"
           },
+          "icon": "architect",
           "zoom": 17,
           "style": "⬤",
           "priority": 300,
@@ -1556,6 +1634,7 @@
             "en_GB": "insurance",
             "fr_FR": "agent d'assurances"
           },
+          "icon": "insurance",
           "zoom": 16,
           "style": "⬤",
           "priority": 300,
@@ -1576,6 +1655,7 @@
             "en_GB": "employment_agency",
             "fr_FR": "agence pour l'emploi"
           },
+          "icon": "employment_agency",
           "zoom": 16,
           "style": "⬤",
           "priority": 300,
@@ -1596,6 +1676,7 @@
             "en_GB": "copyshop",
             "fr_FR": "photocopies, reprographie"
           },
+          "icon": "copyshop",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1616,6 +1697,7 @@
             "en_GB": "ticket",
             "fr_FR": "billeterie"
           },
+          "icon": "ticket",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1636,6 +1718,7 @@
             "en_GB": "travel_agency",
             "fr_FR": "agence de voyage"
           },
+          "icon": "travel_agency",
           "zoom": 17,
           "style": "⬤",
           "priority": 700,
@@ -1659,6 +1742,7 @@
         "en_GB": "safety",
         "fr_FR": "Santé, Secours"
       },
+      "icon": "safety",
       "color_fill": "#e42224",
       "color_line": "#e42224",
       "group": {
@@ -1667,12 +1751,14 @@
             "en_GB": "care",
             "fr_FR": "Soins"
           },
+          "icon": "care",
           "group": {
             "pharmacy": {
               "label": {
                 "en_GB": "pharmacy",
                 "fr_FR": "pharmacie"
               },
+              "icon": "pharmacy",
               "zoom": 17,
               "style": "⬤",
               "priority": 100,
@@ -1694,6 +1780,7 @@
                 "en_GB": "doctor",
                 "fr_FR": "médecin"
               },
+              "icon": "doctor",
               "zoom": 17,
               "style": "⬤",
               "priority": 50,
@@ -1716,6 +1803,7 @@
                 "en_GB": "doctor_specialist",
                 "fr_FR": "médecin spécialiste"
               },
+              "icon": "doctor_specialist",
               "zoom": 17,
               "style": "⬤",
               "priority": 50,
@@ -1738,6 +1826,7 @@
                 "en_GB": "dentist",
                 "fr_FR": "dentiste"
               },
+              "icon": "dentist",
               "zoom": 17,
               "style": "⬤",
               "priority": 50,
@@ -1760,6 +1849,7 @@
                 "en_GB": "nurse",
                 "fr_FR": "infirmiers"
               },
+              "icon": "nurse",
               "zoom": 17,
               "style": "•",
               "priority": 50,
@@ -1781,6 +1871,7 @@
                 "en_GB": "physiotherapist",
                 "fr_FR": "kinésithérapeute"
               },
+              "icon": "physiotherapist",
               "zoom": 17,
               "style": "•",
               "priority": 50,
@@ -1802,6 +1893,7 @@
                 "en_GB": "osteopath",
                 "fr_FR": "Osthéopathe"
               },
+              "icon": "osteopath",
               "zoom": 17,
               "style": "•",
               "priority": 50,
@@ -1823,6 +1915,7 @@
                 "en_GB": "veterinary",
                 "fr_FR": "vétérinaire"
               },
+              "icon": "veterinary",
               "zoom": 17,
               "style": "•",
               "priority": 50,
@@ -1844,6 +1937,7 @@
                 "en_GB": "healthcare_centre",
                 "fr_FR": "maison de santé"
               },
+              "icon": "healthcare_centre",
               "zoom": 16,
               "style": "⬤",
               "priority": 50,
@@ -1865,6 +1959,7 @@
                 "en_GB": "healthcare_radiology",
                 "fr_FR": "centre de radiologie"
               },
+              "icon": "healthcare_radiology",
               "zoom": 16,
               "style": "⬤",
               "priority": 50,
@@ -1886,6 +1981,7 @@
                 "en_GB": "laboratory",
                 "fr_FR": "laboratoire d'analyse médicale"
               },
+              "icon": "laboratory",
               "zoom": 16,
               "style": "⬤",
               "priority": 50,
@@ -1907,6 +2003,7 @@
                 "en_GB": "animal_shelter",
                 "fr_FR": "refuge pour animaux"
               },
+              "icon": "animal_shelter",
               "zoom": 17,
               "style": "⬤",
               "priority": 50,
@@ -1930,12 +2027,14 @@
             "en_GB": "emergency",
             "fr_FR": "Urgence"
           },
+          "icon": "emergency",
           "group": {
             "hospital": {
               "label": {
                 "en_GB": "hospital",
                 "fr_FR": "hôpital"
               },
+              "icon": "hospital",
               "zoom": 14,
               "style": "⬤",
               "priority": 0,
@@ -1959,6 +2058,7 @@
                 "en_GB": "clinic",
                 "fr_FR": "clinique"
               },
+              "icon": "clinic",
               "zoom": 15,
               "style": "⬤",
               "priority": 0,
@@ -1982,6 +2082,7 @@
                 "en_GB": "emergency_ward_entrance",
                 "fr_FR": "entrée des urgences"
               },
+              "icon": "emergency_ward_entrance",
               "zoom": 16,
               "style": "•",
               "priority": 50,
@@ -2004,6 +2105,7 @@
                 "en_GB": "defibrillator",
                 "fr_FR": "défibrillateur"
               },
+              "icon": "defibrillator",
               "zoom": 17,
               "style": "⬤",
               "priority": 0,
@@ -2028,12 +2130,14 @@
             "en_GB": "rescue",
             "fr_FR": "Secours"
           },
+          "icon": "rescue",
           "group": {
             "water_rescue_station": {
               "label": {
                 "en_GB": "water_rescue_station",
                 "fr_FR": "postes de plage"
               },
+              "icon": "water_rescue_station",
               "zoom": 17,
               "style": "⬤",
               "priority": 0,
@@ -2056,6 +2160,7 @@
                 "en_GB": "lifeguard",
                 "fr_FR": "station de secours"
               },
+              "icon": "lifeguard",
               "zoom": 17,
               "style": "⬤",
               "priority": 0,
@@ -2078,6 +2183,7 @@
                 "en_GB": "life_ring",
                 "fr_FR": "bouées de secours"
               },
+              "icon": "life_ring",
               "zoom": 17,
               "style": "•",
               "priority": 4,
@@ -2100,6 +2206,7 @@
                 "en_GB": "mountain_rescue",
                 "fr_FR": "poste de montagne"
               },
+              "icon": "mountain_rescue",
               "zoom": 17,
               "style": "⬤",
               "priority": 0,
@@ -2122,6 +2229,7 @@
                 "en_GB": "police",
                 "fr_FR": "police"
               },
+              "icon": "police",
               "zoom": 16,
               "style": "⬤",
               "priority": 0,
@@ -2144,6 +2252,7 @@
                 "en_GB": "fire_station",
                 "fr_FR": "station de pompiers"
               },
+              "icon": "fire_station",
               "zoom": 15,
               "style": "⬤",
               "priority": 0,
@@ -2170,6 +2279,7 @@
         "en_GB": "mobility",
         "fr_FR": "Mobilité"
       },
+      "icon": "mobility",
       "color_fill": "#008ecf",
       "color_line": "#3b74b9",
       "group": {
@@ -2178,12 +2288,14 @@
             "en_GB": "railway",
             "fr_FR": "Train (tram, métro)"
           },
+          "icon": "railway",
           "group": {
             "station": {
               "label": {
                 "en_GB": "station",
                 "fr_FR": "gare de train"
               },
+              "icon": "station",
               "zoom": 12,
               "style": "⬤",
               "priority": 60,
@@ -2204,6 +2316,7 @@
                 "en_GB": "halt",
                 "fr_FR": "halte de train"
               },
+              "icon": "halt",
               "zoom": 13,
               "style": "◯",
               "priority": 60,
@@ -2224,6 +2337,7 @@
                 "en_GB": "train_station_entrance",
                 "fr_FR": "entrée de gare de train"
               },
+              "icon": "train_station_entrance",
               "zoom": 17,
               "style": "•",
               "priority": 60,
@@ -2241,6 +2355,7 @@
                 "en_GB": "subway_entrance",
                 "fr_FR": "bouche de métro"
               },
+              "icon": "subway_entrance",
               "zoom": 17,
               "style": "◯",
               "priority": 60,
@@ -2258,6 +2373,7 @@
                 "en_GB": "tram_stop",
                 "fr_FR": "arrêt de tramway"
               },
+              "icon": "tram_stop",
               "zoom": 17,
               "style": "◯",
               "priority": 60,
@@ -2277,12 +2393,14 @@
             "en_GB": "motorway",
             "fr_FR": "Auto (voitures, bus…)"
           },
+          "icon": "motorway",
           "group": {
             "bus_station": {
               "label": {
                 "en_GB": "bus_station",
                 "fr_FR": "gare routière"
               },
+              "icon": "bus_station",
               "zoom": 13,
               "style": "⬤",
               "priority": 70,
@@ -2301,6 +2419,7 @@
                 "en_GB": "bus_stop",
                 "fr_FR": "arrêt de bus, car"
               },
+              "icon": "bus_stop",
               "zoom": 17,
               "style": "◯",
               "priority": 70,
@@ -2321,6 +2440,7 @@
                 "en_GB": "bus_stop_seasonal",
                 "fr_FR": "arrêt de bus saisonnier"
               },
+              "icon": "bus_stop_seasonal",
               "zoom": 17,
               "style": "◯",
               "priority": 70,
@@ -2341,6 +2461,7 @@
                 "en_GB": "parking",
                 "fr_FR": "parking voiture (public)"
               },
+              "icon": "parking",
               "zoom": 15,
               "style": "◯",
               "priority": 100,
@@ -2358,6 +2479,7 @@
                 "en_GB": "parking_space",
                 "fr_FR": "place PMR"
               },
+              "icon": "parking_space",
               "zoom": 17,
               "style": "◯",
               "priority": 500,
@@ -2376,6 +2498,7 @@
                 "en_GB": "parking_carpool",
                 "fr_FR": "parking avec covoiturage"
               },
+              "icon": "parking_carpool",
               "zoom": 15,
               "style": "◯",
               "priority": 150,
@@ -2397,6 +2520,7 @@
                 "en_GB": "car_pooling",
                 "fr_FR": "station de covoiturage"
               },
+              "icon": "car_pooling",
               "zoom": 17,
               "style": "◯",
               "priority": 70,
@@ -2414,6 +2538,7 @@
                 "en_GB": "hitchhiking",
                 "fr_FR": "point relais d'auto-stop"
               },
+              "icon": "hitchhiking",
               "zoom": 17,
               "style": "◯",
               "priority": 70,
@@ -2431,6 +2556,7 @@
                 "en_GB": "taxi",
                 "fr_FR": "station de taxi"
               },
+              "icon": "taxi",
               "zoom": 16,
               "style": "◯",
               "priority": 70,
@@ -2448,6 +2574,7 @@
                 "en_GB": "motorway_junction",
                 "fr_FR": "sortie d’autoroute (jonction)"
               },
+              "icon": "motorway_junction",
               "zoom": 13,
               "style": "•",
               "priority": 70,
@@ -2465,6 +2592,7 @@
                 "en_GB": "toll_booth",
                 "fr_FR": "gare de péage (autoute)"
               },
+              "icon": "toll_booth",
               "zoom": 13,
               "style": "•",
               "priority": 70,
@@ -2484,12 +2612,14 @@
             "en_GB": "aeroway",
             "fr_FR": "Avion"
           },
+          "icon": "aeroway",
           "group": {
             "aerodrome": {
               "label": {
                 "en_GB": "aerodrome",
                 "fr_FR": "aéroport"
               },
+              "icon": "aerodrome",
               "zoom": 11,
               "style": "⬤",
               "priority": 0,
@@ -2508,6 +2638,7 @@
                 "en_GB": "terminal",
                 "fr_FR": "terminal d'aeroport"
               },
+              "icon": "terminal",
               "zoom": 12,
               "style": "⬤",
               "priority": 0,
@@ -2527,12 +2658,14 @@
             "en_GB": "waterway",
             "fr_FR": "Bateau"
           },
+          "icon": "waterway",
           "group": {
             "ferry_terminal": {
               "label": {
                 "en_GB": "ferry_terminal",
                 "fr_FR": "terminal de ferry"
               },
+              "icon": "ferry_terminal",
               "zoom": 12,
               "style": "⬤",
               "priority": 60,
@@ -2550,6 +2683,7 @@
                 "en_GB": "dock",
                 "fr_FR": "dock, cale à bateau"
               },
+              "icon": "dock",
               "zoom": 17,
               "style": "•",
               "priority": 60,
@@ -2567,6 +2701,7 @@
                 "en_GB": "slipway",
                 "fr_FR": "rampes de mise à l'eau"
               },
+              "icon": "slipway",
               "zoom": 17,
               "style": "•",
               "priority": 60,
@@ -2584,6 +2719,7 @@
                 "en_GB": "motorboat_rental",
                 "fr_FR": "location de bateau à moteur"
               },
+              "icon": "motorboat_rental",
               "zoom": 17,
               "style": "•",
               "priority": 60,
@@ -2604,12 +2740,14 @@
             "en_GB": "bicycle",
             "fr_FR": "Vélo et moto (etc)"
           },
+          "icon": "bicycle",
           "group": {
             "bicycle_rental": {
               "label": {
                 "en_GB": "bicycle_rental",
                 "fr_FR": "loueur de vélo (et autres)"
               },
+              "icon": "bicycle_rental",
               "zoom": 16,
               "style": "⬤",
               "priority": 200,
@@ -2628,6 +2766,7 @@
                 "en_GB": "bicycle_pump",
                 "fr_FR": "loueur de vélo (et autres)"
               },
+              "icon": "bicycle_pump",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -2645,6 +2784,7 @@
                 "en_GB": "bicycle_repair",
                 "fr_FR": "réparateur vélo"
               },
+              "icon": "bicycle_repair",
               "zoom": 16,
               "style": "⬤",
               "priority": 200,
@@ -2663,6 +2803,7 @@
                 "en_GB": "scooter",
                 "fr_FR": "magasin de trotinette (location éventuelle)"
               },
+              "icon": "scooter",
               "zoom": 16,
               "style": "⬤",
               "priority": 200,
@@ -2680,6 +2821,7 @@
                 "en_GB": "bicycle_parking",
                 "fr_FR": "parking vélo"
               },
+              "icon": "bicycle_parking",
               "zoom": 17,
               "style": "◯",
               "priority": 200,
@@ -2698,6 +2840,7 @@
                 "en_GB": "motorcycle_parking",
                 "fr_FR": "parking moto"
               },
+              "icon": "motorcycle_parking",
               "zoom": 17,
               "style": "◯",
               "priority": 200,
@@ -2716,6 +2859,7 @@
                 "en_GB": "bicycle_docking_station",
                 "fr_FR": "vélo en libre service"
               },
+              "icon": "bicycle_docking_station",
               "zoom": 16,
               "style": "◯",
               "priority": 200,
@@ -2736,6 +2880,7 @@
                 "en_GB": "compressed_air",
                 "fr_FR": "borne, point de gonflage"
               },
+              "icon": "compressed_air",
               "zoom": 17,
               "style": "•",
               "priority": 200,
@@ -2753,6 +2898,7 @@
                 "en_GB": "cycle_barrier",
                 "fr_FR": "barrière vélo"
               },
+              "icon": "cycle_barrier",
               "zoom": 17,
               "style": "•",
               "priority": 200,
@@ -2772,6 +2918,7 @@
             "en_GB": "charging_station",
             "fr_FR": "borne de recharge électrique - voiture"
           },
+          "icon": "charging_station",
           "zoom": 16,
           "style": "◯",
           "priority": 200,
@@ -2793,6 +2940,7 @@
             "en_GB": "charging_station_bicycle",
             "fr_FR": "borne de recharge électrique - vélo"
           },
+          "icon": "charging_station_bicycle",
           "zoom": 16,
           "style": "◯",
           "priority": 200,
@@ -2816,6 +2964,7 @@
         "en_GB": "amenity",
         "fr_FR": "Equipement de proximité"
       },
+      "icon": "amenity",
       "color_fill": "#2a62ac",
       "color_line": "#2a62ac",
       "group": {
@@ -2824,12 +2973,14 @@
             "en_GB": "local_communication",
             "fr_FR": "Communication (information)"
           },
+          "icon": "local_communication",
           "group": {
             "post_box": {
               "label": {
                 "en_GB": "post_box",
                 "fr_FR": "boites aux lettres"
               },
+              "icon": "post_box",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -2847,6 +2998,7 @@
                 "en_GB": "parcel_locker",
                 "fr_FR": "consignes automatiques de colis"
               },
+              "icon": "parcel_locker",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -2870,6 +3022,7 @@
                 "en_GB": "telephone",
                 "fr_FR": "téléphone"
               },
+              "icon": "telephone",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -2887,6 +3040,7 @@
                 "en_GB": "board_map",
                 "fr_FR": "point d'information touristique"
               },
+              "icon": "board_map",
               "zoom": 14,
               "style": "•",
               "priority": 300,
@@ -2907,12 +3061,14 @@
             "en_GB": "sanitary",
             "fr_FR": "Sanitaires"
           },
+          "icon": "sanitary",
           "group": {
             "shower": {
               "label": {
                 "en_GB": "shower",
                 "fr_FR": "douches"
               },
+              "icon": "shower",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -2933,6 +3089,7 @@
                 "en_GB": "drinking_water",
                 "fr_FR": "point d'eau"
               },
+              "icon": "drinking_water",
               "zoom": 16,
               "style": "◯",
               "priority": 300,
@@ -2956,6 +3113,7 @@
                 "en_GB": "toilets",
                 "fr_FR": "toilettes"
               },
+              "icon": "toilets",
               "zoom": 16,
               "style": "◯",
               "priority": 300,
@@ -2978,12 +3136,14 @@
             "en_GB": "waste",
             "fr_FR": "Poubelle (déchet)"
           },
+          "icon": "waste",
           "group": {
             "recycling_centre": {
               "label": {
                 "en_GB": "recycling_centre",
                 "fr_FR": "déchetterie"
               },
+              "icon": "recycling_centre",
               "zoom": 15,
               "style": "⬤",
               "priority": 300,
@@ -3005,6 +3165,7 @@
                 "en_GB": "container",
                 "fr_FR": "point de tri"
               },
+              "icon": "container",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3026,6 +3187,7 @@
                 "en_GB": "waste_disposal",
                 "fr_FR": "bacs à déchet"
               },
+              "icon": "waste_disposal",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -3046,6 +3208,7 @@
                 "en_GB": "waste_basket",
                 "fr_FR": "poubelle de rue"
               },
+              "icon": "waste_basket",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -3066,6 +3229,7 @@
                 "en_GB": "vending_machine",
                 "fr_FR": "caninet, sacs pour déjections canines"
               },
+              "icon": "vending_machine",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -3086,6 +3250,7 @@
                 "en_GB": "dog_excrement",
                 "fr_FR": "poubelle pour déjections canines"
               },
+              "icon": "dog_excrement",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -3106,6 +3271,7 @@
                 "en_GB": "sanitary_dump_station",
                 "fr_FR": "aire de vidange de camping car"
               },
+              "icon": "sanitary_dump_station",
               "zoom": 17,
               "style": "⬤",
               "priority": 800,
@@ -3128,6 +3294,7 @@
             "en_GB": "bench",
             "fr_FR": "banc"
           },
+          "icon": "bench",
           "zoom": 17,
           "style": "•",
           "priority": 1000,
@@ -3145,6 +3312,7 @@
             "en_GB": "stile",
             "fr_FR": "échallier"
           },
+          "icon": "stile",
           "zoom": 17,
           "style": "•",
           "priority": 1000,
@@ -3164,6 +3332,7 @@
         "en_GB": "remarkable",
         "fr_FR": "Eléments Notables"
       },
+      "icon": "remarkable",
       "color_fill": "#e50980",
       "color_line": "#e50980",
       "group": {
@@ -3172,12 +3341,14 @@
             "en_GB": "attraction_activity",
             "fr_FR": "Attraction"
           },
+          "icon": "attraction_activity",
           "group": {
             "attraction": {
               "label": {
                 "en_GB": "attraction",
                 "fr_FR": "attraction"
               },
+              "icon": "attraction",
               "zoom": 13,
               "style": "⬤",
               "priority": 0,
@@ -3197,6 +3368,7 @@
                 "en_GB": "aquarium",
                 "fr_FR": "aquarium"
               },
+              "icon": "aquarium",
               "zoom": 13,
               "style": "⬤",
               "priority": 0,
@@ -3216,6 +3388,7 @@
                 "en_GB": "theme_park",
                 "fr_FR": "parc à thème"
               },
+              "icon": "theme_park",
               "zoom": 13,
               "style": "⬤",
               "priority": 1,
@@ -3235,6 +3408,7 @@
                 "en_GB": "maze",
                 "fr_FR": "labyrinthe"
               },
+              "icon": "maze",
               "zoom": 13,
               "style": "⬤",
               "priority": 1,
@@ -3254,6 +3428,7 @@
                 "en_GB": "water_park",
                 "fr_FR": "parc aquatique"
               },
+              "icon": "water_park",
               "zoom": 13,
               "style": "⬤",
               "priority": 0,
@@ -3273,6 +3448,7 @@
                 "en_GB": "zoo",
                 "fr_FR": "zoo"
               },
+              "icon": "zoo",
               "zoom": 13,
               "style": "⬤",
               "priority": 0,
@@ -3292,6 +3468,7 @@
                 "en_GB": "viewpoint",
                 "fr_FR": "point de vue"
               },
+              "icon": "viewpoint",
               "zoom": 14,
               "style": "⬤",
               "priority": 100,
@@ -3311,6 +3488,7 @@
                 "en_GB": "lighthouse",
                 "fr_FR": "phare"
               },
+              "icon": "lighthouse",
               "zoom": 13,
               "style": "⬤",
               "priority": 30,
@@ -3330,6 +3508,7 @@
                 "en_GB": "lighthouse_minor",
                 "fr_FR": "phare mineur"
               },
+              "icon": "lighthouse_minor",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -3349,6 +3528,7 @@
                 "en_GB": "cave_entrance",
                 "fr_FR": "grottes (visites, connues)"
               },
+              "icon": "cave_entrance",
               "zoom": 13,
               "style": "•",
               "priority": 100,
@@ -3368,6 +3548,7 @@
                 "en_GB": "waterfall",
                 "fr_FR": "chuttes d'eau"
               },
+              "icon": "waterfall",
               "zoom": 13,
               "style": "⬤",
               "priority": 100,
@@ -3387,6 +3568,7 @@
                 "en_GB": "spring",
                 "fr_FR": "sources"
               },
+              "icon": "spring",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -3408,12 +3590,14 @@
             "en_GB": "natural_activity",
             "fr_FR": "Aire naturelle d’activités"
           },
+          "icon": "natural_activity",
           "group": {
             "beach_resort": {
               "label": {
                 "en_GB": "beach_resort",
                 "fr_FR": "plages"
               },
+              "icon": "beach_resort",
               "zoom": 17,
               "style": "⬤",
               "priority": 0,
@@ -3429,6 +3613,7 @@
                 "en_GB": "beach",
                 "fr_FR": "plages (zone)"
               },
+              "icon": "beach",
               "zoom": 16,
               "style": "⬤",
               "priority": 0,
@@ -3448,12 +3633,14 @@
             "en_GB": "outdoor_activity",
             "fr_FR": "Aire d’activité extérieures"
           },
+          "icon": "outdoor_activity",
           "group": {
             "swimming_area": {
               "label": {
                 "en_GB": "swimming_area",
                 "fr_FR": "aire de baignade"
               },
+              "icon": "swimming_area",
               "zoom": 14,
               "style": "⬤",
               "priority": 0,
@@ -3469,6 +3656,7 @@
                 "en_GB": "winter_sports",
                 "fr_FR": "zone de ski"
               },
+              "icon": "winter_sports",
               "zoom": 14,
               "style": "⬤",
               "priority": 0,
@@ -3484,6 +3672,7 @@
                 "en_GB": "marina",
                 "fr_FR": "port de plaisance"
               },
+              "icon": "marina",
               "zoom": 14,
               "style": "⬤",
               "priority": 0,
@@ -3499,6 +3688,7 @@
                 "en_GB": "fishing",
                 "fr_FR": "zone de pêche"
               },
+              "icon": "fishing",
               "zoom": 14,
               "style": "⬤",
               "priority": 0,
@@ -3514,6 +3704,7 @@
                 "en_GB": "stadium",
                 "fr_FR": "stade"
               },
+              "icon": "stadium",
               "zoom": 14,
               "style": "⬤",
               "priority": 0,
@@ -3530,6 +3721,7 @@
                 "en_GB": "bullfighting",
                 "fr_FR": "arène"
               },
+              "icon": "bullfighting",
               "zoom": 14,
               "style": "⬤",
               "priority": 0,
@@ -3551,6 +3743,7 @@
         "en_GB": "culture",
         "fr_FR": "Culture et patrimoine"
       },
+      "icon": "culture",
       "color_fill": "#76009e",
       "color_line": "#76009e",
       "group": {
@@ -3559,12 +3752,14 @@
             "en_GB": "artwork",
             "fr_FR": "Œuvres"
           },
+          "icon": "artwork",
           "group": {
             "artwork": {
               "label": {
                 "en_GB": "artwork",
                 "fr_FR": "œuvre d'art"
               },
+              "icon": "artwork",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3589,6 +3784,7 @@
                 "en_GB": "statue",
                 "fr_FR": "statue"
               },
+              "icon": "statue",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3614,6 +3810,7 @@
                 "en_GB": "sculpture",
                 "fr_FR": "sculpture"
               },
+              "icon": "sculpture",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3639,6 +3836,7 @@
                 "en_GB": "mural",
                 "fr_FR": "peinture murale"
               },
+              "icon": "mural",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3664,6 +3862,7 @@
                 "en_GB": "graffiti",
                 "fr_FR": "streetart"
               },
+              "icon": "graffiti",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3691,12 +3890,14 @@
             "en_GB": "heritage",
             "fr_FR": "Éléments historiques"
           },
+          "icon": "heritage",
           "group": {
             "water_well": {
               "label": {
                 "en_GB": "water_well",
                 "fr_FR": "puits"
               },
+              "icon": "water_well",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3720,6 +3921,7 @@
                 "en_GB": "windmill",
                 "fr_FR": "moulin à vent"
               },
+              "icon": "windmill",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3743,6 +3945,7 @@
                 "en_GB": "watermill",
                 "fr_FR": "moulin à eau"
               },
+              "icon": "watermill",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3766,6 +3969,7 @@
                 "en_GB": "dovecote",
                 "fr_FR": "pigeonnier"
               },
+              "icon": "dovecote",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3789,6 +3993,7 @@
                 "en_GB": "baking_oven",
                 "fr_FR": "four à pain"
               },
+              "icon": "baking_oven",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3812,6 +4017,7 @@
                 "en_GB": "kiln",
                 "fr_FR": "four à chaux"
               },
+              "icon": "kiln",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3835,6 +4041,7 @@
                 "en_GB": "castle",
                 "fr_FR": "châteaux"
               },
+              "icon": "castle",
               "zoom": 14,
               "style": "⬤",
               "priority": 30,
@@ -3855,6 +4062,7 @@
                 "en_GB": "monument",
                 "fr_FR": "monuments"
               },
+              "icon": "monument",
               "zoom": 14,
               "style": "⬤",
               "priority": 30,
@@ -3875,6 +4083,7 @@
                 "en_GB": "memorial",
                 "fr_FR": "objet commémoratifs"
               },
+              "icon": "memorial",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -3895,6 +4104,7 @@
                 "en_GB": "archaeological_site",
                 "fr_FR": "site archéologique"
               },
+              "icon": "archaeological_site",
               "zoom": 13,
               "style": "•",
               "priority": 30,
@@ -3915,6 +4125,7 @@
                 "en_GB": "castle_wall",
                 "fr_FR": "muraille"
               },
+              "icon": "castle_wall",
               "zoom": 14,
               "style": "•",
               "priority": 800,
@@ -3935,6 +4146,7 @@
                 "en_GB": "city_wall",
                 "fr_FR": "muraille"
               },
+              "icon": "city_wall",
               "zoom": 14,
               "style": "•",
               "priority": 800,
@@ -3955,6 +4167,7 @@
                 "en_GB": "church_heritage",
                 "fr_FR": "église"
               },
+              "icon": "church_heritage",
               "zoom": 14,
               "style": "•",
               "priority": 800,
@@ -3975,6 +4188,7 @@
                 "en_GB": "city_gate",
                 "fr_FR": "porte de ville"
               },
+              "icon": "city_gate",
               "zoom": 14,
               "style": "•",
               "priority": 800,
@@ -3995,6 +4209,7 @@
                 "en_GB": "lavoir",
                 "fr_FR": "lavoir"
               },
+              "icon": "lavoir",
               "zoom": 17,
               "style": "⬤",
               "priority": 800,
@@ -4015,6 +4230,7 @@
                 "en_GB": "wayside_cross",
                 "fr_FR": "croix / calvaire"
               },
+              "icon": "wayside_cross",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -4035,6 +4251,7 @@
                 "en_GB": "wayside_shrine",
                 "fr_FR": "oratoire, autel"
               },
+              "icon": "wayside_shrine",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -4055,6 +4272,7 @@
                 "en_GB": "fountain",
                 "fr_FR": "fontaine"
               },
+              "icon": "fountain",
               "zoom": 17,
               "style": "•",
               "priority": 800,
@@ -4077,12 +4295,14 @@
             "en_GB": "visit",
             "fr_FR": "Visite (découverte)"
           },
+          "icon": "visit",
           "group": {
             "place_of_worship": {
               "label": {
                 "en_GB": "place_of_worship",
                 "fr_FR": "lieux de culte"
               },
+              "icon": "place_of_worship",
               "zoom": 17,
               "style": "•",
               "priority": 40,
@@ -4103,6 +4323,7 @@
                 "en_GB": "cathedral",
                 "fr_FR": "cathédralle"
               },
+              "icon": "cathedral",
               "zoom": 13,
               "style": "⬤",
               "priority": 30,
@@ -4123,6 +4344,7 @@
                 "en_GB": "church",
                 "fr_FR": "église"
               },
+              "icon": "church",
               "zoom": 15,
               "style": "⬤",
               "priority": 30,
@@ -4143,6 +4365,7 @@
                 "en_GB": "mosque",
                 "fr_FR": "mosquée"
               },
+              "icon": "mosque",
               "zoom": 15,
               "style": "⬤",
               "priority": 30,
@@ -4163,6 +4386,7 @@
                 "en_GB": "synagogue",
                 "fr_FR": "synagogue"
               },
+              "icon": "synagogue",
               "zoom": 15,
               "style": "⬤",
               "priority": 30,
@@ -4183,6 +4407,7 @@
                 "en_GB": "monastery",
                 "fr_FR": "monastère"
               },
+              "icon": "monastery",
               "zoom": 14,
               "style": "⬤",
               "priority": 30,
@@ -4203,6 +4428,7 @@
                 "en_GB": "chapel",
                 "fr_FR": "chapelle"
               },
+              "icon": "chapel",
               "zoom": 16,
               "style": "⬤",
               "priority": 30,
@@ -4223,6 +4449,7 @@
                 "en_GB": "arts_centre",
                 "fr_FR": "centre d’art"
               },
+              "icon": "arts_centre",
               "zoom": 17,
               "style": "⬤",
               "priority": 30,
@@ -4243,6 +4470,7 @@
                 "en_GB": "museum",
                 "fr_FR": "musées"
               },
+              "icon": "museum",
               "zoom": 14,
               "style": "⬤",
               "priority": 0,
@@ -4265,12 +4493,14 @@
             "en_GB": "show",
             "fr_FR": "Spectacle"
           },
+          "icon": "show",
           "group": {
             "theatre": {
               "label": {
                 "en_GB": "theatre",
                 "fr_FR": "théatre"
               },
+              "icon": "theatre",
               "zoom": 15,
               "style": "⬤",
               "priority": 100,
@@ -4291,6 +4521,7 @@
                 "en_GB": "cinema",
                 "fr_FR": "cinéma"
               },
+              "icon": "cinema",
               "zoom": 15,
               "style": "⬤",
               "priority": 100,
@@ -4311,6 +4542,7 @@
                 "en_GB": "gallery",
                 "fr_FR": "gallerie (exposition publiques)"
               },
+              "icon": "gallery",
               "zoom": 17,
               "style": "⬤",
               "priority": 100,
@@ -4333,6 +4565,7 @@
             "en_GB": "library",
             "fr_FR": "médiathèque - bibliotheques"
           },
+          "icon": "library",
           "zoom": 15,
           "style": "⬤",
           "priority": 100,
@@ -4353,6 +4586,7 @@
             "en_GB": "public_bookcase",
             "fr_FR": "boite à livre"
           },
+          "icon": "public_bookcase",
           "zoom": 16,
           "style": "•",
           "priority": 800,
@@ -4375,6 +4609,7 @@
         "en_GB": "hosting",
         "fr_FR": "Hébergement"
       },
+      "icon": "hosting",
       "color_fill": "#99163a",
       "color_line": "#99163a",
       "group": {
@@ -4383,12 +4618,14 @@
             "en_GB": "hosting_hotel",
             "fr_FR": "Hôtel"
           },
+          "icon": "hosting_hotel",
           "group": {
             "hotel": {
               "label": {
                 "en_GB": "hotel",
                 "fr_FR": "hôtel"
               },
+              "icon": "hotel",
               "zoom": 15,
               "style": "⬤",
               "priority": 50,
@@ -4410,6 +4647,7 @@
                 "en_GB": "motel",
                 "fr_FR": "motel"
               },
+              "icon": "motel",
               "zoom": 15,
               "style": "⬤",
               "priority": 50,
@@ -4431,6 +4669,7 @@
                 "en_GB": "hostel",
                 "fr_FR": "auberge de jeunesse"
               },
+              "icon": "hostel",
               "zoom": 15,
               "style": "⬤",
               "priority": 50,
@@ -4452,6 +4691,7 @@
                 "en_GB": "guest_house",
                 "fr_FR": "chambre d'hôtes"
               },
+              "icon": "guest_house",
               "zoom": 17,
               "style": "⬤",
               "priority": 50,
@@ -4473,6 +4713,7 @@
                 "en_GB": "animal_boarding",
                 "fr_FR": "pension pour chien"
               },
+              "icon": "animal_boarding",
               "zoom": 17,
               "style": "⬤",
               "priority": 30,
@@ -4496,12 +4737,14 @@
             "en_GB": "hosting_resort",
             "fr_FR": "Ensemble hôtelier (séjour)"
           },
+          "icon": "hosting_resort",
           "group": {
             "apartment_resort": {
               "label": {
                 "en_GB": "apartment_resort",
                 "fr_FR": "résidences de tourisme"
               },
+              "icon": "apartment_resort",
               "zoom": 17,
               "style": "⬤",
               "priority": 50,
@@ -4523,6 +4766,7 @@
                 "en_GB": "camp_site",
                 "fr_FR": "camping"
               },
+              "icon": "camp_site",
               "zoom": 14,
               "style": "⬤",
               "priority": 50,
@@ -4544,6 +4788,7 @@
                 "en_GB": "caravan_site",
                 "fr_FR": "aire de caravaning"
               },
+              "icon": "caravan_site",
               "zoom": 15,
               "style": "⬤",
               "priority": 50,
@@ -4565,6 +4810,7 @@
                 "en_GB": "resort",
                 "fr_FR": "village vacances"
               },
+              "icon": "resort",
               "zoom": 15,
               "style": "⬤",
               "priority": 50,
@@ -4588,12 +4834,14 @@
             "en_GB": "hosting_rental",
             "fr_FR": "Location"
           },
+          "icon": "hosting_rental",
           "group": {
             "chalet": {
               "label": {
                 "en_GB": "chalet",
                 "fr_FR": "gîtes de groupes / gîte rural"
               },
+              "icon": "chalet",
               "zoom": 17,
               "style": "⬤",
               "priority": 50,
@@ -4615,6 +4863,7 @@
                 "en_GB": "apartment_rental",
                 "fr_FR": "villa et appartements"
               },
+              "icon": "apartment_rental",
               "zoom": 17,
               "style": "•",
               "priority": 30,
@@ -4640,6 +4889,7 @@
         "en_GB": "catering",
         "fr_FR": "Restauration"
       },
+      "icon": "catering",
       "color_fill": "#f5b700",
       "color_line": "#f09007",
       "group": {
@@ -4648,12 +4898,14 @@
             "en_GB": "catering_food",
             "fr_FR": "Restaurant"
           },
+          "icon": "catering_food",
           "group": {
             "restaurant": {
               "label": {
                 "en_GB": "restaurant",
                 "fr_FR": "restaurant"
               },
+              "icon": "restaurant",
               "zoom": 16,
               "style": "⬤",
               "priority": 40,
@@ -4676,6 +4928,7 @@
                 "en_GB": "fast_food",
                 "fr_FR": "snack – restauration rapide"
               },
+              "icon": "fast_food",
               "zoom": 17,
               "style": "⬤",
               "priority": 40,
@@ -4698,6 +4951,7 @@
                 "en_GB": "food_court",
                 "fr_FR": "aire de restauration"
               },
+              "icon": "food_court",
               "zoom": 17,
               "style": "⬤",
               "priority": 40,
@@ -4720,6 +4974,7 @@
                 "en_GB": "caterer",
                 "fr_FR": "traiteur"
               },
+              "icon": "caterer",
               "zoom": 17,
               "style": "⬤",
               "priority": 40,
@@ -4742,6 +4997,7 @@
                 "en_GB": "pastry",
                 "fr_FR": "pâtisserie"
               },
+              "icon": "pastry",
               "zoom": 17,
               "style": "⬤",
               "priority": 40,
@@ -4764,6 +5020,7 @@
                 "en_GB": "ice_cream",
                 "fr_FR": "glaciers (dont échoppe)"
               },
+              "icon": "ice_cream",
               "zoom": 16,
               "style": "⬤",
               "priority": 40,
@@ -4788,12 +5045,14 @@
             "en_GB": "catering_drink",
             "fr_FR": "Boisson"
           },
+          "icon": "catering_drink",
           "group": {
             "pub": {
               "label": {
                 "en_GB": "pub",
                 "fr_FR": "pub"
               },
+              "icon": "pub",
               "zoom": 17,
               "style": "⬤",
               "priority": 50,
@@ -4815,6 +5074,7 @@
                 "en_GB": "bar",
                 "fr_FR": "bar"
               },
+              "icon": "bar",
               "zoom": 16,
               "style": "⬤",
               "priority": 50,
@@ -4836,6 +5096,7 @@
                 "en_GB": "cafe",
                 "fr_FR": "café"
               },
+              "icon": "cafe",
               "zoom": 17,
               "style": "⬤",
               "priority": 50,
@@ -4861,6 +5122,7 @@
         "en_GB": "leisure",
         "fr_FR": "Loisirs"
       },
+      "icon": "leisure",
       "color_fill": "#00a757",
       "color_line": "#00a757",
       "group": {
@@ -4869,12 +5131,14 @@
             "en_GB": "picnic",
             "fr_FR": "Pique Nique"
           },
+          "icon": "picnic",
           "group": {
             "picnic_site": {
               "label": {
                 "en_GB": "picnic_site",
                 "fr_FR": "aire de pique nique"
               },
+              "icon": "picnic_site",
               "zoom": 16,
               "style": "⬤",
               "priority": 300,
@@ -4893,6 +5157,7 @@
                 "en_GB": "picnic_table",
                 "fr_FR": "table de pique nique"
               },
+              "icon": "picnic_table",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -4911,6 +5176,7 @@
                 "en_GB": "firepit",
                 "fr_FR": "emplacement de feu"
               },
+              "icon": "firepit",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -4929,6 +5195,7 @@
                 "en_GB": "bbq",
                 "fr_FR": "barbeque"
               },
+              "icon": "bbq",
               "zoom": 17,
               "style": "•",
               "priority": 1000,
@@ -4949,12 +5216,14 @@
             "en_GB": "hut",
             "fr_FR": "Refuge"
           },
+          "icon": "hut",
           "group": {
             "alpine_hut": {
               "label": {
                 "en_GB": "alpine_hut",
                 "fr_FR": "refuge de montagne"
               },
+              "icon": "alpine_hut",
               "zoom": 16,
               "style": "⬤",
               "priority": 100,
@@ -4971,6 +5240,7 @@
                 "en_GB": "wilderness_hut",
                 "fr_FR": "bivouac"
               },
+              "icon": "wilderness_hut",
               "zoom": 16,
               "style": "⬤",
               "priority": 100,
@@ -4987,6 +5257,7 @@
                 "en_GB": "shelter",
                 "fr_FR": "abri"
               },
+              "icon": "shelter",
               "zoom": 17,
               "style": "•",
               "priority": 100,
@@ -5005,12 +5276,14 @@
             "en_GB": "park",
             "fr_FR": "Parc"
           },
+          "icon": "park",
           "group": {
             "garden": {
               "label": {
                 "en_GB": "garden",
                 "fr_FR": "jardins aménagés (botaniques, etc)"
               },
+              "icon": "garden",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5027,6 +5300,7 @@
                 "en_GB": "allotments",
                 "fr_FR": "jardins partagés"
               },
+              "icon": "allotments",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5043,6 +5317,7 @@
                 "en_GB": "park",
                 "fr_FR": "parc"
               },
+              "icon": "park",
               "zoom": 16,
               "style": "⬤",
               "priority": 100,
@@ -5061,12 +5336,14 @@
             "en_GB": "hide",
             "fr_FR": "Observatoire naturel"
           },
+          "icon": "hide",
           "group": {
             "wildlife_hide": {
               "label": {
                 "en_GB": "wildlife_hide",
                 "fr_FR": "observatoire animalier"
               },
+              "icon": "wildlife_hide",
               "zoom": 17,
               "style": "•",
               "priority": 100,
@@ -5083,6 +5360,7 @@
                 "en_GB": "bird_hide",
                 "fr_FR": "observatoire ornithologique"
               },
+              "icon": "bird_hide",
               "zoom": 17,
               "style": "•",
               "priority": 100,
@@ -5099,6 +5377,7 @@
                 "en_GB": "tower",
                 "fr_FR": "tour d’observatoire"
               },
+              "icon": "tower",
               "zoom": 17,
               "style": "⬤",
               "priority": 100,
@@ -5118,12 +5397,14 @@
             "en_GB": "sport_practice",
             "fr_FR": "Sports"
           },
+          "icon": "sport_practice",
           "group": {
             "athletics": {
               "label": {
                 "en_GB": "athletics",
                 "fr_FR": "athlétisme"
               },
+              "icon": "athletics",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5140,6 +5421,7 @@
                 "en_GB": "badminton",
                 "fr_FR": "badminton"
               },
+              "icon": "badminton",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5156,6 +5438,7 @@
                 "en_GB": "basketball",
                 "fr_FR": "basketball"
               },
+              "icon": "basketball",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5174,6 +5457,7 @@
                 "en_GB": "beachvolleyball",
                 "fr_FR": "beach volley"
               },
+              "icon": "beachvolleyball",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5192,6 +5476,7 @@
                 "en_GB": "bmx",
                 "fr_FR": "BMX"
               },
+              "icon": "bmx",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5208,6 +5493,7 @@
                 "en_GB": "canoe",
                 "fr_FR": "canoë-kayak"
               },
+              "icon": "canoe",
               "zoom": 14,
               "style": "⬤",
               "priority": 300,
@@ -5224,6 +5510,7 @@
                 "en_GB": "climbing",
                 "fr_FR": "escalade"
               },
+              "icon": "climbing",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5240,6 +5527,7 @@
                 "en_GB": "climbing_adventure",
                 "fr_FR": "parcours acrobatiique"
               },
+              "icon": "climbing_adventure",
               "zoom": 14,
               "style": "⬤",
               "priority": 500,
@@ -5258,6 +5546,7 @@
                 "en_GB": "billiards",
                 "fr_FR": "billiard"
               },
+              "icon": "billiards",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5274,6 +5563,7 @@
                 "en_GB": "boules",
                 "fr_FR": "boules"
               },
+              "icon": "boules",
               "zoom": 16,
               "style": "⬤",
               "priority": 500,
@@ -5292,6 +5582,7 @@
                 "en_GB": "cycling",
                 "fr_FR": "cyclisme"
               },
+              "icon": "cycling",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5308,6 +5599,7 @@
                 "en_GB": "futsal",
                 "fr_FR": "futsal (foot en salle)"
               },
+              "icon": "futsal",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5324,6 +5616,7 @@
                 "en_GB": "diving",
                 "fr_FR": "plongeon"
               },
+              "icon": "diving",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5340,6 +5633,7 @@
                 "en_GB": "free_flying",
                 "fr_FR": "vol libre"
               },
+              "icon": "free_flying",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5356,6 +5650,7 @@
                 "en_GB": "gymnastics",
                 "fr_FR": "gymnastique"
               },
+              "icon": "gymnastics",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5372,6 +5667,7 @@
                 "en_GB": "handball",
                 "fr_FR": "handball"
               },
+              "icon": "handball",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5390,6 +5686,7 @@
                 "en_GB": "ice_hockey",
                 "fr_FR": "hochey sur glace"
               },
+              "icon": "ice_hockey",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5406,6 +5703,7 @@
                 "en_GB": "horse_racing",
                 "fr_FR": "courses hippiques"
               },
+              "icon": "horse_racing",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5422,6 +5720,7 @@
                 "en_GB": "karting",
                 "fr_FR": "karting"
               },
+              "icon": "karting",
               "zoom": 14,
               "style": "⬤",
               "priority": 500,
@@ -5439,6 +5738,7 @@
                 "en_GB": "kitesurfing",
                 "fr_FR": "kite surf"
               },
+              "icon": "kitesurfing",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5455,6 +5755,7 @@
                 "en_GB": "motocross",
                 "fr_FR": "motocross"
               },
+              "icon": "motocross",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5471,6 +5772,7 @@
                 "en_GB": "motor",
                 "fr_FR": "sport mécaninques"
               },
+              "icon": "motor",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5487,6 +5789,7 @@
                 "en_GB": "multi",
                 "fr_FR": "multisports"
               },
+              "icon": "multi",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5504,6 +5807,7 @@
                 "en_GB": "orienteering",
                 "fr_FR": "course d’orientation"
               },
+              "icon": "orienteering",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5520,6 +5824,7 @@
                 "en_GB": "paddle_tennis",
                 "fr_FR": "paddle-tennis"
               },
+              "icon": "paddle_tennis",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5536,6 +5841,7 @@
                 "en_GB": "paintball",
                 "fr_FR": "paint ball"
               },
+              "icon": "paintball",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5552,6 +5858,7 @@
                 "en_GB": "pelota",
                 "fr_FR": "pelote basque"
               },
+              "icon": "pelota",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -5569,6 +5876,7 @@
                 "en_GB": "racquet",
                 "fr_FR": "sport de raquettes"
               },
+              "icon": "racquet",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5585,6 +5893,7 @@
                 "en_GB": "squash",
                 "fr_FR": "squash"
               },
+              "icon": "squash",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -5603,6 +5912,7 @@
                 "en_GB": "rowing",
                 "fr_FR": "aviron"
               },
+              "icon": "rowing",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5619,6 +5929,7 @@
                 "en_GB": "rugby",
                 "fr_FR": "rugby"
               },
+              "icon": "rugby",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5635,6 +5946,7 @@
                 "en_GB": "rugby_league",
                 "fr_FR": "rugby à XIII"
               },
+              "icon": "rugby_league",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5651,6 +5963,7 @@
                 "en_GB": "rugby_union",
                 "fr_FR": "rugby à XV"
               },
+              "icon": "rugby_union",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5667,6 +5980,7 @@
                 "en_GB": "running",
                 "fr_FR": "course à pied"
               },
+              "icon": "running",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5683,6 +5997,7 @@
                 "en_GB": "sailing_school",
                 "fr_FR": "école de voile"
               },
+              "icon": "sailing_school",
               "zoom": 14,
               "style": "⬤",
               "priority": 300,
@@ -5699,6 +6014,7 @@
                 "en_GB": "sailing",
                 "fr_FR": "voile"
               },
+              "icon": "sailing",
               "zoom": 14,
               "style": "⬤",
               "priority": 300,
@@ -5715,6 +6031,7 @@
                 "en_GB": "scuba_diving",
                 "fr_FR": "plongée sous-marine"
               },
+              "icon": "scuba_diving",
               "zoom": 14,
               "style": "⬤",
               "priority": 500,
@@ -5731,6 +6048,7 @@
                 "en_GB": "shooting",
                 "fr_FR": "sports de tir"
               },
+              "icon": "shooting",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5747,6 +6065,7 @@
                 "en_GB": "skateboard",
                 "fr_FR": "skateboard"
               },
+              "icon": "skateboard",
               "zoom": 16,
               "style": "⬤",
               "priority": 500,
@@ -5765,6 +6084,7 @@
                 "en_GB": "soccer",
                 "fr_FR": "footbal"
               },
+              "icon": "soccer",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5781,6 +6101,7 @@
                 "en_GB": "surfing",
                 "fr_FR": "surf"
               },
+              "icon": "surfing",
               "zoom": 14,
               "style": "⬤",
               "priority": 500,
@@ -5797,6 +6118,7 @@
                 "en_GB": "swimming",
                 "fr_FR": "natation"
               },
+              "icon": "swimming",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5813,6 +6135,7 @@
                 "en_GB": "table_soccer",
                 "fr_FR": "babby foot"
               },
+              "icon": "table_soccer",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5829,6 +6152,7 @@
                 "en_GB": "table_tennis",
                 "fr_FR": "tennis de table"
               },
+              "icon": "table_tennis",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5845,6 +6169,7 @@
                 "en_GB": "tennis",
                 "fr_FR": "tennis"
               },
+              "icon": "tennis",
               "zoom": 17,
               "style": "⬤",
               "priority": 500,
@@ -5863,6 +6188,7 @@
                 "en_GB": "volleyball",
                 "fr_FR": "voleyball"
               },
+              "icon": "volleyball",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5881,6 +6207,7 @@
                 "en_GB": "water_ski",
                 "fr_FR": "ski nautique"
               },
+              "icon": "water_ski",
               "zoom": 14,
               "style": "•",
               "priority": 500,
@@ -5897,6 +6224,7 @@
                 "en_GB": "yoga",
                 "fr_FR": "yoga"
               },
+              "icon": "yoga",
               "zoom": 17,
               "style": "•",
               "priority": 500,
@@ -5915,6 +6243,7 @@
             "en_GB": "community_centre",
             "fr_FR": "centre d’activité (salles, salles associatives)"
           },
+          "icon": "community_centre",
           "zoom": 17,
           "style": "•",
           "priority": 200,
@@ -5932,6 +6261,7 @@
             "en_GB": "casino",
             "fr_FR": "casino"
           },
+          "icon": "casino",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -5950,6 +6280,7 @@
             "en_GB": "nightclub",
             "fr_FR": "night-club"
           },
+          "icon": "nightclub",
           "zoom": 17,
           "style": "⬤",
           "priority": 200,
@@ -5968,6 +6299,7 @@
             "en_GB": "swimming_pool_leisure",
             "fr_FR": "piscine"
           },
+          "icon": "swimming_pool_leisure",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -5986,6 +6318,7 @@
             "en_GB": "swimming_centre",
             "fr_FR": "centre aquatique"
           },
+          "icon": "swimming_centre",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -6004,6 +6337,7 @@
             "en_GB": "spa",
             "fr_FR": "spa"
           },
+          "icon": "spa",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -6022,6 +6356,7 @@
             "en_GB": "public_bath",
             "fr_FR": "thermes"
           },
+          "icon": "public_bath",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -6040,6 +6375,7 @@
             "en_GB": "playground",
             "fr_FR": "aire de jeux"
           },
+          "icon": "playground",
           "zoom": 16,
           "style": "⬤",
           "priority": 500,
@@ -6058,6 +6394,7 @@
             "en_GB": "dog_park",
             "fr_FR": "parc canin"
           },
+          "icon": "dog_park",
           "zoom": 17,
           "style": "•",
           "priority": 500,
@@ -6076,6 +6413,7 @@
             "en_GB": "golf_course",
             "fr_FR": "terrain de golf"
           },
+          "icon": "golf_course",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -6094,6 +6432,7 @@
             "en_GB": "golf_course_minor",
             "fr_FR": "terrain de golf"
           },
+          "icon": "golf_course_minor",
           "zoom": 16,
           "style": "•",
           "priority": 300,
@@ -6112,6 +6451,7 @@
             "en_GB": "ice_rink",
             "fr_FR": "patinoire"
           },
+          "icon": "ice_rink",
           "zoom": 15,
           "style": "⬤",
           "priority": 200,
@@ -6130,6 +6470,7 @@
             "en_GB": "horse_riding",
             "fr_FR": "centre équestre"
           },
+          "icon": "horse_riding",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -6148,6 +6489,7 @@
             "en_GB": "sport",
             "fr_FR": "club de tennis"
           },
+          "icon": "sport",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -6167,6 +6509,7 @@
             "en_GB": "surf_school",
             "fr_FR": "école de surf"
           },
+          "icon": "surf_school",
           "zoom": 15,
           "style": "⬤",
           "priority": 200,
@@ -6185,6 +6528,7 @@
             "en_GB": "miniature_golf",
             "fr_FR": "golf miniature"
           },
+          "icon": "miniature_golf",
           "zoom": 16,
           "style": "⬤",
           "priority": 200,
@@ -6203,6 +6547,7 @@
             "en_GB": "pitch",
             "fr_FR": "terrain de sport"
           },
+          "icon": "pitch",
           "zoom": 17,
           "style": "•",
           "priority": 501,
@@ -6221,6 +6566,7 @@
             "en_GB": "sports_centre",
             "fr_FR": "centre sportif"
           },
+          "icon": "sports_centre",
           "zoom": 14,
           "style": "⬤",
           "priority": 201,
@@ -6239,6 +6585,7 @@
             "en_GB": "bowling_alley",
             "fr_FR": "bowling"
           },
+          "icon": "bowling_alley",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -6257,6 +6604,7 @@
             "en_GB": "escape_game",
             "fr_FR": "escape game"
           },
+          "icon": "escape_game",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -6275,6 +6623,7 @@
             "en_GB": "dojo",
             "fr_FR": "dojo"
           },
+          "icon": "dojo",
           "zoom": 17,
           "style": "•",
           "priority": 200,
@@ -6293,6 +6642,7 @@
             "en_GB": "fitness_centre",
             "fr_FR": "centre fitness"
           },
+          "icon": "fitness_centre",
           "zoom": 16,
           "style": "•",
           "priority": 500,
@@ -6311,6 +6661,7 @@
             "en_GB": "fitness_station",
             "fr_FR": "équipement de fitness"
           },
+          "icon": "fitness_station",
           "zoom": 16,
           "style": "•",
           "priority": 500,
@@ -6329,6 +6680,7 @@
             "en_GB": "trinquete",
             "fr_FR": "place de pelote (trinquet)"
           },
+          "icon": "trinquete",
           "zoom": 14,
           "style": "⬤",
           "priority": 200,
@@ -6349,6 +6701,7 @@
         "en_GB": "public_landmark",
         "fr_FR": "Points de repaire du territoire"
       },
+      "icon": "public_landmark",
       "color_fill": "#1d1d1b",
       "color_line": "#1d1d1b",
       "group": {
@@ -6357,6 +6710,7 @@
             "en_GB": "courthouse",
             "fr_FR": "tribunal, palais de justice"
           },
+          "icon": "courthouse",
           "zoom": 16,
           "style": "•",
           "priority": 100,
@@ -6372,6 +6726,7 @@
             "en_GB": "embassy",
             "fr_FR": "ambassade"
           },
+          "icon": "embassy",
           "zoom": 16,
           "style": "•",
           "priority": 100,
@@ -6387,6 +6742,7 @@
             "en_GB": "grave_yard",
             "fr_FR": "cimetière"
           },
+          "icon": "grave_yard",
           "zoom": 14,
           "style": "•",
           "priority": 100,
@@ -6402,6 +6758,7 @@
             "en_GB": "cemetery",
             "fr_FR": "cimetière"
           },
+          "icon": "cemetery",
           "zoom": 14,
           "style": "•",
           "priority": 100,
@@ -6417,6 +6774,7 @@
             "en_GB": "school",
             "fr_FR": "école"
           },
+          "icon": "school",
           "zoom": 16,
           "style": "•",
           "priority": 100,
@@ -6432,6 +6790,7 @@
             "en_GB": "college",
             "fr_FR": "établissement d'enseignement supérieur"
           },
+          "icon": "college",
           "zoom": 16,
           "style": "•",
           "priority": 100,
@@ -6447,6 +6806,7 @@
             "en_GB": "university",
             "fr_FR": "université"
           },
+          "icon": "university",
           "zoom": 14,
           "style": "•",
           "priority": 100,
@@ -6462,6 +6822,7 @@
             "en_GB": "prison",
             "fr_FR": "prison"
           },
+          "icon": "prison",
           "zoom": 16,
           "style": "•",
           "priority": 100,
@@ -6477,6 +6838,7 @@
             "en_GB": "mall",
             "fr_FR": "centre commerciaux"
           },
+          "icon": "mall",
           "zoom": 14,
           "style": "•",
           "priority": 100,
@@ -6492,6 +6854,7 @@
             "en_GB": "border_control",
             "fr_FR": "point de contrôle douanier"
           },
+          "icon": "border_control",
           "zoom": 16,
           "style": "•",
           "priority": 100,
@@ -6507,6 +6870,7 @@
             "en_GB": "brownfield",
             "fr_FR": "friches industrielles"
           },
+          "icon": "brownfield",
           "zoom": 14,
           "style": "•",
           "priority": 100,
@@ -6522,6 +6886,7 @@
             "en_GB": "mountain_pass",
             "fr_FR": "cols"
           },
+          "icon": "mountain_pass",
           "zoom": 13,
           "style": "•",
           "priority": 100,
@@ -6539,6 +6904,7 @@
         "en_GB": "shopping",
         "fr_FR": "Commerces"
       },
+      "icon": "shopping",
       "color_fill": "#808080",
       "color_line": "#808080",
       "group": {
@@ -6547,12 +6913,14 @@
             "en_GB": "sport_supply",
             "fr_FR": "Sport"
           },
+          "icon": "sport_supply",
           "group": {
             "bicycle_shop": {
               "label": {
                 "en_GB": "bicycle_shop",
                 "fr_FR": "magasin de vélos et accessoires"
               },
+              "icon": "bicycle_shop",
               "zoom": 15,
               "style": "⬤",
               "priority": 500,
@@ -6574,6 +6942,7 @@
                 "en_GB": "surf",
                 "fr_FR": "magasin de surf (surfshop)"
               },
+              "icon": "surf",
               "zoom": 16,
               "style": "⬤",
               "priority": 500,
@@ -6595,6 +6964,7 @@
                 "en_GB": "outdoor",
                 "fr_FR": "magasin outdoor"
               },
+              "icon": "outdoor",
               "zoom": 16,
               "style": "⬤",
               "priority": 500,
@@ -6618,12 +6988,14 @@
             "en_GB": "feed",
             "fr_FR": "Alimentation"
           },
+          "icon": "feed",
           "group": {
             "coffee": {
               "label": {
                 "en_GB": "coffee",
                 "fr_FR": "magasin de café (torrefacteur)"
               },
+              "icon": "coffee",
               "zoom": 16,
               "style": "⬤",
               "priority": 400,
@@ -6646,6 +7018,7 @@
                 "en_GB": "beverages",
                 "fr_FR": "magasin de boissons (diverses)"
               },
+              "icon": "beverages",
               "zoom": 17,
               "style": "⬤",
               "priority": 400,
@@ -6668,6 +7041,7 @@
                 "en_GB": "confectionery",
                 "fr_FR": "confiserie (bonbons)"
               },
+              "icon": "confectionery",
               "zoom": 17,
               "style": "⬤",
               "priority": 400,
@@ -6690,6 +7064,7 @@
                 "en_GB": "frozen_food",
                 "fr_FR": "produits surgelés"
               },
+              "icon": "frozen_food",
               "zoom": 17,
               "style": "⬤",
               "priority": 400,
@@ -6714,12 +7089,14 @@
             "en_GB": "various_supply",
             "fr_FR": "Équipement"
           },
+          "icon": "various_supply",
           "group": {
             "computer": {
               "label": {
                 "en_GB": "computer",
                 "fr_FR": "magasin d’informatique"
               },
+              "icon": "computer",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6741,6 +7118,7 @@
                 "en_GB": "camera",
                 "fr_FR": "magasin photo"
               },
+              "icon": "camera",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6762,6 +7140,7 @@
                 "en_GB": "mobile_phone",
                 "fr_FR": "magasin de téléphonie"
               },
+              "icon": "mobile_phone",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6783,6 +7162,7 @@
                 "en_GB": "electronics",
                 "fr_FR": "magasin d’électronique"
               },
+              "icon": "electronics",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6804,6 +7184,7 @@
                 "en_GB": "hifi",
                 "fr_FR": "magasin de HIFI"
               },
+              "icon": "hifi",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6825,6 +7206,7 @@
                 "en_GB": "agrarian",
                 "fr_FR": "magasin de matériel agricole"
               },
+              "icon": "agrarian",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6846,6 +7228,7 @@
                 "en_GB": "gas",
                 "fr_FR": "vente de gas"
               },
+              "icon": "gas",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6867,6 +7250,7 @@
                 "en_GB": "garden_centre",
                 "fr_FR": "jardinerie"
               },
+              "icon": "garden_centre",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6888,6 +7272,7 @@
                 "en_GB": "doityourself",
                 "fr_FR": "magasin de bricolage"
               },
+              "icon": "doityourself",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6909,6 +7294,7 @@
                 "en_GB": "musical_instrument",
                 "fr_FR": "magasin d’instrument de musique"
               },
+              "icon": "musical_instrument",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6930,6 +7316,7 @@
                 "en_GB": "baby_goods",
                 "fr_FR": "magasin d'articles pour bébé"
               },
+              "icon": "baby_goods",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6951,6 +7338,7 @@
                 "en_GB": "toys",
                 "fr_FR": "magasin de jouet"
               },
+              "icon": "toys",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6972,6 +7360,7 @@
                 "en_GB": "stationery",
                 "fr_FR": "margasin d’articles de bureau"
               },
+              "icon": "stationery",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -6993,6 +7382,7 @@
                 "en_GB": "video",
                 "fr_FR": "magasin de vidéo"
               },
+              "icon": "video",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7014,6 +7404,7 @@
                 "en_GB": "video_games",
                 "fr_FR": "magasin de jeu vidéo"
               },
+              "icon": "video_games",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7035,6 +7426,7 @@
                 "en_GB": "rental",
                 "fr_FR": "boutique de location de matériel"
               },
+              "icon": "rental",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7056,6 +7448,7 @@
                 "en_GB": "beauty",
                 "fr_FR": "salon de beauté (esthéticien.e)"
               },
+              "icon": "beauty",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7077,6 +7470,7 @@
                 "en_GB": "erotic",
                 "fr_FR": "sex-shop"
               },
+              "icon": "erotic",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7098,6 +7492,7 @@
                 "en_GB": "optician",
                 "fr_FR": "opticien"
               },
+              "icon": "optician",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7119,6 +7514,7 @@
                 "en_GB": "health_food",
                 "fr_FR": "magasin de nutrition"
               },
+              "icon": "health_food",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7143,6 +7539,7 @@
                 "en_GB": "hearing_aids",
                 "fr_FR": "audioprothésiste"
               },
+              "icon": "hearing_aids",
               "zoom": 16,
               "style": "⬤",
               "priority": 700,
@@ -7164,6 +7561,7 @@
                 "en_GB": "medical_supply",
                 "fr_FR": "dourniture de matériel médical"
               },
+              "icon": "medical_supply",
               "zoom": 16,
               "style": "⬤",
               "priority": 700,
@@ -7185,6 +7583,7 @@
                 "en_GB": "hardware",
                 "fr_FR": "quincaillerie"
               },
+              "icon": "hardware",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7206,6 +7605,7 @@
                 "en_GB": "general",
                 "fr_FR": "magasin général (vente au comptoir)"
               },
+              "icon": "general",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7227,6 +7627,7 @@
                 "en_GB": "lamps",
                 "fr_FR": "magasin de luminaires"
               },
+              "icon": "lamps",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7248,6 +7649,7 @@
                 "en_GB": "furniture",
                 "fr_FR": "magasin de mobilier"
               },
+              "icon": "furniture",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7269,6 +7671,7 @@
                 "en_GB": "kitchen",
                 "fr_FR": "cuisiniste"
               },
+              "icon": "kitchen",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7290,6 +7693,7 @@
                 "en_GB": "swimming_pool_shop",
                 "fr_FR": "pisciniste"
               },
+              "icon": "swimming_pool_shop",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7311,6 +7715,7 @@
                 "en_GB": "fireplace",
                 "fr_FR": "magasin de cheminées"
               },
+              "icon": "fireplace",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7332,6 +7737,7 @@
                 "en_GB": "bed",
                 "fr_FR": "magasin de literie"
               },
+              "icon": "bed",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7353,6 +7759,7 @@
                 "en_GB": "household_linen",
                 "fr_FR": "magasin de linges de maison"
               },
+              "icon": "household_linen",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7374,6 +7781,7 @@
                 "en_GB": "bathroom_furnishing",
                 "fr_FR": "fournitures pour salles de bains"
               },
+              "icon": "bathroom_furnishing",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7395,6 +7803,7 @@
                 "en_GB": "paint",
                 "fr_FR": "magasin de peintures"
               },
+              "icon": "paint",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7416,6 +7825,7 @@
                 "en_GB": "car",
                 "fr_FR": "vendeur de voiture, concessionnaire"
               },
+              "icon": "car",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7437,6 +7847,7 @@
                 "en_GB": "caravan",
                 "fr_FR": "vendeur de caravanes & camping car"
               },
+              "icon": "caravan",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7458,6 +7869,7 @@
                 "en_GB": "boat",
                 "fr_FR": "vendeur de bateau"
               },
+              "icon": "boat",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7479,6 +7891,7 @@
                 "en_GB": "motorcycle",
                 "fr_FR": "vendeur de moto"
               },
+              "icon": "motorcycle",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7500,6 +7913,7 @@
                 "en_GB": "weapons",
                 "fr_FR": "armurier, chasse"
               },
+              "icon": "weapons",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7521,6 +7935,7 @@
                 "en_GB": "charity",
                 "fr_FR": "magasin exploité par un organisme de bienfaisance"
               },
+              "icon": "charity",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7542,6 +7957,7 @@
                 "en_GB": "fishing_shop",
                 "fr_FR": "magasin d'articles de pêches"
               },
+              "icon": "fishing_shop",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7563,6 +7979,7 @@
                 "en_GB": "groundskeeping",
                 "fr_FR": "magasin de matériel agricole & de jardin"
               },
+              "icon": "groundskeeping",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7584,6 +8001,7 @@
                 "en_GB": "wholesale",
                 "fr_FR": "wholesale (ventre en gros)"
               },
+              "icon": "wholesale",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7607,12 +8025,14 @@
             "en_GB": "fashion",
             "fr_FR": "Mode  (luxe, cadeaux, habillement, etc)"
           },
+          "icon": "fashion",
           "group": {
             "boutique": {
               "label": {
                 "en_GB": "boutique",
                 "fr_FR": "petit magazin de mode"
               },
+              "icon": "boutique",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7634,6 +8054,7 @@
                 "en_GB": "clothes_underwear",
                 "fr_FR": "magasin de sous-vetements"
               },
+              "icon": "clothes_underwear",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7655,6 +8076,7 @@
                 "en_GB": "clothes",
                 "fr_FR": "magasin de vetements"
               },
+              "icon": "clothes",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7676,6 +8098,7 @@
                 "en_GB": "hat",
                 "fr_FR": "magasin de chapeaux"
               },
+              "icon": "hat",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7697,6 +8120,7 @@
                 "en_GB": "second_hand",
                 "fr_FR": "friperie"
               },
+              "icon": "second_hand",
               "zoom": 16,
               "style": "⬤",
               "priority": 700,
@@ -7718,6 +8142,7 @@
                 "en_GB": "bag",
                 "fr_FR": "bagagerie"
               },
+              "icon": "bag",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7739,6 +8164,7 @@
                 "en_GB": "watches",
                 "fr_FR": "horlogerie"
               },
+              "icon": "watches",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7760,6 +8186,7 @@
                 "en_GB": "interior_decoration",
                 "fr_FR": "décoration intérieure"
               },
+              "icon": "interior_decoration",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7781,6 +8208,7 @@
                 "en_GB": "jewelry",
                 "fr_FR": "bijoutier"
               },
+              "icon": "jewelry",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7802,6 +8230,7 @@
                 "en_GB": "perfumery",
                 "fr_FR": "parfumeur"
               },
+              "icon": "perfumery",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7823,6 +8252,7 @@
                 "en_GB": "cosmetics",
                 "fr_FR": "parfumerie"
               },
+              "icon": "cosmetics",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7844,6 +8274,7 @@
                 "en_GB": "fabric",
                 "fr_FR": "magasin de tissus"
               },
+              "icon": "fabric",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7865,6 +8296,7 @@
                 "en_GB": "sewing",
                 "fr_FR": "mercerie"
               },
+              "icon": "sewing",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7886,6 +8318,7 @@
                 "en_GB": "perfume",
                 "fr_FR": "parfumeur"
               },
+              "icon": "perfume",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7907,6 +8340,7 @@
                 "en_GB": "accessories",
                 "fr_FR": "accessoires"
               },
+              "icon": "accessories",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7928,6 +8362,7 @@
                 "en_GB": "shoes",
                 "fr_FR": "boutique de chaussures"
               },
+              "icon": "shoes",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7949,6 +8384,7 @@
                 "en_GB": "gift",
                 "fr_FR": "boutique de cadeaux"
               },
+              "icon": "gift",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7970,6 +8406,7 @@
                 "en_GB": "tattoo",
                 "fr_FR": "tatoueur"
               },
+              "icon": "tattoo",
               "zoom": 17,
               "style": "⬤",
               "priority": 700,
@@ -7993,12 +8430,14 @@
             "en_GB": "culture",
             "fr_FR": "Culture (produits culturel)"
           },
+          "icon": "culture",
           "group": {
             "art": {
               "label": {
                 "en_GB": "art",
                 "fr_FR": "galerie d’art privé"
               },
+              "icon": "art",
               "zoom": 17,
               "style": "⬤",
               "priority": 600,
@@ -8020,6 +8459,7 @@
                 "en_GB": "antiques",
                 "fr_FR": "brocantes, antiquité"
               },
+              "icon": "antiques",
               "zoom": 17,
               "style": "⬤",
               "priority": 600,
@@ -8041,6 +8481,7 @@
                 "en_GB": "music",
                 "fr_FR": "disquaire"
               },
+              "icon": "music",
               "zoom": 17,
               "style": "⬤",
               "priority": 600,
@@ -8062,6 +8503,7 @@
                 "en_GB": "books",
                 "fr_FR": "librairie"
               },
+              "icon": "books",
               "zoom": 17,
               "style": "⬤",
               "priority": 600,
@@ -8085,12 +8527,14 @@
             "en_GB": "animals",
             "fr_FR": "Animaux"
           },
+          "icon": "animals",
           "group": {
             "pet": {
               "label": {
                 "en_GB": "pet",
                 "fr_FR": "animalerie"
               },
+              "icon": "pet",
               "zoom": 17,
               "style": "⬤",
               "priority": 1000,
@@ -8112,6 +8556,7 @@
                 "en_GB": "pet_grooming",
                 "fr_FR": "toilettage"
               },
+              "icon": "pet_grooming",
               "zoom": 17,
               "style": "⬤",
               "priority": 1000,
