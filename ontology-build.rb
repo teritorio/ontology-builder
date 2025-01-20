@@ -21,7 +21,7 @@ CSV.new(File.new(superclass_csv).read, headers: true).collect{ |row|
   if row["#{theme}_color_icon"]
     current_superclasses = row["#{theme}_superclass"]
     superclasses[current_superclasses] = {
-      label: { en_GB: current_superclasses, fr_FR: row["#{theme}_superclass:name:fr"] },
+      label: { "en-US" => current_superclasses, "fr-FR" => row["#{theme}_superclass:name:fr"] },
       color_fill: row["#{theme}_color_icon"].downcase,
       color_line: row["#{theme}_color_text"].downcase,
       attributes: row['attributes_superclass'].split,
@@ -51,7 +51,7 @@ CSV.new(File.new(tags_csv).read, headers: true).collect{ |row|
     plus_groups[tag[1..]] = current_group
   elsif !tag.nil?
     current_tag = {
-      label: { fr_FR: row['name:fr'] },
+      label: { "fr-FR" => row['name:fr'] },
       is_array: !row['array'].nil? && row['array'] != '',
       values: row['value'] == '*' ? nil : [],
     }
@@ -60,7 +60,7 @@ CSV.new(File.new(tags_csv).read, headers: true).collect{ |row|
     if current_tag[:values].nil?
       puts "Error: value for non enum key: #{row['value']}"
     end
-    current_tag[:values] << { value: row['value'], label: { fr_FR: row['name:fr'] } }
+    current_tag[:values] << { value: row['value'], label: { "fr-FR" => row['name:fr'] } }
   end
 }
 plus_groups.each{ |group_id, group|
@@ -122,7 +122,7 @@ hierarchy = csv.group_by{ |row| row["#{theme}_superclass"] }.collect{ |superclas
       rr['attributes'].any?{ |a| a == '' } and raise "Error: invalid attribute: #{rr['attributes'].inspect}"
       value = rr['name_over_value'] || rr['value']
       [value, {
-        label: { en_GB: value, fr_FR: rr['name:fr'] },
+        label: { "en-US" => value, "fr-FR" => rr['name:fr'] },
         icon: value,
         zoom: rr["#{theme}_zoom"].to_i,
         style: rr["#{theme}_style"],
@@ -133,13 +133,13 @@ hierarchy = csv.group_by{ |row| row["#{theme}_superclass"] }.collect{ |superclas
     }.to_h
     if sc
       [classs, {
-        label: { en_GB: classs, fr_FR: sc0["#{theme}_class:name:fr"] },
+        label: { "en-US" => classs, "fr-FR" => sc0["#{theme}_class:name:fr"] },
         icon: classs,
         group: sc,
       }]
     else
       [classs, {
-        label: { en_GB: classs, fr_FR: sc0["#{theme}_class:name:fr"] },
+        label: { "en-US" => classs, "fr-FR" => sc0["#{theme}_class:name:fr"] },
         icon: classs,
         zoom: sc0["#{theme}_zoom"].to_i,
         style: sc0["#{theme}_style"],
