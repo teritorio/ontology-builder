@@ -2277,7 +2277,7 @@
     "mobility": {
       "label": {
         "en-US": "mobility",
-        "fr-FR": "Mobilité"
+        "fr-FR": "Mobilités"
       },
       "icon": "mobility",
       "color_fill": "#008ecf",
@@ -2962,7 +2962,7 @@
     "amenity": {
       "label": {
         "en-US": "amenity",
-        "fr-FR": "Equipement de proximité"
+        "fr-FR": "Équipements de proximité"
       },
       "icon": "amenity",
       "color_fill": "#2a62ac",
@@ -3330,7 +3330,7 @@
     "remarkable": {
       "label": {
         "en-US": "remarkable",
-        "fr-FR": "Eléments Notables"
+        "fr-FR": "Éléments Notables"
       },
       "icon": "remarkable",
       "color_fill": "#e50980",
@@ -4607,7 +4607,7 @@
     "hosting": {
       "label": {
         "en-US": "hosting",
-        "fr-FR": "Hébergement"
+        "fr-FR": "Hébergements"
       },
       "icon": "hosting",
       "color_fill": "#99163a",
@@ -6699,7 +6699,7 @@
     "public_landmark": {
       "label": {
         "en-US": "public_landmark",
-        "fr-FR": "Points de repaire du territoire"
+        "fr-FR": "Points de repère du territoire"
       },
       "icon": "public_landmark",
       "color_fill": "#1d1d1b",
