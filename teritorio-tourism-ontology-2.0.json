@@ -9037,7 +9037,7 @@
             }
           },
           {
-            "value": "non",
+            "value": "no",
             "label": {
               "fr-FR": "pas de paiment en cash"
             }
@@ -9063,7 +9063,7 @@
             }
           },
           {
-            "value": "non",
+            "value": "no",
             "label": {
               "fr-FR": "pièces refusées"
             }
@@ -9089,7 +9089,7 @@
             }
           },
           {
-            "value": "non",
+            "value": "no",
             "label": {
               "fr-FR": "billets refusés"
             }
@@ -9102,7 +9102,7 @@
           }
         ]
       },
-      "payements:cards": {
+      "payment:cards": {
         "label": {
           "fr-FR": "paiement par carte"
         },
@@ -9116,7 +9116,7 @@
           }
         ]
       },
-      "payements:debit_cards": {
+      "payment:debit_cards": {
         "label": {
           "fr-FR": "paiement par carte de débit"
         },
@@ -9129,7 +9129,7 @@
             }
           },
           {
-            "value": "non",
+            "value": "no",
             "label": {
               "fr-FR": "carte de débit refusée"
             }
@@ -9142,7 +9142,7 @@
           }
         ]
       },
-      "payements:credit_cards": {
+      "payment:credit_cards": {
         "label": {
           "fr-FR": "paiement par carte de Crédits"
         },
@@ -9155,7 +9155,7 @@
             }
           },
           {
-            "value": "non",
+            "value": "no",
             "label": {
               "fr-FR": "carte de crédit refusée"
             }
@@ -9164,6 +9164,32 @@
             "value": "only",
             "label": {
               "fr-FR": "uniquement par carte de crédit"
+            }
+          }
+        ]
+      },
+      "payment:prepaid_ticket": {
+        "label": {
+          "fr-FR": "paiement par ticket acheté à l'avance"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "yes",
+            "label": {
+              "fr-FR": "Ticket acheté à l'avance accepté"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "Ticket acheté à l'avance refusé"
+            }
+          },
+          {
+            "value": "only",
+            "label": {
+              "fr-FR": "uniquement par ticket acheté à l'avance"
             }
           }
         ]
