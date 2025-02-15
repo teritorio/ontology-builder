@@ -9170,26 +9170,26 @@
       },
       "payment:prepaid_ticket": {
         "label": {
-          "fr-FR": "paiement par ticket acheté à l'avance"
+          "fr-FR": "paiement par carte prépayé"
         },
         "is_array": false,
         "values": [
           {
             "value": "yes",
             "label": {
-              "fr-FR": "Ticket acheté à l'avance accepté"
+              "fr-FR": "carte prépayé accepté"
             }
           },
           {
             "value": "no",
             "label": {
-              "fr-FR": "Ticket acheté à l'avance refusé"
+              "fr-FR": "carte prépayé refusé"
             }
           },
           {
             "value": "only",
             "label": {
-              "fr-FR": "uniquement par ticket acheté à l'avance"
+              "fr-FR": "uniquement par carte prépayé"
             }
           }
         ]
