@@ -3382,6 +3382,27 @@
             "disabled"
           ]
         },
+        "government_local_authority": {
+          "label": {
+            "en-US": "government_local_authority",
+            "fr-FR": "communauté de communes"
+          },
+          "icon": "government_local_authority",
+          "zoom": 11,
+          "style": "⬤",
+          "priority": 20,
+          "osm_selector": [
+            "[government=local_authority][office=government]"
+          ],
+          "properties_extra": [
+            "base",
+            "address",
+            "contact",
+            "ref",
+            "opening",
+            "disabled"
+          ]
+        },
         "chamber": {
           "label": {
             "en-US": "chamber",
