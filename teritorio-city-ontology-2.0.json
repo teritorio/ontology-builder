@@ -292,8 +292,8 @@
         "fr-FR": "Commerces de proximité (alim)"
       },
       "icon": "local_shop",
-      "color_fill": "#00b3cc",
-      "color_line": "#00a0c4",
+      "color_fill": "#009cb8",
+      "color_line": "#009cb8",
       "group": {
         "alcohol": {
           "label": {
@@ -1126,8 +1126,8 @@
         "fr-FR": "Commerces de services"
       },
       "icon": "services_shopping",
-      "color_fill": "#7093c3",
-      "color_line": "#2a62ac",
+      "color_fill": "#4e7ab5",
+      "color_line": "#4e7ab5",
       "group": {
         "tobacco": {
           "label": {
@@ -1537,8 +1537,8 @@
         "fr-FR": "Commerces Culturel"
       },
       "icon": "culture_shopping",
-      "color_fill": "#a16cb3",
-      "color_line": "#76009e",
+      "color_fill": "#a04c97",
+      "color_line": "#a04c97",
       "group": {
         "photo": {
           "label": {
@@ -7167,8 +7167,8 @@
         "fr-FR": "Restauration"
       },
       "icon": "catering",
-      "color_fill": "#f5b700",
-      "color_line": "#f09007",
+      "color_fill": "#db7900",
+      "color_line": "#db7900",
       "group": {
         "catering_food": {
           "label": {
@@ -9512,6 +9512,13 @@
       "description": {
         "label": {
           "fr-FR": "description"
+        },
+        "is_array": false,
+        "values": null
+      },
+      "short_name": {
+        "label": {
+          "fr-FR": "nom abrégé"
         },
         "is_array": false,
         "values": null

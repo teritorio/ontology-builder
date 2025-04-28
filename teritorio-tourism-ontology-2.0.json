@@ -491,8 +491,8 @@
         "fr-FR": "Commerces de proximité"
       },
       "icon": "local_shop",
-      "color_fill": "#00b3cc",
-      "color_line": "#00a0c4",
+      "color_fill": "#009cb8",
+      "color_line": "#009cb8",
       "group": {
         "supermarket": {
           "label": {
@@ -4911,8 +4911,8 @@
         "fr-FR": "Restauration"
       },
       "icon": "catering",
-      "color_fill": "#f5b700",
-      "color_line": "#f09007",
+      "color_fill": "#db7900",
+      "color_line": "#db7900",
       "group": {
         "catering_food": {
           "label": {
@@ -8632,6 +8632,13 @@
       "description": {
         "label": {
           "fr-FR": "description"
+        },
+        "is_array": false,
+        "values": null
+      },
+      "short_name": {
+        "label": {
+          "fr-FR": "nom abrégé"
         },
         "is_array": false,
         "values": null
