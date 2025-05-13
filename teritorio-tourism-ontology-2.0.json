@@ -8645,7 +8645,14 @@
       },
       "mapillary": {
         "label": {
-          "fr-FR": "image Mapillary"
+          "fr-FR": "photo Mapillary"
+        },
+        "is_array": false,
+        "values": null
+      },
+      "panoramax": {
+        "label": {
+          "fr-FR": "photo Panoramax"
         },
         "is_array": false,
         "values": null
