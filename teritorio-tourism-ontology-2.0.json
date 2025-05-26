@@ -2304,6 +2304,36 @@
       "color_fill": "#008ecf",
       "color_line": "#3b74b9",
       "group": {
+        "aerialway": {
+          "label": {
+            "en-US": "aerialway",
+            "fr-FR": "Téléphérique"
+          },
+          "icon": "aerialway",
+          "group": {
+            "aerialway_station": {
+              "label": {
+                "en-US": "aerialway_station",
+                "fr-FR": "arrêt de téléphérique"
+              },
+              "icon": "aerialway_station",
+              "zoom": 17,
+              "style": "◯",
+              "priority": 60,
+              "osm_selector": [
+                "[aerialway=station]"
+              ],
+              "properties_extra": [
+                "base",
+                "access",
+                "disabled",
+                "activity_details",
+                "equipments",
+                "highway_bus_stop_i18n"
+              ]
+            }
+          }
+        },
         "railway": {
           "label": {
             "en-US": "railway",
@@ -5344,6 +5374,32 @@
               "priority": 100,
               "osm_selector": [
                 "[leisure=park][name]"
+              ],
+              "properties_extra": [
+                "base",
+                "leisure"
+              ]
+            }
+          }
+        },
+        "farm": {
+          "label": {
+            "en-US": "farm",
+            "fr-FR": "farm"
+          },
+          "icon": "farm",
+          "group": {
+            "farmyard": {
+              "label": {
+                "en-US": "farmyard",
+                "fr-FR": "ferme"
+              },
+              "icon": "farmyard",
+              "zoom": 17,
+              "style": "•",
+              "priority": 500,
+              "osm_selector": [
+                "[landuse=farmyard]"
               ],
               "properties_extra": [
                 "base",
