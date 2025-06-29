@@ -4595,7 +4595,7 @@
             "bicycle_pump": {
               "label": {
                 "en-US": "bicycle_pump",
-                "fr-FR": "loueur de vélo (et autres)"
+                "fr-FR": "pompe de gonflage vélo"
               },
               "icon": "bicycle_pump",
               "zoom": 17,
@@ -9928,7 +9928,7 @@
       },
       "capacity:disabled": {
         "label": {
-          "fr-FR": "nombre de places réservées (PMR..)"
+          "fr-FR": "nombre de places réservées (PMR...)"
         },
         "is_array": false,
         "values": null
@@ -12909,7 +12909,7 @@
       },
       "recycling:batteries": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage piles"
         },
         "is_array": false,
         "values": [
@@ -12923,7 +12923,7 @@
       },
       "recycling:plastic": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage plastique"
         },
         "is_array": false,
         "values": [
@@ -12937,7 +12937,7 @@
       },
       "recycling:plastic_bottles": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage bouteilles en plastique"
         },
         "is_array": false,
         "values": [
@@ -12965,7 +12965,7 @@
       },
       "recycling:paper": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage du papiers"
         },
         "is_array": false,
         "values": [
@@ -12979,7 +12979,7 @@
       },
       "recycling:cans": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage canettes"
         },
         "is_array": false,
         "values": [
@@ -12993,7 +12993,7 @@
       },
       "recycling:clothes": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage vêtements"
         },
         "is_array": false,
         "values": [
@@ -13007,7 +13007,7 @@
       },
       "recycling:beverage_carton": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage bouteilles cartons"
         },
         "is_array": false,
         "values": [
@@ -13021,7 +13021,7 @@
       },
       "recycling:waste": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage autres déchets"
         },
         "is_array": false,
         "values": [
@@ -13035,7 +13035,7 @@
       },
       "recycling:electrical_appliances": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage appareils électriques"
         },
         "is_array": false,
         "values": [
@@ -13049,7 +13049,7 @@
       },
       "recycling:small_appliances": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage petits appareils"
         },
         "is_array": false,
         "values": [
@@ -13063,7 +13063,7 @@
       },
       "recycling:cardboard": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage cartons de l'emballage"
         },
         "is_array": false,
         "values": [
@@ -13083,7 +13083,7 @@
       },
       "recycling:green_waste": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage déchets verts"
         },
         "is_array": false,
         "values": [
@@ -13097,7 +13097,7 @@
       },
       "recycling:plastic_packaging": {
         "label": {
-          "fr-FR": "recyclage"
+          "fr-FR": "recyclage emballages en plastique"
         },
         "is_array": false,
         "values": [
