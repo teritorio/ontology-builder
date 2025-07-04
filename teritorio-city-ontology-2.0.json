@@ -4364,6 +4364,24 @@
                 "disabled"
               ]
             },
+            "car_rental": {
+              "label": {
+                "en-US": "car_rental",
+                "fr-FR": "location de voiture"
+              },
+              "icon": "car_rental",
+              "zoom": 16,
+              "style": "◯",
+              "priority": 200,
+              "osm_selector": [
+                "[amenity=car_rental]"
+              ],
+              "properties_extra": [
+                "base",
+                "access",
+                "disabled"
+              ]
+            },
             "hitchhiking": {
               "label": {
                 "en-US": "hitchhiking",
@@ -12266,6 +12284,50 @@
         },
         "is_array": false,
         "values": null
+      },
+      "books": {
+        "label": {
+          "fr-FR": "type de livre"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "academic",
+            "label": {
+              "fr-FR": "vend des livres scolaires"
+            }
+          },
+          {
+            "value": "children",
+            "label": {
+              "fr-FR": "vend des livres pour enfants"
+            }
+          },
+          {
+            "value": "comic",
+            "label": {
+              "fr-FR": "vend des bandes dessinées"
+            }
+          },
+          {
+            "value": "discount",
+            "label": {
+              "fr-FR": "vend livres à bon marché, à petit prix"
+            }
+          },
+          {
+            "value": "religion",
+            "label": {
+              "fr-FR": "vend des livres religieux"
+            }
+          },
+          {
+            "value": "manga",
+            "label": {
+              "fr-FR": "vend des mangas"
+            }
+          }
+        ]
       }
     },
     "leisure": {
