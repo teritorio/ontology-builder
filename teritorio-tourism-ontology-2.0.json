@@ -7,8 +7,8 @@
         "fr-FR": "Produits locaux"
       },
       "icon": "products",
-      "color_fill": "#f25c05",
-      "color_line": "#f25c05",
+      "color_fill": "#bd533c",
+      "color_line": "#bd533c",
       "group": {
         "craft": {
           "label": {
@@ -491,8 +491,8 @@
         "fr-FR": "Commerces de proximité"
       },
       "icon": "local_shop",
-      "color_fill": "#009cb8",
-      "color_line": "#009cb8",
+      "color_fill": "#278096",
+      "color_line": "#278096",
       "group": {
         "supermarket": {
           "label": {
@@ -2301,8 +2301,8 @@
         "fr-FR": "Mobilités"
       },
       "icon": "mobility",
-      "color_fill": "#008ecf",
-      "color_line": "#3b74b9",
+      "color_fill": "#007db8",
+      "color_line": "#007db8",
       "group": {
         "aerialway": {
           "label": {
@@ -3402,8 +3402,8 @@
         "fr-FR": "Éléments Notables"
       },
       "icon": "remarkable",
-      "color_fill": "#e50980",
-      "color_line": "#e50980",
+      "color_fill": "#c02469",
+      "color_line": "#c02469",
       "group": {
         "attraction_activity": {
           "label": {
@@ -4959,8 +4959,8 @@
         "fr-FR": "Restauration"
       },
       "icon": "catering",
-      "color_fill": "#db7900",
-      "color_line": "#db7900",
+      "color_fill": "#cc4c16",
+      "color_line": "#cc4c16",
       "group": {
         "catering_food": {
           "label": {
@@ -5192,8 +5192,8 @@
         "fr-FR": "Loisirs"
       },
       "icon": "leisure",
-      "color_fill": "#00a757",
-      "color_line": "#00a757",
+      "color_fill": "#008a1e",
+      "color_line": "#008a1e",
       "group": {
         "picnic": {
           "label": {
@@ -6797,8 +6797,8 @@
         "fr-FR": "Points de repère du territoire"
       },
       "icon": "public_landmark",
-      "color_fill": "#1d1d1b",
-      "color_line": "#1d1d1b",
+      "color_fill": "#000000",
+      "color_line": "#000000",
       "group": {
         "courthouse": {
           "label": {
@@ -7000,8 +7000,8 @@
         "fr-FR": "Commerces"
       },
       "icon": "shopping",
-      "color_fill": "#808080",
-      "color_line": "#808080",
+      "color_fill": "#767676",
+      "color_line": "#767676",
       "group": {
         "sport_supply": {
           "label": {
@@ -10507,6 +10507,208 @@
             "value": "only",
             "label": {
               "fr-FR": "produits en vrac uniquement"
+            }
+          }
+        ]
+      },
+      "vegetables": {
+        "label": {
+          "fr-FR": "légumes"
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "artichoke",
+            "label": {
+              "fr-FR": "artichaut"
+            }
+          },
+          {
+            "value": "asparagus",
+            "label": {
+              "fr-FR": "asperges"
+            }
+          },
+          {
+            "value": "beans",
+            "label": {
+              "fr-FR": "haricots"
+            }
+          },
+          {
+            "value": "beetroot",
+            "label": {
+              "fr-FR": "betterave"
+            }
+          },
+          {
+            "value": "bell pepper",
+            "label": {
+              "fr-FR": "poivron"
+            }
+          },
+          {
+            "value": "broccoli",
+            "label": {
+              "fr-FR": "brocoli"
+            }
+          },
+          {
+            "value": "cabbage",
+            "label": {
+              "fr-FR": "chou"
+            }
+          },
+          {
+            "value": "carrot",
+            "label": {
+              "fr-FR": "carotte"
+            }
+          },
+          {
+            "value": "cauliflower",
+            "label": {
+              "fr-FR": "chou-fleur"
+            }
+          },
+          {
+            "value": "celery",
+            "label": {
+              "fr-FR": "céleri"
+            }
+          },
+          {
+            "value": "cucumber",
+            "label": {
+              "fr-FR": "concombre"
+            }
+          },
+          {
+            "value": "eggplant",
+            "label": {
+              "fr-FR": "aubergine"
+            }
+          },
+          {
+            "value": "garlic",
+            "label": {
+              "fr-FR": "ail"
+            }
+          },
+          {
+            "value": "leek",
+            "label": {
+              "fr-FR": "poireau"
+            }
+          },
+          {
+            "value": "lettuce",
+            "label": {
+              "fr-FR": "laitue"
+            }
+          },
+          {
+            "value": "onion",
+            "label": {
+              "fr-FR": "oignon"
+            }
+          },
+          {
+            "value": "peas",
+            "label": {
+              "fr-FR": "petits pois"
+            }
+          },
+          {
+            "value": "potato",
+            "label": {
+              "fr-FR": "pomme de terre"
+            }
+          },
+          {
+            "value": "pumpkin",
+            "label": {
+              "fr-FR": "citrouille"
+            }
+          },
+          {
+            "value": "radish",
+            "label": {
+              "fr-FR": "radis"
+            }
+          },
+          {
+            "value": "spinach",
+            "label": {
+              "fr-FR": "épinards"
+            }
+          },
+          {
+            "value": "sugar_beet",
+            "label": {
+              "fr-FR": "betterave sucrière"
+            }
+          },
+          {
+            "value": "sweet potato",
+            "label": {
+              "fr-FR": "patate douce"
+            }
+          },
+          {
+            "value": "tomato",
+            "label": {
+              "fr-FR": "tomate"
+            }
+          },
+          {
+            "value": "turnip",
+            "label": {
+              "fr-FR": "navet"
+            }
+          },
+          {
+            "value": "zucchini",
+            "label": {
+              "fr-FR": "courgette"
+            }
+          }
+        ]
+      },
+      "berries": {
+        "label": {
+          "fr-FR": "fruits rouges"
+        },
+        "is_array": true,
+        "values": [
+          {
+            "value": "blackberry",
+            "label": {
+              "fr-FR": "mûre"
+            }
+          },
+          {
+            "value": "blueberry",
+            "label": {
+              "fr-FR": "myrtille"
+            }
+          },
+          {
+            "value": "cherry",
+            "label": {
+              "fr-FR": "cerise"
+            }
+          },
+          {
+            "value": "raspberry",
+            "label": {
+              "fr-FR": "framboise"
+            }
+          },
+          {
+            "value": "strawberry",
+            "label": {
+              "fr-FR": "fraise"
             }
           }
         ]
