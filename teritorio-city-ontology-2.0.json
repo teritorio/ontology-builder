@@ -4647,6 +4647,24 @@
                 "bicycle"
               ]
             },
+            "bicycle_repair_station": {
+              "label": {
+                "en-US": "bicycle_repair_station",
+                "fr-FR": "borne de réparation vélo"
+              },
+              "icon": "bicycle_repair_station",
+              "zoom": 17,
+              "style": "⬤",
+              "priority": 200,
+              "osm_selector": [
+                "[amenity=bicycle_repair_station]"
+              ],
+              "properties_extra": [
+                "base",
+                "access",
+                "disabled"
+              ]
+            },
             "scooter": {
               "label": {
                 "en-US": "scooter",
