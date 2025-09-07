@@ -13,11 +13,12 @@ def icon(color_fill, font)
   </td>"
 end
 
-def leaf(color_fill, color_line, font, id, c)
-  "<tr><td></td><td></td><td></td><td></td><td></td><td></td>
+def leaf(as_class, color_fill, color_line, font, id, c)
+  "<tr><td></td><td></td><td></td>#{!as_class ? '<td></td><td></td><td></td>' : ''}
   #{icon(color_fill, font)}
   <td>#{id}</td>
   <td>#{i18n(c["label"])}</td>
+  #{as_class ? '<td></td><td></td><td></td>' : ''}
   <td>#{c["style"]}</td>
   <td>#{c["zoom"]}</td>
   <td>#{c["priority"]}</td>
@@ -55,6 +56,7 @@ ontology["group"].each { |superclass_id, superclass|
       html += "<tr><td></td><td></td><td></td>#{icon(color_fill, classs["icon"])}<td>#{class_id}</td><td colspan='99'>#{i18n(classs["label"])}</td></tr>"
       classs["group"].each { |subclass_id, subclass|
         html += leaf(
+          false,
           color_fill,
           superclass["color_line"],
           subclass["icon"],
@@ -64,6 +66,7 @@ ontology["group"].each { |superclass_id, superclass|
       }
     else
       html += leaf(
+        true,
         color_fill,
         superclass["color_line"],
         classs["icon"],
