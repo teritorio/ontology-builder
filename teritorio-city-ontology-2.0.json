@@ -4998,7 +4998,7 @@
             "osteopath": {
               "label": {
                 "en-US": "osteopath",
-                "fr-FR": "Osthéopathe"
+                "fr-FR": "osthéopathe"
               },
               "icon": "osteopath",
               "zoom": 17,
@@ -5039,6 +5039,138 @@
                 "safety"
               ]
             },
+            "psychiatrist": {
+              "label": {
+                "en-US": "psychiatrist",
+                "fr-FR": "psychiatre"
+              },
+              "icon": "psychiatrist",
+              "zoom": 17,
+              "style": "•",
+              "priority": 50,
+              "osm_selector": [
+                "[amenity=doctors][healthcare=doctor][healthcare:speciality=psychiatry]"
+              ],
+              "properties_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "safety"
+              ]
+            },
+            "pediatrician": {
+              "label": {
+                "en-US": "pediatrician",
+                "fr-FR": "pédiatre"
+              },
+              "icon": "pediatrician",
+              "zoom": 17,
+              "style": "•",
+              "priority": 50,
+              "osm_selector": [
+                "[amenity=doctors][healthcare=doctor][healthcare:speciality=paediatrics]"
+              ],
+              "properties_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "safety"
+              ]
+            },
+            "gynecologist": {
+              "label": {
+                "en-US": "gynecologist",
+                "fr-FR": "gynécologue"
+              },
+              "icon": "gynecologist",
+              "zoom": 17,
+              "style": "•",
+              "priority": 50,
+              "osm_selector": [
+                "[amenity=doctors][healthcare=doctor][healthcare:speciality=gynaecology]"
+              ],
+              "properties_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "safety"
+              ]
+            },
+            "midwife": {
+              "label": {
+                "en-US": "midwife",
+                "fr-FR": "sage-femme"
+              },
+              "icon": "midwife",
+              "zoom": 17,
+              "style": "•",
+              "priority": 50,
+              "osm_selector": [
+                "[healthcare=midwife]"
+              ],
+              "properties_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "safety"
+              ]
+            },
+            "optometrist": {
+              "label": {
+                "en-US": "optometrist",
+                "fr-FR": "orthoptiste"
+              },
+              "icon": "optometrist",
+              "zoom": 17,
+              "style": "•",
+              "priority": 50,
+              "osm_selector": [
+                "[healthcare=optometrist]"
+              ],
+              "properties_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "safety"
+              ]
+            },
+            "counselling": {
+              "label": {
+                "en-US": "counselling",
+                "fr-FR": "dietécien"
+              },
+              "icon": "counselling",
+              "zoom": 17,
+              "style": "•",
+              "priority": 50,
+              "osm_selector": [
+                "[healthcare:counselling=dietitian][healthcare=counselling]"
+              ],
+              "properties_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "safety"
+              ]
+            },
             "speech_therapist": {
               "label": {
                 "en-US": "speech_therapist",
@@ -5050,6 +5182,28 @@
               "priority": 50,
               "osm_selector": [
                 "[healthcare=speech_therapist]"
+              ],
+              "properties_extra": [
+                "base",
+                "address",
+                "contact",
+                "ref",
+                "opening",
+                "disabled",
+                "safety"
+              ]
+            },
+            "psychomotricist": {
+              "label": {
+                "en-US": "psychomotricist",
+                "fr-FR": "Psychomotricien - Ergothérapeute"
+              },
+              "icon": "psychomotricist",
+              "zoom": 17,
+              "style": "•",
+              "priority": 50,
+              "osm_selector": [
+                "[healthcare=psychomotricist]"
               ],
               "properties_extra": [
                 "base",
@@ -5090,7 +5244,7 @@
               },
               "icon": "veterinary",
               "zoom": 17,
-              "style": "•",
+              "style": "⬤",
               "priority": 50,
               "osm_selector": [
                 "[amenity=veterinary]"
