@@ -7672,7 +7672,7 @@
             "medical_supply": {
               "label": {
                 "en-US": "medical_supply",
-                "fr-FR": "dourniture de matériel médical"
+                "fr-FR": "fourniture de matériel médical"
               },
               "icon": "medical_supply",
               "zoom": 16,
@@ -12076,6 +12076,12 @@
             "value": "radiology",
             "label": {
               "fr-FR": "centre de radiologie"
+            }
+          },
+          {
+            "value": "gynaecology",
+            "label": {
+              "fr-FR": "gynécologue"
             }
           }
         ]

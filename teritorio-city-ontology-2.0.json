@@ -2545,7 +2545,7 @@
             "medical_supply": {
               "label": {
                 "en-US": "medical_supply",
-                "fr-FR": "dourniture de matériel médical"
+                "fr-FR": "fourniture de matériel médical"
               },
               "icon": "medical_supply",
               "zoom": 17,
@@ -5049,7 +5049,7 @@
               "style": "•",
               "priority": 50,
               "osm_selector": [
-                "[amenity=doctors][healthcare=doctor][healthcare:speciality=psychiatry]"
+                "[amenity=doctors][healthcare=doctor][\"healthcare:speciality\"=psychiatry]"
               ],
               "properties_extra": [
                 "base",
@@ -5071,7 +5071,7 @@
               "style": "•",
               "priority": 50,
               "osm_selector": [
-                "[amenity=doctors][healthcare=doctor][healthcare:speciality=paediatrics]"
+                "[amenity=doctors][healthcare=doctor][\"healthcare:speciality\"=paediatrics]"
               ],
               "properties_extra": [
                 "base",
@@ -5093,7 +5093,7 @@
               "style": "•",
               "priority": 50,
               "osm_selector": [
-                "[amenity=doctors][healthcare=doctor][healthcare:speciality=gynaecology]"
+                "[amenity=doctors][healthcare=doctor][\"healthcare:speciality\"=gynaecology]"
               ],
               "properties_extra": [
                 "base",
@@ -5159,7 +5159,7 @@
               "style": "•",
               "priority": 50,
               "osm_selector": [
-                "[healthcare:counselling=dietitian][healthcare=counselling]"
+                "[\"healthcare:counselling\"=dietitian][healthcare=counselling]"
               ],
               "properties_extra": [
                 "base",
@@ -13112,6 +13112,12 @@
             "value": "radiology",
             "label": {
               "fr-FR": "centre de radiologie"
+            }
+          },
+          {
+            "value": "gynaecology",
+            "label": {
+              "fr-FR": "gynécologue"
             }
           }
         ]
