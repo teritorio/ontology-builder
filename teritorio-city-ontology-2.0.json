@@ -5149,12 +5149,12 @@
                 "safety"
               ]
             },
-            "counselling": {
+            "dietitian": {
               "label": {
-                "en-US": "counselling",
+                "en-US": "dietitian",
                 "fr-FR": "dietécien"
               },
-              "icon": "counselling",
+              "icon": "dietitian",
               "zoom": 17,
               "style": "•",
               "priority": 50,
