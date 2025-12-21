@@ -1532,7 +1532,7 @@
           "style": "⬤",
           "priority": 300,
           "osm_selector": [
-            "[government=local_authority][office=government]"
+            "[\"local_authority:FR\"~\"CC|CA\"][government=local_authority][office=government]"
           ],
           "properties_extra": [
             "base",
