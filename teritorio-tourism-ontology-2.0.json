@@ -1478,12 +1478,35 @@
             "disabled"
           ]
         },
-        "information": {
+        "tourism_information_visitor": {
           "label": {
-            "en-US": "information",
+            "en-US": "tourism_information_visitor",
+            "fr-FR": "point d'information visiteur"
+          },
+          "icon": "tourism_information_visitor",
+          "zoom": 13,
+          "style": "⬤",
+          "priority": 100,
+          "osm_selector": [
+            "[information=visitor_centre][tourism=information]"
+          ],
+          "properties_extra": [
+            "base",
+            "address",
+            "contact",
+            "ref",
+            "opening",
+            "disabled",
+            "activity_details",
+            "bicycle"
+          ]
+        },
+        "tourism_information_office": {
+          "label": {
+            "en-US": "tourism_information_office",
             "fr-FR": "office de tourisme"
           },
-          "icon": "information",
+          "icon": "tourism_information_office",
           "zoom": 13,
           "style": "⬤",
           "priority": 50,
@@ -9057,6 +9080,12 @@
             "label": {
               "fr-FR": "accès en fauteuil roulant limité (partiel)"
             }
+          },
+          {
+            "value": "designated",
+            "label": {
+              "fr-FR": "accessible en fauteuil roulant via une voie désignée"
+            }
           }
         ]
       },
@@ -9108,9 +9137,33 @@
             }
           },
           {
+            "value": "desination",
+            "label": {
+              "fr-FR": "accès réservé aux riverains"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "accès interdit"
+            }
+          },
+          {
             "value": "permissive",
             "label": {
               "fr-FR": "autorisé"
+            }
+          },
+          {
+            "value": "permit",
+            "label": {
+              "fr-FR": "accès aux personnes possédant un permis"
+            }
+          },
+          {
+            "value": "customers",
+            "label": {
+              "fr-FR": "réservé aux clients"
             }
           }
         ]
@@ -9235,6 +9288,12 @@
         },
         "is_array": false,
         "values": [
+          {
+            "value": "yes",
+            "label": {
+              "fr-FR": "paiement par carte accepté"
+            }
+          },
           {
             "value": "no",
             "label": {
@@ -9628,6 +9687,26 @@
             "value": "no",
             "label": {
               "fr-FR": "non couvert"
+            }
+          }
+        ]
+      },
+      "water": {
+        "label": {
+          "fr-FR": "eau"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "yes",
+            "label": {
+              "fr-FR": "point d'eau"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de point d'eau"
             }
           }
         ]
@@ -10747,6 +10826,30 @@
         "is_array": false,
         "values": [
           {
+            "value": "association",
+            "label": {
+              "fr-FR": "association"
+            }
+          },
+          {
+            "value": "community",
+            "label": {
+              "fr-FR": "un collectif, une communauté"
+            }
+          },
+          {
+            "value": "cooperative",
+            "label": {
+              "fr-FR": "une coopérative"
+            }
+          },
+          {
+            "value": "government",
+            "label": {
+              "fr-FR": "exécutif public (local, régional, national)"
+            }
+          },
+          {
             "value": "public",
             "label": {
               "fr-FR": "opérateur public"
@@ -10756,6 +10859,24 @@
             "value": "private",
             "label": {
               "fr-FR": "operateur privé"
+            }
+          },
+          {
+            "value": "private_non_profit",
+            "label": {
+              "fr-FR": "opérateur à vocation non lucrative"
+            }
+          },
+          {
+            "value": "religious",
+            "label": {
+              "fr-FR": "une organisation religieuse"
+            }
+          },
+          {
+            "value": "university",
+            "label": {
+              "fr-FR": "université"
             }
           }
         ]
@@ -10796,6 +10917,62 @@
             "value": "board",
             "label": {
               "fr-FR": "panneau d'information"
+            }
+          },
+          {
+            "value": "visitor_center",
+            "label": {
+              "fr-FR": "point d'information"
+            }
+          }
+        ]
+      },
+      "office": {
+        "label": {
+          "fr-FR": "type de bureau"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "association",
+            "label": {
+              "fr-FR": "association"
+            }
+          },
+          {
+            "value": "company",
+            "label": {
+              "fr-FR": "entreprise"
+            }
+          },
+          {
+            "value": "government",
+            "label": {
+              "fr-FR": "administration gouvernementale (nationale, locale"
+            }
+          },
+          {
+            "value": "coworking",
+            "label": {
+              "fr-FR": "coworking"
+            }
+          },
+          {
+            "value": "university",
+            "label": {
+              "fr-FR": "administration de l'université"
+            }
+          },
+          {
+            "value": "it",
+            "label": {
+              "fr-FR": "entreprise du numérique"
+            }
+          },
+          {
+            "value": "newspaper",
+            "label": {
+              "fr-FR": "Journal ou agence de presse"
             }
           }
         ]
@@ -11100,9 +11277,87 @@
             }
           },
           {
+            "value": "acrylic",
+            "label": {
+              "fr-FR": "acrylique"
+            }
+          },
+          {
+            "value": "tartan",
+            "label": {
+              "fr-FR": "tartan"
+            }
+          },
+          {
+            "value": "dirt",
+            "label": {
+              "fr-FR": "terre"
+            }
+          },
+          {
+            "value": "rubber",
+            "label": {
+              "fr-FR": "caoutchouc"
+            }
+          },
+          {
+            "value": "rock",
+            "label": {
+              "fr-FR": "roche"
+            }
+          },
+          {
+            "value": "wood",
+            "label": {
+              "fr-FR": "bois"
+            }
+          },
+          {
+            "value": "pebblestone",
+            "label": {
+              "fr-FR": "galet"
+            }
+          },
+          {
             "value": "asphalt",
             "label": {
               "fr-FR": "goudron"
+            }
+          },
+          {
+            "value": "clay",
+            "label": {
+              "fr-FR": "argile"
+            }
+          },
+          {
+            "value": "ground",
+            "label": {
+              "fr-FR": "sol nu"
+            }
+          },
+          {
+            "value": "fine_gravel",
+            "label": {
+              "fr-FR": "gravier fin"
+            }
+          },
+          {
+            "value": "unpaved",
+            "label": {
+              "fr-FR": "sans revêtement"
+            }
+          },
+          {
+            "value": "paved",
+            "label": {
+              "fr-FR": "avec revêtement"
+            }
+          },
+          {
+            "value": "gravel",
+            "label": {
+              "fr-FR": "gravier"
             }
           },
           {
@@ -11165,6 +11420,20 @@
             "value": "wildlife",
             "label": {
               "fr-FR": "panneau d'information sur la faune"
+            }
+          }
+        ]
+      },
+      "man_made": {
+        "label": {
+          "fr-FR": "type de structure ou construction"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "water_tap",
+            "label": {
+              "fr-FR": "robinet"
             }
           }
         ]
@@ -11234,6 +11503,12 @@
             "label": {
               "fr-FR": "pas de vente (ou distribution) à emporter"
             }
+          },
+          {
+            "value": "only",
+            "label": {
+              "fr-FR": "seulement de la vente (ou distribution) à emporter"
+            }
           }
         ]
       },
@@ -11266,7 +11541,37 @@
           {
             "value": "excrement_bags",
             "label": {
-              "fr-FR": "distributeur de sacs d'excréments"
+              "fr-FR": "sacs d'excréments"
+            }
+          },
+          {
+            "value": "fuel",
+            "label": {
+              "fr-FR": "carburant"
+            }
+          },
+          {
+            "value": "gas",
+            "label": {
+              "fr-FR": "gaz"
+            }
+          },
+          {
+            "value": "water",
+            "label": {
+              "fr-FR": "eau"
+            }
+          },
+          {
+            "value": "drings",
+            "label": {
+              "fr-FR": "boissons"
+            }
+          },
+          {
+            "value": "food",
+            "label": {
+              "fr-FR": "nourriture"
             }
           }
         ]
@@ -11332,7 +11637,422 @@
           "fr-FR": "cuisine"
         },
         "is_array": true,
-        "values": null
+        "values": [
+          {
+            "value": "american",
+            "label": {
+              "fr-FR": "américaine"
+            }
+          },
+          {
+            "value": "arab",
+            "label": {
+              "fr-FR": "arabe"
+            }
+          },
+          {
+            "value": "basque",
+            "label": {
+              "fr-FR": "basque"
+            }
+          },
+          {
+            "value": "belgian",
+            "label": {
+              "fr-FR": "belge"
+            }
+          },
+          {
+            "value": "british",
+            "label": {
+              "fr-FR": "britannique"
+            }
+          },
+          {
+            "value": "chilean",
+            "label": {
+              "fr-FR": "chilienne"
+            }
+          },
+          {
+            "value": "chinese",
+            "label": {
+              "fr-FR": "chinoise"
+            }
+          },
+          {
+            "value": "cuban",
+            "label": {
+              "fr-FR": "cubaine"
+            }
+          },
+          {
+            "value": "danish",
+            "label": {
+              "fr-FR": "danoise"
+            }
+          },
+          {
+            "value": "dominican",
+            "label": {
+              "fr-FR": "dominicaine"
+            }
+          },
+          {
+            "value": "ethiopian",
+            "label": {
+              "fr-FR": "éthiopienne"
+            }
+          },
+          {
+            "value": "filipino",
+            "label": {
+              "fr-FR": "philippine"
+            }
+          },
+          {
+            "value": "french",
+            "label": {
+              "fr-FR": "française"
+            }
+          },
+          {
+            "value": "german",
+            "label": {
+              "fr-FR": "allemande"
+            }
+          },
+          {
+            "value": "greek",
+            "label": {
+              "fr-FR": "grecque"
+            }
+          },
+          {
+            "value": "indian",
+            "label": {
+              "fr-FR": "indienne"
+            }
+          },
+          {
+            "value": "italian",
+            "label": {
+              "fr-FR": "italienne"
+            }
+          },
+          {
+            "value": "japanese",
+            "label": {
+              "fr-FR": "japonaise"
+            }
+          },
+          {
+            "value": "korean",
+            "label": {
+              "fr-FR": "coréenne"
+            }
+          },
+          {
+            "value": "kurdish",
+            "label": {
+              "fr-FR": "kurde"
+            }
+          },
+          {
+            "value": "lebanese",
+            "label": {
+              "fr-FR": "libanaise"
+            }
+          },
+          {
+            "value": "maghrebi",
+            "label": {
+              "fr-FR": "maghrébine"
+            }
+          },
+          {
+            "value": "mexican",
+            "label": {
+              "fr-FR": "mexicaine"
+            }
+          },
+          {
+            "value": "peruvian",
+            "label": {
+              "fr-FR": "péruvienne"
+            }
+          },
+          {
+            "value": "persian",
+            "label": {
+              "fr-FR": "perse"
+            }
+          },
+          {
+            "value": "portuguese",
+            "label": {
+              "fr-FR": "portugaise"
+            }
+          },
+          {
+            "value": "reunionese",
+            "label": {
+              "fr-FR": "réunionnaise"
+            }
+          },
+          {
+            "value": "sardinian",
+            "label": {
+              "fr-FR": "sarde"
+            }
+          },
+          {
+            "value": "spanish",
+            "label": {
+              "fr-FR": "espagnole"
+            }
+          },
+          {
+            "value": "swedish",
+            "label": {
+              "fr-FR": "suédoise"
+            }
+          },
+          {
+            "value": "thai",
+            "label": {
+              "fr-FR": "thaïlandaise"
+            }
+          },
+          {
+            "value": "turkish",
+            "label": {
+              "fr-FR": "turque"
+            }
+          },
+          {
+            "value": "ukrainian",
+            "label": {
+              "fr-FR": "ukrainienne"
+            }
+          },
+          {
+            "value": "venezuelan",
+            "label": {
+              "fr-FR": "vénézuélienne"
+            }
+          },
+          {
+            "value": "bakery",
+            "label": {
+              "fr-FR": "boulangerie"
+            }
+          },
+          {
+            "value": "basque_ciderhouse",
+            "label": {
+              "fr-FR": "cidrerie basque"
+            }
+          },
+          {
+            "value": "bistro",
+            "label": {
+              "fr-FR": "bistrot"
+            }
+          },
+          {
+            "value": "brewery",
+            "label": {
+              "fr-FR": "brasserie"
+            }
+          },
+          {
+            "value": "breakfast",
+            "label": {
+              "fr-FR": "petit-déjeuner"
+            }
+          },
+          {
+            "value": "brunch",
+            "label": {
+              "fr-FR": "brunch"
+            }
+          },
+          {
+            "value": "buffet",
+            "label": {
+              "fr-FR": "buffet"
+            }
+          },
+          {
+            "value": "burrito",
+            "label": {
+              "fr-FR": "burritos"
+            }
+          },
+          {
+            "value": "ceviche",
+            "label": {
+              "fr-FR": "ceviche"
+            }
+          },
+          {
+            "value": "chimney_cake",
+            "label": {
+              "fr-FR": "chimney cake"
+            }
+          },
+          {
+            "value": "crepe",
+            "label": {
+              "fr-FR": "crêpes"
+            }
+          },
+          {
+            "value": "dim_sum",
+            "label": {
+              "fr-FR": "dim sum"
+            }
+          },
+          {
+            "value": "donut",
+            "label": {
+              "fr-FR": "donut"
+            }
+          },
+          {
+            "value": "fondue",
+            "label": {
+              "fr-FR": "fondue"
+            }
+          },
+          {
+            "value": "fusion",
+            "label": {
+              "fr-FR": "fusion"
+            }
+          },
+          {
+            "value": "hotdog",
+            "label": {
+              "fr-FR": "hot-dogs"
+            }
+          },
+          {
+            "value": "juice",
+            "label": {
+              "fr-FR": "jus de fruit"
+            }
+          },
+          {
+            "value": "local",
+            "label": {
+              "fr-FR": "locale"
+            }
+          },
+          {
+            "value": "mediterranean",
+            "label": {
+              "fr-FR": "méditerranéenne"
+            }
+          },
+          {
+            "value": "noodle",
+            "label": {
+              "fr-FR": "nouilles"
+            }
+          },
+          {
+            "value": "oyster",
+            "label": {
+              "fr-FR": "huîtres"
+            }
+          },
+          {
+            "value": "panpancake",
+            "label": {
+              "fr-FR": "pancake"
+            }
+          },
+          {
+            "value": "pita",
+            "label": {
+              "fr-FR": "pita"
+            }
+          },
+          {
+            "value": "pizza",
+            "label": {
+              "fr-FR": "pizza"
+            }
+          },
+          {
+            "value": "poke",
+            "label": {
+              "fr-FR": "poké bowl"
+            }
+          },
+          {
+            "value": "regional",
+            "label": {
+              "fr-FR": "régionale"
+            }
+          },
+          {
+            "value": "ribs",
+            "label": {
+              "fr-FR": "ribs"
+            }
+          },
+          {
+            "value": "seafood",
+            "label": {
+              "fr-FR": "fruits de mer"
+            }
+          },
+          {
+            "value": "snack",
+            "label": {
+              "fr-FR": "snack"
+            }
+          },
+          {
+            "value": "soba",
+            "label": {
+              "fr-FR": "soba"
+            }
+          },
+          {
+            "value": "soup",
+            "label": {
+              "fr-FR": "soupes"
+            }
+          },
+          {
+            "value": "street_food",
+            "label": {
+              "fr-FR": "street-food"
+            }
+          },
+          {
+            "value": "tapas",
+            "label": {
+              "fr-FR": "tapas"
+            }
+          },
+          {
+            "value": "tacos",
+            "label": {
+              "fr-FR": "tacos"
+            }
+          },
+          {
+            "value": "wok",
+            "label": {
+              "fr-FR": "wok"
+            }
+          }
+        ]
       },
       "smoking": {
         "label": {
@@ -11590,9 +12310,27 @@
             }
           },
           {
+            "value": "mosaic",
+            "label": {
+              "fr-FR": "mosaique"
+            }
+          },
+          {
+            "value": "installation",
+            "label": {
+              "fr-FR": "installation artistique"
+            }
+          },
+          {
             "value": "painting",
             "label": {
               "fr-FR": "peinture"
+            }
+          },
+          {
+            "value": "sculpture",
+            "label": {
+              "fr-FR": "sculpture"
             }
           },
           {
@@ -11666,6 +12404,80 @@
             }
           }
         ]
+      },
+      "religion": {
+        "label": {
+          "fr-FR": "religion"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "buddhist",
+            "label": {
+              "fr-FR": "bouddhisme"
+            }
+          },
+          {
+            "value": "christian",
+            "label": {
+              "fr-FR": "christianisme"
+            }
+          },
+          {
+            "value": "hindu",
+            "label": {
+              "fr-FR": "hindouisme"
+            }
+          },
+          {
+            "value": "jewish",
+            "label": {
+              "fr-FR": "judaïsme"
+            }
+          },
+          {
+            "value": "muslim",
+            "label": {
+              "fr-FR": "islam"
+            }
+          },
+          {
+            "value": "shinto",
+            "label": {
+              "fr-FR": "shintoïsme"
+            }
+          },
+          {
+            "value": "sikh",
+            "label": {
+              "fr-FR": "sikhisme"
+            }
+          },
+          {
+            "value": "taoist",
+            "label": {
+              "fr-FR": "taoïsme"
+            }
+          },
+          {
+            "value": "none",
+            "label": {
+              "fr-FR": "pas de religion"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de religion"
+            }
+          },
+          {
+            "value": "antoinist",
+            "label": {
+              "fr-FR": "antoinism"
+            }
+          }
+        ]
       }
     },
     "leisure": {
@@ -11676,15 +12488,15 @@
         "is_array": true,
         "values": [
           {
-            "value": "soccer",
+            "value": "american_football",
             "label": {
-              "fr-FR": "football"
+              "fr-FR": "football américain"
             }
           },
           {
-            "value": "running",
+            "value": "archery",
             "label": {
-              "fr-FR": "course à pied"
+              "fr-FR": "tir à l’arc"
             }
           },
           {
@@ -11694,21 +12506,51 @@
             }
           },
           {
-            "value": "multi",
+            "value": "baseball",
             "label": {
-              "fr-FR": "multisports"
+              "fr-FR": "baseball"
             }
           },
           {
-            "value": "swimming",
+            "value": "basketball",
             "label": {
-              "fr-FR": "natation"
+              "fr-FR": "basket-ball"
             }
           },
           {
-            "value": "pelota",
+            "value": "boxing",
             "label": {
-              "fr-FR": "pelote basque"
+              "fr-FR": "boxe"
+            }
+          },
+          {
+            "value": "canyoning",
+            "label": {
+              "fr-FR": "Canoë-Kayak"
+            }
+          },
+          {
+            "value": "chess",
+            "label": {
+              "fr-FR": "échecs"
+            }
+          },
+          {
+            "value": "climbing",
+            "label": {
+              "fr-FR": "escalade"
+            }
+          },
+          {
+            "value": "cycling",
+            "label": {
+              "fr-FR": "cyclisme"
+            }
+          },
+          {
+            "value": "darts",
+            "label": {
+              "fr-FR": "fléchettes"
             }
           },
           {
@@ -11718,15 +12560,261 @@
             }
           },
           {
+            "value": "field_hockey",
+            "label": {
+              "fr-FR": "hockey sur gazon"
+            }
+          },
+          {
+            "value": "fitness",
+            "label": {
+              "fr-FR": "fitness"
+            }
+          },
+          {
+            "value": "gaelic_games",
+            "label": {
+              "fr-FR": "jeux gaéliques"
+            }
+          },
+          {
+            "value": "golf",
+            "label": {
+              "fr-FR": "golf"
+            }
+          },
+          {
             "value": "gymnastics",
             "label": {
               "fr-FR": "gymnastique"
             }
           },
           {
+            "value": "handball",
+            "label": {
+              "fr-FR": "handball"
+            }
+          },
+          {
+            "value": "ice_hockey",
+            "label": {
+              "fr-FR": "hockey sur glace"
+            }
+          },
+          {
+            "value": "judo",
+            "label": {
+              "fr-FR": "judo"
+            }
+          },
+          {
+            "value": "laser_tag",
+            "label": {
+              "fr-FR": "laser tag"
+            }
+          },
+          {
+            "value": "martial_arts",
+            "label": {
+              "fr-FR": "arts martiaux"
+            }
+          },
+          {
+            "value": "mma",
+            "label": {
+              "fr-FR": "arts martiaux mixtes"
+            }
+          },
+          {
+            "value": "motor",
+            "label": {
+              "fr-FR": "sports mécaniques"
+            }
+          },
+          {
+            "value": "multi",
+            "label": {
+              "fr-FR": "multisports"
+            }
+          },
+          {
+            "value": "padel",
+            "label": {
+              "fr-FR": "padel"
+            }
+          },
+          {
+            "value": "pelota",
+            "label": {
+              "fr-FR": "pelote basque"
+            }
+          },
+          {
+            "value": "petanque",
+            "label": {
+              "fr-FR": "pétanque"
+            }
+          },
+          {
+            "value": "pilates",
+            "label": {
+              "fr-FR": "pilates"
+            }
+          },
+          {
+            "value": "rafting",
+            "label": {
+              "fr-FR": "rafting"
+            }
+          },
+          {
+            "value": "roller_derby",
+            "label": {
+              "fr-FR": "roller derby"
+            }
+          },
+          {
+            "value": "roller_skating",
+            "label": {
+              "fr-FR": "roller (patin à roulettes)"
+            }
+          },
+          {
             "value": "rugby_union",
             "label": {
               "fr-FR": "rugby à XV"
+            }
+          },
+          {
+            "value": "rugby_league",
+            "label": {
+              "fr-FR": "rugby à XIII"
+            }
+          },
+          {
+            "value": "running",
+            "label": {
+              "fr-FR": "course à pied"
+            }
+          },
+          {
+            "value": "sailing",
+            "label": {
+              "fr-FR": "voile"
+            }
+          },
+          {
+            "value": "skateboard",
+            "label": {
+              "fr-FR": "skateboard"
+            }
+          },
+          {
+            "value": "skiing",
+            "label": {
+              "fr-FR": "ski"
+            }
+          },
+          {
+            "value": "snowboard",
+            "label": {
+              "fr-FR": "snowboard"
+            }
+          },
+          {
+            "value": "soccer",
+            "label": {
+              "fr-FR": "football"
+            }
+          },
+          {
+            "value": "softball",
+            "label": {
+              "fr-FR": "softball"
+            }
+          },
+          {
+            "value": "squash",
+            "label": {
+              "fr-FR": "squash"
+            }
+          },
+          {
+            "value": "surfing",
+            "label": {
+              "fr-FR": "surf"
+            }
+          },
+          {
+            "value": "swimming",
+            "label": {
+              "fr-FR": "natation"
+            }
+          },
+          {
+            "value": "table_tennis",
+            "label": {
+              "fr-FR": "tennis de table"
+            }
+          },
+          {
+            "value": "tennis",
+            "label": {
+              "fr-FR": "tennis"
+            }
+          },
+          {
+            "value": "trampoline",
+            "label": {
+              "fr-FR": "trampoline"
+            }
+          },
+          {
+            "value": "triathlon",
+            "label": {
+              "fr-FR": "triathlon"
+            }
+          },
+          {
+            "value": "ultralight_aviation",
+            "label": {
+              "fr-FR": "Ultralight aviation"
+            }
+          },
+          {
+            "value": "volleyball",
+            "label": {
+              "fr-FR": "volley-ball"
+            }
+          },
+          {
+            "value": "water_sports",
+            "label": {
+              "fr-FR": "sports nautiques"
+            }
+          },
+          {
+            "value": "weightlifting",
+            "label": {
+              "fr-FR": "haltérophilie"
+            }
+          },
+          {
+            "value": "windsurfing",
+            "label": {
+              "fr-FR": "planche à voile"
+            }
+          },
+          {
+            "value": "wrestling",
+            "label": {
+              "fr-FR": "lutte"
+            }
+          },
+          {
+            "value": "yoga",
+            "label": {
+              "fr-FR": "yoga"
             }
           }
         ]
@@ -12324,6 +13412,12 @@
             "label": {
               "fr-FR": "piles et batteries domestiques"
             }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de piles ou batteries domestiques"
+            }
           }
         ]
       },
@@ -12337,6 +13431,12 @@
             "value": "yes",
             "label": {
               "fr-FR": "Tout type de plastique"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de plastique"
             }
           }
         ]
@@ -12352,6 +13452,12 @@
             "label": {
               "fr-FR": "bouteilles et flacons en plastique"
             }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de bouteilles en plastique"
+            }
           }
         ]
       },
@@ -12366,6 +13472,12 @@
             "label": {
               "fr-FR": "bouteilles et bocaux en verre"
             }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de bouteilles et bocaux en verre"
+            }
           }
         ]
       },
@@ -12379,6 +13491,12 @@
             "value": "yes",
             "label": {
               "fr-FR": "tout type de papier"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de papier"
             }
           }
         ]
@@ -12408,6 +13526,12 @@
             "label": {
               "fr-FR": "tout type de vêtements"
             }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de vêtements"
+            }
           }
         ]
       },
@@ -12436,6 +13560,12 @@
             "label": {
               "fr-FR": "autres déchets (non recyclables)"
             }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de déchets non recyclables"
+            }
           }
         ]
       },
@@ -12450,6 +13580,12 @@
             "label": {
               "fr-FR": "matériel électrique"
             }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de matériel électrique"
+            }
           }
         ]
       },
@@ -12463,6 +13599,12 @@
             "value": "yes",
             "label": {
               "fr-FR": "matériel électrique (type TV, micro-ondes...)"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de matériel électrique (type TV, micro-ondes...)"
             }
           }
         ]
@@ -12498,6 +13640,12 @@
             "label": {
               "fr-FR": "déchets verts"
             }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas de déchêts verts"
+            }
           }
         ]
       },
@@ -12511,6 +13659,12 @@
             "value": "yes",
             "label": {
               "fr-FR": "tout autre emballage en plastique"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas d'emballages en plastique"
             }
           }
         ]
@@ -12574,6 +13728,12 @@
             "value": "cigarettes",
             "label": {
               "fr-FR": "cendrier"
+            }
+          },
+          {
+            "value": "trash",
+            "label": {
+              "fr-FR": "ordures ménagères"
             }
           }
         ]
@@ -12830,21 +13990,69 @@
             }
           },
           {
+            "value": "wide_stands",
+            "label": {
+              "fr-FR": "arceaux à vélos classiques larges"
+            }
+          },
+          {
+            "value": "lockers",
+            "label": {
+              "fr-FR": "abri à vélo individuels verrouillés"
+            }
+          },
+          {
             "value": "wall_loops",
             "label": {
               "fr-FR": "râteliers à vélo classiques"
             }
           },
           {
+            "value": "safe_loops",
+            "label": {
+              "fr-FR": "armature métallique haute"
+            }
+          },
+          {
+            "value": "crossbar",
+            "label": {
+              "fr-FR": "barre fixée à un mur"
+            }
+          },
+          {
+            "value": "wave",
+            "label": {
+              "fr-FR": "tube métallique façonné en vague"
+            }
+          },
+          {
+            "value": "streetpod",
+            "label": {
+              "fr-FR": "combinaison de ratelier et d'arceaux dans lequel plusieurs vélos peuvent être garé"
+            }
+          },
+          {
             "value": "rack",
             "label": {
-              "fr-FR": "larges arceaux à vélos classiques"
+              "fr-FR": "simple ratelier à vélos"
+            }
+          },
+          {
+            "value": "ground_slots",
+            "label": {
+              "fr-FR": "simple fente dans le sol destinée à coincer une roue"
             }
           },
           {
             "value": "anchors",
             "label": {
               "fr-FR": "un seul ancrage cloué"
+            }
+          },
+          {
+            "value": "handlebar_holder",
+            "label": {
+              "fr-FR": "structure métallique en crochets visant à accueillir le guidon"
             }
           },
           {
@@ -12857,6 +14065,18 @@
             "value": "bollard",
             "label": {
               "fr-FR": "type spécifique de potelet généralement équipé de deux arceaux latéraux"
+            }
+          },
+          {
+            "value": "building",
+            "label": {
+              "fr-FR": "bâtiment dédié dans lequel plusieurs vélos peuvent être rangés"
+            }
+          },
+          {
+            "value": "floor",
+            "label": {
+              "fr-FR": "Zone destinée à accueillir les vélos qui doivent tenir par eux-mêmes avec des béquilles"
             }
           }
         ]
