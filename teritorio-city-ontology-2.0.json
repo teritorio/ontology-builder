@@ -3348,7 +3348,7 @@
           "style": "⬤",
           "priority": 300,
           "osm_selector": [
-            "[information=visitor_centre][tourism=information]"
+            "[access!=customers][information=visitor_centre][tourism=information]"
           ],
           "properties_extra": [
             "base",
@@ -4938,8 +4938,7 @@
               "style": "⬤",
               "priority": 50,
               "osm_selector": [
-                "[\"healthcare:speciality\"][amenity=doctors]",
-                "[\"healthcare:speciality\"][healthcare=doctor]"
+                "[amenity=doctors][healthcare=doctor][\"healthcare:speciality\"]"
               ],
               "properties_extra": [
                 "base",
@@ -5028,7 +5027,7 @@
               "style": "•",
               "priority": 50,
               "osm_selector": [
-                "[\"healthcare:speciality\"=osteopathy][healthcare=physiotherapist]"
+                "[healthcare:speciality=osteopathy][healthcare=alternative]"
               ],
               "properties_extra": [
                 "base",
@@ -5072,7 +5071,7 @@
               "style": "•",
               "priority": 50,
               "osm_selector": [
-                "[amenity=doctors][healthcare=doctor][\"healthcare:speciality\"=psychiatry]"
+                "[amenity=doctors][healthcare:speciality=psychiatry][healthcare=doctor]"
               ],
               "properties_extra": [
                 "base",
@@ -5094,7 +5093,7 @@
               "style": "•",
               "priority": 50,
               "osm_selector": [
-                "[amenity=doctors][healthcare=doctor][\"healthcare:speciality\"=paediatrics]"
+                "[amenity=doctors][healthcare:speciality=paediatrics][healthcare=doctor]"
               ],
               "properties_extra": [
                 "base",
@@ -5116,7 +5115,7 @@
               "style": "•",
               "priority": 50,
               "osm_selector": [
-                "[amenity=doctors][healthcare=doctor][\"healthcare:speciality\"=gynaecology]"
+                "[amenity=doctors][healthcare:speciality=gynaecology][healthcare=doctor]"
               ],
               "properties_extra": [
                 "base",
@@ -5182,7 +5181,7 @@
               "style": "•",
               "priority": 50,
               "osm_selector": [
-                "[\"healthcare:counselling\"=dietitian][healthcare=counselling]"
+                "[healthcare:counselling=dietitian][healthcare=counselling]"
               ],
               "properties_extra": [
                 "base",
@@ -5292,7 +5291,7 @@
               "style": "⬤",
               "priority": 50,
               "osm_selector": [
-                "[healthcare=centre]"
+                "[\"healthcare:speciality\"!=radiology][healthcare=centre]"
               ],
               "properties_extra": [
                 "base",
@@ -12080,6 +12079,30 @@
             "label": {
               "fr-FR": "placé en extérieur"
             }
+          },
+          {
+            "value": "room",
+            "label": {
+              "fr-FR": "pièce conventionnelle avec murs"
+            }
+          },
+          {
+            "value": "area",
+            "label": {
+              "fr-FR": "espace sans murs"
+            }
+          },
+          {
+            "value": "wall",
+            "label": {
+              "fr-FR": "élément de mur individuel (non franchissable)"
+            }
+          },
+          {
+            "value": "corridor",
+            "label": {
+              "fr-FR": "corridor"
+            }
           }
         ]
       },
@@ -12663,6 +12686,12 @@
             "label": {
               "fr-FR": "accès gratuit"
             }
+          },
+          {
+            "value": "customers",
+            "label": {
+              "fr-FR": "réservé aux clients et payant"
+            }
           }
         ]
       }
@@ -13107,6 +13136,12 @@
             "label": {
               "fr-FR": "fumeurs non autorisés"
             }
+          },
+          {
+            "value": "outside",
+            "label": {
+              "fr-FR": "fumeurs autorisés en extérieur"
+            }
           }
         ]
       },
@@ -13355,6 +13390,12 @@
             "value": "installation",
             "label": {
               "fr-FR": "installation artistique"
+            }
+          },
+          {
+            "value": "graffiti",
+            "label": {
+              "fr-FR": "graffiti"
             }
           },
           {
@@ -14119,21 +14160,9 @@
         "is_array": true,
         "values": [
           {
-            "value": "osteopathy",
-            "label": {
-              "fr-FR": "osthéopathe"
-            }
-          },
-          {
             "value": "dental_oral_maxillo_facial_surgery",
             "label": {
               "fr-FR": "chirurgie dentaire"
-            }
-          },
-          {
-            "value": "general",
-            "label": {
-              "fr-FR": "médecine générale"
             }
           },
           {
@@ -14143,27 +14172,15 @@
             }
           },
           {
-            "value": "ophthalmology",
+            "value": "endodontics",
             "label": {
-              "fr-FR": "ophthalmologie"
+              "fr-FR": "endodontie"
             }
           },
           {
-            "value": "cardiology",
+            "value": "implantology",
             "label": {
-              "fr-FR": "cardiologie"
-            }
-          },
-          {
-            "value": "dermatology",
-            "label": {
-              "fr-FR": "dermatologie"
-            }
-          },
-          {
-            "value": "gastroenterology",
-            "label": {
-              "fr-FR": "gastroentérologie"
+              "fr-FR": "implantologie"
             }
           },
           {
@@ -14173,9 +14190,261 @@
             }
           },
           {
+            "value": "pediatric_dentistry",
+            "label": {
+              "fr-FR": "dentisterie pédiatrique"
+            }
+          },
+          {
+            "value": "periodontics",
+            "label": {
+              "fr-FR": "parodontologie"
+            }
+          },
+          {
+            "value": "stomatology",
+            "label": {
+              "fr-FR": "stomatogiie"
+            }
+          },
+          {
+            "value": "allergology",
+            "label": {
+              "fr-FR": "allergologie"
+            }
+          },
+          {
+            "value": "anaesthetics",
+            "label": {
+              "fr-FR": "anesthésie"
+            }
+          },
+          {
+            "value": "cardiology",
+            "label": {
+              "fr-FR": "cardiologie"
+            }
+          },
+          {
+            "value": "cardiothoracic_surgery",
+            "label": {
+              "fr-FR": "chirurgie cardiothoracique"
+            }
+          },
+          {
+            "value": "child_psychiatry",
+            "label": {
+              "fr-FR": "pédopsychiatrie"
+            }
+          },
+          {
+            "value": "community",
+            "label": {
+              "fr-FR": "santé publique"
+            }
+          },
+          {
+            "value": "dermatology",
+            "label": {
+              "fr-FR": "dermatologie"
+            }
+          },
+          {
+            "value": "dermatovenereology",
+            "label": {
+              "fr-FR": "dermatovénérologie"
+            }
+          },
+          {
+            "value": "diagnostic_radiology",
+            "label": {
+              "fr-FR": "imagerie médicale"
+            }
+          },
+          {
+            "value": "emergency",
+            "label": {
+              "fr-FR": "urgences"
+            }
+          },
+          {
+            "value": "endocrinology",
+            "label": {
+              "fr-FR": "endocrinologie"
+            }
+          },
+          {
+            "value": "gastroenterology",
+            "label": {
+              "fr-FR": "gastroentérologie"
+            }
+          },
+          {
+            "value": "general",
+            "label": {
+              "fr-FR": "généraliste de santé"
+            }
+          },
+          {
+            "value": "geriatrics",
+            "label": {
+              "fr-FR": "gériatrie"
+            }
+          },
+          {
+            "value": "gynaecology",
+            "label": {
+              "fr-FR": "gynécologie"
+            }
+          },
+          {
+            "value": "haematology",
+            "label": {
+              "fr-FR": "hématologie"
+            }
+          },
+          {
+            "value": "hepatology",
+            "label": {
+              "fr-FR": "hépatologie"
+            }
+          },
+          {
+            "value": "infectious_diseases",
+            "label": {
+              "fr-FR": "maladies infectieuses"
+            }
+          },
+          {
+            "value": "intensive",
+            "label": {
+              "fr-FR": "soins intensifs"
+            }
+          },
+          {
+            "value": "internal",
+            "label": {
+              "fr-FR": "médecine interne"
+            }
+          },
+          {
+            "value": "dental_oral_maxillo_facial_surgery",
+            "label": {
+              "fr-FR": "chirurgie dentaire"
+            }
+          },
+          {
+            "value": "neonatology",
+            "label": {
+              "fr-FR": "néonatalogie"
+            }
+          },
+          {
+            "value": "nephrology",
+            "label": {
+              "fr-FR": "néphrologie"
+            }
+          },
+          {
+            "value": "neurology",
+            "label": {
+              "fr-FR": "neurologie"
+            }
+          },
+          {
+            "value": "neuropsychiatry",
+            "label": {
+              "fr-FR": "neuropsychiatrie"
+            }
+          },
+          {
+            "value": "neurosurgery",
+            "label": {
+              "fr-FR": "neurochirurgie"
+            }
+          },
+          {
+            "value": "nuclear",
+            "label": {
+              "fr-FR": "médecine nucléaire"
+            }
+          },
+          {
+            "value": "occupational",
+            "label": {
+              "fr-FR": "médecine du travail"
+            }
+          },
+          {
+            "value": "oncology",
+            "label": {
+              "fr-FR": "oncologie"
+            }
+          },
+          {
+            "value": "ophthalmology",
+            "label": {
+              "fr-FR": "ophtalmologie"
+            }
+          },
+          {
+            "value": "orthopaedics",
+            "label": {
+              "fr-FR": "chirurgie orthopédique"
+            }
+          },
+          {
+            "value": "otolaryngology",
+            "label": {
+              "fr-FR": "otorhinolaryngologie (ORL)"
+            }
+          },
+          {
+            "value": "paediatric_surgery",
+            "label": {
+              "fr-FR": "chirurgie pédiatrique"
+            }
+          },
+          {
             "value": "paediatrics",
             "label": {
-              "fr-FR": "pédiatrie"
+              "fr-FR": "pédiatre"
+            }
+          },
+          {
+            "value": "palliative",
+            "label": {
+              "fr-FR": "soins palliatifs"
+            }
+          },
+          {
+            "value": "pathology",
+            "label": {
+              "fr-FR": "histopathologie"
+            }
+          },
+          {
+            "value": "physiatry",
+            "label": {
+              "fr-FR": "rééducation"
+            }
+          },
+          {
+            "value": "plastic_surgery",
+            "label": {
+              "fr-FR": "chirurgie plastique"
+            }
+          },
+          {
+            "value": "podiatry",
+            "label": {
+              "fr-FR": "podologie"
+            }
+          },
+          {
+            "value": "proctology",
+            "label": {
+              "fr-FR": "proctologie"
             }
           },
           {
@@ -14185,27 +14454,255 @@
             }
           },
           {
-            "value": "maternity",
+            "value": "pulmonology",
             "label": {
-              "fr-FR": "maternité"
-            }
-          },
-          {
-            "value": "biology",
-            "label": {
-              "fr-FR": "analyse"
+              "fr-FR": "pneumonologie"
             }
           },
           {
             "value": "radiology",
             "label": {
-              "fr-FR": "centre de radiologie"
+              "fr-FR": "radiologie"
             }
           },
           {
-            "value": "gynaecology",
+            "value": "radiotherapy",
             "label": {
-              "fr-FR": "gynécologue"
+              "fr-FR": "radiothérapie"
+            }
+          },
+          {
+            "value": "rheumatology",
+            "label": {
+              "fr-FR": "rhumatologie"
+            }
+          },
+          {
+            "value": "surgery",
+            "label": {
+              "fr-FR": "chirurgie générale"
+            }
+          },
+          {
+            "value": "transplant",
+            "label": {
+              "fr-FR": "transplantations"
+            }
+          },
+          {
+            "value": "trauma",
+            "label": {
+              "fr-FR": "chirurgie traumatologique"
+            }
+          },
+          {
+            "value": "tropical",
+            "label": {
+              "fr-FR": "médecine tropicale"
+            }
+          },
+          {
+            "value": "urology",
+            "label": {
+              "fr-FR": "urologie"
+            }
+          },
+          {
+            "value": "vascular_surgery",
+            "label": {
+              "fr-FR": "chirurgie vasculaire"
+            }
+          },
+          {
+            "value": "venereology",
+            "label": {
+              "fr-FR": "vénérologie"
+            }
+          },
+          {
+            "value": "biology",
+            "label": {
+              "fr-FR": "biologie"
+            }
+          },
+          {
+            "value": "biochemistry",
+            "label": {
+              "fr-FR": "biochimie"
+            }
+          },
+          {
+            "value": "blood_check",
+            "label": {
+              "fr-FR": "analyse sanguine"
+            }
+          },
+          {
+            "value": "clinical_pathology",
+            "label": {
+              "fr-FR": "pathologie clinique"
+            }
+          },
+          {
+            "value": "acupuncture",
+            "label": {
+              "fr-FR": "acupuncture"
+            }
+          },
+          {
+            "value": "anthroposophical",
+            "label": {
+              "fr-FR": "médecine anthroposophique"
+            }
+          },
+          {
+            "value": "applied_kinesiology",
+            "label": {
+              "fr-FR": "Kinésiologie appliquée"
+            }
+          },
+          {
+            "value": "aromatherapy",
+            "label": {
+              "fr-FR": "aromathérapie"
+            }
+          },
+          {
+            "value": "ayurveda",
+            "label": {
+              "fr-FR": "ayurveda"
+            }
+          },
+          {
+            "value": "chiropractic",
+            "label": {
+              "fr-FR": "chiropractie"
+            }
+          },
+          {
+            "value": "herbalism",
+            "label": {
+              "fr-FR": "herbalisme"
+            }
+          },
+          {
+            "value": "homeopathy",
+            "label": {
+              "fr-FR": "homéopathie"
+            }
+          },
+          {
+            "value": "hydrotherapy",
+            "label": {
+              "fr-FR": "hydrothérapie"
+            }
+          },
+          {
+            "value": "hypnosis",
+            "label": {
+              "fr-FR": "hypnose"
+            }
+          },
+          {
+            "value": "naturopathy",
+            "label": {
+              "fr-FR": "naturopathie"
+            }
+          },
+          {
+            "value": "osteopathy",
+            "label": {
+              "fr-FR": "ostéopathie"
+            }
+          },
+          {
+            "value": "reflexology",
+            "label": {
+              "fr-FR": "réflexologie"
+            }
+          },
+          {
+            "value": "reiki",
+            "label": {
+              "fr-FR": "reiki"
+            }
+          },
+          {
+            "value": "shiatsu",
+            "label": {
+              "fr-FR": "shiatsu"
+            }
+          },
+          {
+            "value": "traditional_chinese_medicine",
+            "label": {
+              "fr-FR": "médecine traditionnelle chinoise"
+            }
+          },
+          {
+            "value": "tuina",
+            "label": {
+              "fr-FR": "tui na"
+            }
+          },
+          {
+            "value": "unani",
+            "label": {
+              "fr-FR": "unani"
+            }
+          },
+          {
+            "value": "abortion",
+            "label": {
+              "fr-FR": "Centre d’interruption volontaire de grossesse"
+            }
+          },
+          {
+            "value": "fertility",
+            "label": {
+              "fr-FR": "Centre d’assistance à la procréation"
+            }
+          },
+          {
+            "value": "vaccination",
+            "label": {
+              "fr-FR": "Centre de vaccination"
+            }
+          },
+          {
+            "value": "behavior",
+            "label": {
+              "fr-FR": "psychothérapie comportementaliste"
+            }
+          },
+          {
+            "value": "body",
+            "label": {
+              "fr-FR": "psychothérapie corporelle"
+            }
+          },
+          {
+            "value": "depth",
+            "label": {
+              "fr-FR": "psychothérapie des profondeurs"
+            }
+          },
+          {
+            "value": "humanistic",
+            "label": {
+              "fr-FR": "psychotérapie humanistique"
+            }
+          },
+          {
+            "value": "other",
+            "label": {
+              "fr-FR": "autre type de psychothérapie"
+            }
+          },
+          {
+            "value": "systemic",
+            "label": {
+              "fr-FR": "psychothérapie systémique"
             }
           }
         ]
@@ -14411,6 +14908,13 @@
       "power_supply": {
         "label": {
           "fr-FR": "prise de courant électrique"
+        },
+        "is_array": false,
+        "values": null
+      },
+      "post_office": {
+        "label": {
+          "fr-FR": null
         },
         "is_array": false,
         "values": null

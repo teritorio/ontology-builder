@@ -838,7 +838,7 @@
   <td>⬤</td>
   <td>13</td>
   <td>100</td>
-  <td>[information=visitor_centre][tourism=information]</td>
+  <td>[access!=customers][information=visitor_centre][tourism=information]</td>
   <td>base, address, contact, ref, opening, disabled, activity_details, bicycle</td>
   </tr><tr><td></td><td></td><td></td>
   <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
@@ -1034,7 +1034,7 @@
   <td>⬤</td>
   <td>17</td>
   <td>50</td>
-  <td>["healthcare:speciality"][amenity=doctors] or</br>["healthcare:speciality"][healthcare=doctor]</td>
+  <td>[amenity=doctors][healthcare=doctor]["healthcare:speciality"]</td>
   <td>base, address, contact, ref, opening, disabled, safety</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
@@ -1082,7 +1082,7 @@
   <td>•</td>
   <td>17</td>
   <td>50</td>
-  <td>["healthcare:speciality"=osteopathy][healthcare=physiotherapist]</td>
+  <td>[healthcare:speciality=osteopathy][healthcare=alternative]</td>
   <td>base, address, contact, ref, opening, disabled, safety</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
@@ -1106,7 +1106,7 @@
   <td>⬤</td>
   <td>16</td>
   <td>50</td>
-  <td>[healthcare=centre]</td>
+  <td>["healthcare:speciality"!=radiology][healthcare=centre]</td>
   <td>base, address, contact, ref, opening, disabled, safety</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #e42224; color: white; font-size: 200%; padding: 5px'>
