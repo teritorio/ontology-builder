@@ -3792,7 +3792,7 @@
               "priority": 300,
               "osm_selector": [
                 "[amenity=drinking_water]",
-                "[man_made=water_tape][drinking_water=yes]"
+                "[man_made=water_tap][drinking_water=yes]"
               ],
               "properties_extra": [
                 "base",
@@ -3802,7 +3802,7 @@
                 "toilets",
                 "disabled",
                 "access",
-                "man_made_water_tape_i18n"
+                "man_made_water_tap_i18n"
               ]
             },
             "toilets": {
@@ -11604,7 +11604,7 @@
             }
           },
           {
-            "value": "vegetables",
+            "value": "vegetable",
             "label": {
               "fr-FR": "légumes"
             }
@@ -16258,7 +16258,7 @@
         ]
       }
     },
-    "man_made_water_tape_i18n": {
+    "man_made_water_tap_i18n": {
       "man_made": {
         "label": {
           "fr-FR": null
@@ -16266,7 +16266,7 @@
         "is_array": false,
         "values": [
           {
-            "value": "water_tape",
+            "value": "water_tap",
             "label": {
               "fr-FR": "point d'eau"
             }
