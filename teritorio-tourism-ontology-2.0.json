@@ -9381,6 +9381,26 @@
       }
     },
     "transport_mode_access": {
+      "foot": {
+        "label": {
+          "fr-FR": "piéton"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "yes",
+            "label": {
+              "fr-FR": "accès pieton"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas d'accès piéton"
+            }
+          }
+        ]
+      },
       "motocar": {
         "label": {
           "fr-FR": "voiture"
@@ -9410,13 +9430,25 @@
           {
             "value": "yes",
             "label": {
-              "fr-FR": "pur vélo"
+              "fr-FR": "circulation à vélo possible"
             }
           },
           {
             "value": "no",
             "label": {
               "fr-FR": "pas de vélo"
+            }
+          },
+          {
+            "value": "segregated",
+            "label": {
+              "fr-FR": "voie partagée avec les piétons"
+            }
+          },
+          {
+            "value": "designated",
+            "label": {
+              "fr-FR": "voirie destinée à l'utilisation des cyclistes"
             }
           }
         ]
@@ -9750,6 +9782,44 @@
         },
         "is_array": false,
         "values": null
+      },
+      "cycleway": {
+        "label": {
+          "fr-FR": "type de route pour vélo"
+        },
+        "is_array": false,
+        "values": [
+          {
+            "value": "cyclestreet",
+            "label": {
+              "fr-FR": "VéloRue"
+            }
+          },
+          {
+            "value": "yes",
+            "label": {
+              "fr-FR": "VéloRue"
+            }
+          },
+          {
+            "value": "track",
+            "label": {
+              "fr-FR": "aménagement cyclable  pas totalement séparé de la route principale."
+            }
+          },
+          {
+            "value": "lane",
+            "label": {
+              "fr-FR": "voie dédiée aux cyclistes (avec un pictogramme cycliste au sol)"
+            }
+          },
+          {
+            "value": "shared_lane",
+            "label": {
+              "fr-FR": "voie pour cyclistes, séparée du trafic (pas de pictogramme au sol)"
+            }
+          }
+        ]
       }
     },
     "production": {
@@ -11080,6 +11150,12 @@
             "value": "underground",
             "label": {
               "fr-FR": "enterré"
+            }
+          },
+          {
+            "value": "overground",
+            "label": {
+              "fr-FR": "en surface"
             }
           }
         ]
