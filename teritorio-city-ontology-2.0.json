@@ -16662,6 +16662,503 @@
         "is_array": true,
         "values": null
       }
+    },
+    "group_erp": {
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_erp": {
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_equipment": {
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_hosting": {
+      "stars": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_hosting": {
+      "stars": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_restauration": {
+      "cuisine": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_restauration": {
+      "cuisine": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_route": {
+      "route": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_route": {
+      "route": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_event": {
+      "start_end_date": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "event": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_event": {
+      "start_end_date": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "event": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_bus_stop": {
+      "shelter": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "route_ref": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_bus_stop": {
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "shelter": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "route_ref": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_bakery": {
+      "craft": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_bakery": {
+      "craft": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_defibrillator": {
+      "indoor": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "defibrillator:location": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "access": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_defibrillator": {
+      "indoor": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "defibrillator:location": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_parking": {
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "fee": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "covered": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_parking": {
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "fee": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "covered": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_artwork": {
+      "start_date": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "artist_name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "artwork_type": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_artwork": {
+      "start_date": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "artist_name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "artwork_type": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
     }
   }
 }
