@@ -16,7 +16,7 @@ current_superclasses = nil
 CSV.new(File.new(superclass_csv).read, headers: true).collect{ |row|
   row.to_h.transform_values{ |v| v.nil? || v.strip == '' ? nil : v.strip }
 }.collect{ |row|
-  row.slice(*(['superclass', 'color_icon', 'color_text', 'class', 'superclass:name:fr'].map{ |k| "#{theme}_#{k}" } + %w[attributes_superclass attributes_class]))
+  row.slice(*(['superclass', 'color_icon', 'color_text', 'class', 'superclass:name:fr'].map{ |k| "#{theme}_#{k}" } + %w[attributes_superclass attributes_class popup_attributes_superclass popup_attributes_class list_attributes_superclass list_attributes_class details_attributes_superclass details_attributes_class]))
 }.each{ |row|
   if row["#{theme}_color_icon"]
     current_superclasses = row["#{theme}_superclass"]
@@ -25,11 +25,17 @@ CSV.new(File.new(superclass_csv).read, headers: true).collect{ |row|
       color_fill: row["#{theme}_color_icon"].downcase,
       color_line: row["#{theme}_color_text"].downcase,
       attributes: row['attributes_superclass'].split,
+      popup_attributes: row['popup_attributes_superclass']&.split,
+      list_attributes: row['list_attributes_superclass']&.split,
+      details_attributes: row['details_attributes_superclass']&.split,
       class: {},
     }
   elsif row["#{theme}_class"]
     superclasses[current_superclasses][:class][row["#{theme}_class"]] = {
       attributes: row['attributes_class']&.split,
+      popup_attributes: row['popup_attributes_class']&.split,
+      list_attributes: row['list_attributes_class']&.split,
+      details_attributes: row['details_attributes_class']&.split,
     }
   end
 }
@@ -75,7 +81,7 @@ plus_groups.each{ |group_id, group|
 csv = CSV.new(File.new(input_csv).read, headers: true).collect{ |row|
   row.to_h.transform_values{ |v| v.nil? || v.strip == '' ? nil : v.strip }
 }.collect{ |row|
-  row.slice(*(['superclass:name:fr', 'superclass', 'class:name:fr', 'class', 'zoom', 'style', 'priority'].map{ |k| "#{theme}_#{k}" } + ['name_over_value', 'key', 'value', 'name:fr', 'attributes', 'overpass']))
+  row.slice(*(['superclass:name:fr', 'superclass', 'class:name:fr', 'class', 'zoom', 'style', 'priority'].map{ |k| "#{theme}_#{k}" } + ['name_over_value', 'key', 'value', 'name:fr', 'attributes', 'overpass', 'popup_attributes', 'list_attributes', 'details_attributes']))
 }.select{ |row|
   row["#{theme}_superclass"]
 }.map{ |row|
@@ -83,6 +89,21 @@ csv = CSV.new(File.new(input_csv).read, headers: true).collect{ |row|
     (superclasses.dig(row["#{theme}_superclass"], :attributes) || []) +
     (superclasses.dig(row["#{theme}_superclass"], :class, row["#{theme}_class"], :attributes) || []) +
     (row['attributes']&.split || [])
+  ).collect{ |a| a[1..-1] }
+  row['popup_attributes'] = (
+    (superclasses.dig(row["#{theme}_superclass"], :popup_attributes) || []) +
+    (superclasses.dig(row["#{theme}_superclass"], :class, row["#{theme}_class"], :popup_attributes) || []) +
+    (row['popup_attributes']&.split || [])
+  ).collect{ |a| a[1..-1] }
+  row['list_attributes'] = (
+    (superclasses.dig(row["#{theme}_superclass"], :list_attributes) || []) +
+    (superclasses.dig(row["#{theme}_superclass"], :class, row["#{theme}_class"], :list_attributes) || []) +
+    (row['list_attributes']&.split || [])
+  ).collect{ |a| a[1..-1] }
+  row['details_attributes'] = (
+    (superclasses.dig(row["#{theme}_superclass"], :details_attributes) || []) +
+    (superclasses.dig(row["#{theme}_superclass"], :class, row["#{theme}_class"], :details_attributes) || []) +
+    (row['details_attributes']&.split || [])
   ).collect{ |a| a[1..-1] }
   row
 }
@@ -115,12 +136,18 @@ end
 hierarchy = csv.group_by{ |row| row["#{theme}_superclass"] }.collect{ |superclass, c|
   c0 = c[0]
   c = c.collect{ |r|
-    r.slice(*(['class:name:fr', 'class', 'zoom', 'style', 'priority'].map{ |k| "#{theme}_#{k}" } + ['name_over_value', 'value', 'name:fr', 'attributes', 'overpass']))
+    r.slice(*(['class:name:fr', 'class', 'zoom', 'style', 'priority'].map{ |k| "#{theme}_#{k}" } + ['name_over_value', 'value', 'name:fr', 'attributes', 'overpass', 'popup_attributes', 'list_attributes', 'details_attributes']))
   }.group_by{ |r| r["#{theme}_class"] }.collect{ |classs, sc|
     sc0 = sc[0]
     sc = sc.collect{ |rr|
       rr['attributes'].any?{ |a| a == '' } and raise "Error: invalid attribute: #{rr['attributes'].inspect}"
       value = rr['name_over_value'] || rr['value']
+      optional = {}
+
+      optional['popup_attributes'] = rr['popup_attributes'] if rr['popup_attributes'] && !rr['popup_attributes'].empty?
+      optional['list_attributes'] = rr['list_attributes'] if rr['list_attributes'] && !rr['list_attributes'].empty?
+      optional['details_attributes'] = rr['details_attributes'] if rr['details_attributes'] && !rr['details_attributes'].empty?
+
       [value, {
         label: { "en-US" => value, "fr-FR" => rr['name:fr'] },
         icon: value,
@@ -129,7 +156,7 @@ hierarchy = csv.group_by{ |row| row["#{theme}_superclass"] }.collect{ |superclas
         priority: rr["#{theme}_priority"].to_i,
         osm_selector: rr['overpass'].split(';'),
         properties_extra: rr['attributes'],
-      }]
+      }.merge(optional)]
     }.to_h
     if sc
       [classs, {
