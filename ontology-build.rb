@@ -85,26 +85,13 @@ csv = CSV.new(File.new(input_csv).read, headers: true).collect{ |row|
 }.select{ |row|
   row["#{theme}_superclass"]
 }.map{ |row|
-  row['attributes'] = (
-    (superclasses.dig(row["#{theme}_superclass"], :attributes) || []) +
-    (superclasses.dig(row["#{theme}_superclass"], :class, row["#{theme}_class"], :attributes) || []) +
-    (row['attributes']&.split || [])
-  ).collect{ |a| a[1..-1] }
-  row['popup_attributes'] = (
-    (superclasses.dig(row["#{theme}_superclass"], :popup_attributes) || []) +
-    (superclasses.dig(row["#{theme}_superclass"], :class, row["#{theme}_class"], :popup_attributes) || []) +
-    (row['popup_attributes']&.split || [])
-  ).collect{ |a| a[1..-1] }
-  row['list_attributes'] = (
-    (superclasses.dig(row["#{theme}_superclass"], :list_attributes) || []) +
-    (superclasses.dig(row["#{theme}_superclass"], :class, row["#{theme}_class"], :list_attributes) || []) +
-    (row['list_attributes']&.split || [])
-  ).collect{ |a| a[1..-1] }
-  row['details_attributes'] = (
-    (superclasses.dig(row["#{theme}_superclass"], :details_attributes) || []) +
-    (superclasses.dig(row["#{theme}_superclass"], :class, row["#{theme}_class"], :details_attributes) || []) +
-    (row['details_attributes']&.split || [])
-  ).collect{ |a| a[1..-1] }
+  [:attributes, :popup_attributes, :list_attributes, :details_attributes].each{ |c|
+    row[c.to_s] = (
+      (superclasses.dig(row["#{theme}_superclass"], c) || []) +
+      (superclasses.dig(row["#{theme}_superclass"], :class, row["#{theme}_class"], c) || []) +
+      (row[c.to_s]&.split || [])
+    ).collect{ |a| a[1..-1] }
+  }
   row
 }
 
