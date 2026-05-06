@@ -129,12 +129,7 @@ hierarchy = csv.group_by{ |row| row["#{theme}_superclass"] }.collect{ |superclas
     sc = sc.collect{ |rr|
       rr['attributes'].any?{ |a| a == '' } and raise "Error: invalid attribute: #{rr['attributes'].inspect}"
       value = rr['name_over_value'] || rr['value']
-      optional = {}
-
-      optional['popup_attributes'] = rr['popup_attributes'] if rr['popup_attributes'] && !rr['popup_attributes'].empty?
-      optional['list_attributes'] = rr['list_attributes'] if rr['list_attributes'] && !rr['list_attributes'].empty?
-      optional['details_attributes'] = rr['details_attributes'] if rr['details_attributes'] && !rr['details_attributes'].empty?
-
+     
       [value, {
         label: { "en-US" => value, "fr-FR" => rr['name:fr'] },
         icon: value,
@@ -143,7 +138,10 @@ hierarchy = csv.group_by{ |row| row["#{theme}_superclass"] }.collect{ |superclas
         priority: rr["#{theme}_priority"].to_i,
         osm_selector: rr['overpass'].split(';'),
         properties_extra: rr['attributes'],
-      }.merge(optional)]
+        popup_attributes: (v = rr['popup_attributes']) && !v.empty? ? v[0] : nil,
+        list_attributes: (v = rr['list_attributes']) && !v.empty? ? v[0] : nil,
+        details_attributes: (v = rr['details_attributes']) && !v.empty? ? v : nil,
+      }.compact]
     }.to_h
     if sc
       [classs, {
