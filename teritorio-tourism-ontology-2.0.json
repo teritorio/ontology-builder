@@ -581,6 +581,19 @@
             "ref",
             "opening",
             "disabled"
+          ],
+          "popup_attributes": [
+            "group_popup_bakery"
+          ],
+          "list_attributes": [
+            "group_list_bakery"
+          ],
+          "details_attributes": [
+            "group_bakery",
+            "description",
+            "opening",
+            "contact",
+            "location"
           ]
         },
         "vending_machine_seafood": {
@@ -3886,6 +3899,17 @@
                 "date",
                 "size",
                 "tourism_artwork_i18n"
+              ],
+              "popup_attributes": [
+                "group_popup_artwork"
+              ],
+              "list_attributes": [
+                "group_list_artwork"
+              ],
+              "details_attributes": [
+                "group_artwork",
+                "escription",
+                "ocation"
               ]
             },
             "statue": {
@@ -3912,6 +3936,17 @@
                 "size",
                 "tourism_artwork_i18n",
                 "artwork_type_statue_i18n"
+              ],
+              "popup_attributes": [
+                "group_popup_artwork"
+              ],
+              "list_attributes": [
+                "group_list_artwork"
+              ],
+              "details_attributes": [
+                "group_artwork",
+                "escription",
+                "ocation"
               ]
             },
             "sculpture": {
@@ -3938,6 +3973,17 @@
                 "size",
                 "tourism_artwork_i18n",
                 "artwork_type_sculpture_i18n"
+              ],
+              "popup_attributes": [
+                "group_popup_artwork"
+              ],
+              "list_attributes": [
+                "group_list_artwork"
+              ],
+              "details_attributes": [
+                "group_artwork",
+                "escription",
+                "ocation"
               ]
             },
             "mural": {
@@ -3964,6 +4010,17 @@
                 "size",
                 "tourism_artwork_i18n",
                 "artwork_type_mural_i18n"
+              ],
+              "popup_attributes": [
+                "group_popup_artwork"
+              ],
+              "list_attributes": [
+                "group_list_artwork"
+              ],
+              "details_attributes": [
+                "group_artwork",
+                "escription",
+                "ocation"
               ]
             },
             "graffiti": {
@@ -3990,6 +4047,17 @@
                 "size",
                 "tourism_artwork_i18n",
                 "artwork_type_graffiti_i18n"
+              ],
+              "popup_attributes": [
+                "group_popup_artwork"
+              ],
+              "list_attributes": [
+                "group_list_artwork"
+              ],
+              "details_attributes": [
+                "group_artwork",
+                "escription",
+                "ocation"
               ]
             }
           }
@@ -5030,6 +5098,19 @@
                 "disabled",
                 "catering",
                 "services_details"
+              ],
+              "popup_attributes": [
+                "group_popup_restauration"
+              ],
+              "list_attributes": [
+                "group_list_restauration"
+              ],
+              "details_attributes": [
+                "group_restauration",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "fast_food": {
@@ -5053,6 +5134,19 @@
                 "disabled",
                 "catering",
                 "services_details"
+              ],
+              "popup_attributes": [
+                "group_popup_restauration"
+              ],
+              "list_attributes": [
+                "group_list_restauration"
+              ],
+              "details_attributes": [
+                "group_restauration",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "food_court": {
@@ -5076,6 +5170,19 @@
                 "disabled",
                 "catering",
                 "services_details"
+              ],
+              "popup_attributes": [
+                "group_popup_restauration"
+              ],
+              "list_attributes": [
+                "group_list_restauration"
+              ],
+              "details_attributes": [
+                "group_restauration",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "caterer": {
@@ -5099,6 +5206,19 @@
                 "disabled",
                 "catering",
                 "services_details"
+              ],
+              "popup_attributes": [
+                "group_popup_restauration"
+              ],
+              "list_attributes": [
+                "group_list_restauration"
+              ],
+              "details_attributes": [
+                "group_restauration",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "pastry": {
@@ -5122,6 +5242,19 @@
                 "disabled",
                 "catering",
                 "services_details"
+              ],
+              "popup_attributes": [
+                "group_popup_restauration"
+              ],
+              "list_attributes": [
+                "group_list_restauration"
+              ],
+              "details_attributes": [
+                "group_restauration",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "ice_cream": {
@@ -5145,6 +5278,19 @@
                 "disabled",
                 "catering",
                 "services_details"
+              ],
+              "popup_attributes": [
+                "group_popup_restauration"
+              ],
+              "list_attributes": [
+                "group_list_restauration"
+              ],
+              "details_attributes": [
+                "group_restauration",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             }
           }
@@ -15666,7 +15812,81 @@
         "values": null
       }
     },
+    "group_list_erp": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "email": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "website": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
     "group_popup_equipment": {
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_list_equipment": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
       "opening_hours": {
         "label": {
           "fr-FR": null
@@ -15718,6 +15938,64 @@
           "fr-FR": null
         },
         "is_array": true,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_list_hosting": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "stars": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "email": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "website": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
         "values": null
       },
       "opening_hours": {
@@ -15788,6 +16066,64 @@
         "values": null
       }
     },
+    "group_list_restauration": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "cuisine": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "email": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "website": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
     "group_route": {
       "route": {
         "label": {
@@ -15798,6 +16134,29 @@
       }
     },
     "group_popup_route": {
+      "route": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_list_route": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
       "route": {
         "label": {
           "fr-FR": null
@@ -15880,6 +16239,71 @@
         "values": null
       }
     },
+    "group_list_event": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "start_end_date": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "event": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "email": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "website": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
     "group_bus_stop": {
       "shelter": {
         "label": {
@@ -15904,6 +16328,43 @@
       }
     },
     "group_popup_bus_stop": {
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "shelter": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "route_ref": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_list_bus_stop": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
       "addr": {
         "label": {
           "fr-FR": null
@@ -15986,6 +16447,64 @@
         "values": null
       }
     },
+    "group_list_bakery": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "craft": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "phone": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": true,
+        "values": null
+      },
+      "email": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "website": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "opening_hours": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "wheelchair": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
     "group_defibrillator": {
       "indoor": {
         "label": {
@@ -16010,6 +16529,36 @@
       }
     },
     "group_popup_defibrillator": {
+      "indoor": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "defibrillator:location": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_list_defibrillator": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
       "indoor": {
         "label": {
           "fr-FR": null
@@ -16078,6 +16627,36 @@
         "values": null
       }
     },
+    "group_list_parking": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "fee": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "covered": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
     "group_artwork": {
       "start_date": {
         "label": {
@@ -16102,6 +16681,36 @@
       }
     },
     "group_popup_artwork": {
+      "start_date": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "artist_name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "artwork_type": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_list_artwork": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
       "start_date": {
         "label": {
           "fr-FR": null
