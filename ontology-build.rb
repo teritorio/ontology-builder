@@ -138,10 +138,10 @@ hierarchy = csv.group_by{ |row| row["#{theme}_superclass"] }.collect{ |superclas
         priority: rr["#{theme}_priority"].to_i,
         osm_selector: rr['overpass'].split(';'),
         properties_extra: rr['attributes'],
-        popup_attributes: (v = rr['popup_attributes']) && !v.empty? ? v[0] : nil,
-        list_attributes: (v = rr['list_attributes']) && !v.empty? ? v[0] : nil,
-        details_attributes: (v = rr['details_attributes']) && !v.empty? ? v : nil,
-      }.compact]
+        popup_attributes: rr['popup_attributes'],
+        list_attributes: rr['list_attributes'],
+        details_attributes: rr['details_attributes'],
+      }.delete_if { |_k, v| v.nil? || (v.respond_to?(:empty?) && v.empty?) }]
     }.to_h
     if sc
       [classs, {
