@@ -2177,6 +2177,18 @@
                 "disabled",
                 "safety",
                 "buildings_details"
+              ],
+              "popup_attributes": [
+                "group_popup_defibrillator"
+              ],
+              "list_attributes": [
+                "group_list_defibrillator"
+              ],
+              "details_attributes": [
+                "group_defibrillator",
+                "description",
+                "opening",
+                "location"
               ]
             }
           }
@@ -2519,6 +2531,17 @@
                 "activity_details",
                 "equipments",
                 "highway_bus_stop_i18n"
+              ],
+              "popup_attributes": [
+                "group_popup_bus_stop"
+              ],
+              "list_attributes": [
+                "group_list_bus_stop"
+              ],
+              "details_attributes": [
+                "group_bus_stop",
+                "description",
+                "location"
               ]
             },
             "bus_stop_seasonal": {
@@ -2540,6 +2563,17 @@
                 "activity_details",
                 "equipments",
                 "highway_bus_stop_i18n"
+              ],
+              "popup_attributes": [
+                "group_popup_bus_stop"
+              ],
+              "list_attributes": [
+                "group_list_bus_stop"
+              ],
+              "details_attributes": [
+                "group_bus_stop",
+                "description",
+                "location"
               ]
             },
             "parking": {
@@ -2558,6 +2592,18 @@
                 "base",
                 "access",
                 "disabled"
+              ],
+              "popup_attributes": [
+                "group_popup_parking"
+              ],
+              "list_attributes": [
+                "group_list_parking"
+              ],
+              "details_attributes": [
+                "roup_parking",
+                "description",
+                "opening",
+                "location"
               ]
             },
             "parking_space": {
@@ -2955,6 +3001,18 @@
                 "access",
                 "disabled",
                 "bicycle"
+              ],
+              "popup_attributes": [
+                "group_popup_parking"
+              ],
+              "list_attributes": [
+                "group_list_parking"
+              ],
+              "details_attributes": [
+                "roup_parking",
+                "description",
+                "opening",
+                "location"
               ]
             },
             "motorcycle_parking": {
@@ -2974,6 +3032,18 @@
                 "access",
                 "disabled",
                 "acces_details"
+              ],
+              "popup_attributes": [
+                "group_popup_parking"
+              ],
+              "list_attributes": [
+                "group_list_parking"
+              ],
+              "details_attributes": [
+                "roup_parking",
+                "description",
+                "opening",
+                "location"
               ]
             },
             "bicycle_docking_station": {
@@ -3055,6 +3125,17 @@
             "transport_mode_access",
             "fee",
             "amenity_charging_station_i18n"
+          ],
+          "popup_attributes": [
+            "group_popup_charging"
+          ],
+          "list_attributes": [
+            "group_list_charging"
+          ],
+          "details_attributes": [
+            "group_charging",
+            "description",
+            "location"
           ]
         },
         "charging_station_bicycle": {
@@ -3077,6 +3158,17 @@
             "transport_mode_access",
             "fee",
             "amenity_charging_station_i18n"
+          ],
+          "popup_attributes": [
+            "group_popup_charging"
+          ],
+          "list_attributes": [
+            "group_list_charging"
+          ],
+          "details_attributes": [
+            "group_charging",
+            "description",
+            "location"
           ]
         }
       }
@@ -3908,8 +4000,8 @@
               ],
               "details_attributes": [
                 "group_artwork",
-                "escription",
-                "ocation"
+                "description",
+                "location"
               ]
             },
             "statue": {
@@ -3945,8 +4037,8 @@
               ],
               "details_attributes": [
                 "group_artwork",
-                "escription",
-                "ocation"
+                "description",
+                "location"
               ]
             },
             "sculpture": {
@@ -3982,8 +4074,8 @@
               ],
               "details_attributes": [
                 "group_artwork",
-                "escription",
-                "ocation"
+                "description",
+                "location"
               ]
             },
             "mural": {
@@ -4019,8 +4111,8 @@
               ],
               "details_attributes": [
                 "group_artwork",
-                "escription",
-                "ocation"
+                "description",
+                "location"
               ]
             },
             "graffiti": {
@@ -4056,8 +4148,8 @@
               ],
               "details_attributes": [
                 "group_artwork",
-                "escription",
-                "ocation"
+                "description",
+                "location"
               ]
             }
           }
@@ -4817,6 +4909,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "motel": {
@@ -4839,6 +4944,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "hostel": {
@@ -4861,6 +4979,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "guest_house": {
@@ -4883,6 +5014,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "animal_boarding": {
@@ -4905,6 +5049,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             }
           }
@@ -4936,6 +5093,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "camp_site": {
@@ -4958,6 +5128,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "caravan_site": {
@@ -4980,6 +5163,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "resort": {
@@ -5002,6 +5198,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             }
           }
@@ -5033,6 +5242,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             },
             "apartment_rental": {
@@ -5055,6 +5277,19 @@
                 "opening",
                 "disabled",
                 "hosting"
+              ],
+              "popup_attributes": [
+                "group_popup_hosting"
+              ],
+              "list_attributes": [
+                "group_list_hosting"
+              ],
+              "details_attributes": [
+                "group_hosting",
+                "description",
+                "opening",
+                "contact",
+                "location"
               ]
             }
           }
@@ -16726,6 +16961,168 @@
         "values": null
       },
       "artwork_type": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_charging": {
+      "operator": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "capacity": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "car": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "bicycle": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "scooter": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "truck": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_popup_charging": {
+      "car": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "bicycle": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "scooter": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "truck": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_list_charging": {
+      "name": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "operator": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "capacity": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "car": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "bicycle": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "scooter": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "truck": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "addr": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      }
+    },
+    "group_feed": {
+      "bio": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "product": {
+        "label": {
+          "fr-FR": null
+        },
+        "is_array": false,
+        "values": null
+      },
+      "produce": {
         "label": {
           "fr-FR": null
         },
