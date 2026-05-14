@@ -1890,7 +1890,7 @@
   <td>⬤</td>
   <td>11</td>
   <td>20</td>
-  <td>["local_authority:FR"~"CC|CA"][government=local_authority][office=government]</td>
+  <td>["local_authority:FR"~"^(CC|CA)$"][government=local_authority][office=government]</td>
   <td>base, address, contact, ref, opening, disabled</td>
   </tr><tr><td></td><td></td><td></td>
   <td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
@@ -2112,7 +2112,7 @@
   <td>◯</td>
   <td>17</td>
   <td>500</td>
-  <td>[access!~"no|private"][amenity=toilets]</td>
+  <td>[access!~"^(no|private)$"][amenity=toilets]</td>
   <td>base, fee, access, access, toilets, disabled</td>
   </tr><tr><td></td><td></td><td></td><td style='background: #2a62ac; color: white; font-size: 200%; padding: 5px'>
     <center><i class='teritorio teritorio-waste'></i></center>
@@ -2584,7 +2584,7 @@
   <td>⬤</td>
   <td>17</td>
   <td>200</td>
-  <td>["service:bicycle:rental"=yes][shop~"bicycle|sports"]</td>
+  <td>["service:bicycle:rental"=yes][shop~"^(bicycle|sports)$"]</td>
   <td>base, access, disabled, bicycle</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #007db8; color: white; font-size: 200%; padding: 5px'>
@@ -3498,7 +3498,7 @@
   <td>•</td>
   <td>17</td>
   <td>800</td>
-  <td>[artwork_type!~"statue|sculpture|mural|graffiti"][tourism=artwork]</td>
+  <td>[artwork_type!~"^(statue|sculpture|mural|graffiti)$"][tourism=artwork]</td>
   <td>base, address, contact, opening, disabled, culture, aspects_details, date, size, tourism_artwork_i18n</td>
   </tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>
   <td style='background: #76009e; color: white; font-size: 200%; padding: 5px'>
@@ -4870,7 +4870,7 @@
   <td>⬤</td>
   <td>17</td>
   <td>500</td>
-  <td>["community_centre:for"!~"juvenile|child"][amenity=community_centre]</td>
+  <td>["community_centre:for"!~"^(juvenile|child)$"][amenity=community_centre]</td>
   <td>base, leisure, amenity_community_centre_i18n</td>
   </tr><tr><td></td><td></td><td></td>
   <td style='background: #008a1e; color: white; font-size: 200%; padding: 5px'>
@@ -5438,7 +5438,7 @@
   <td>⬤</td>
   <td>16</td>
   <td>101</td>
-  <td>[amenity=school]["school:FR"~"primaire|élémentaire"] or</br>[amenity=school]["school:MG"~"primaire|élémentaire"]</td>
+  <td>[amenity=school]["school:FR"~"^(primaire|élémentaire)$"] or</br>[amenity=school]["school:MG"~"^(primaire|élémentaire)$"]</td>
   <td>base, address, contact, ref, opening, disabled, education, activity_details, amenity_school_i18n</td>
   </tr><tr><td></td><td></td><td></td>
   <td style='background: #3366ff; color: white; font-size: 200%; padding: 5px'>

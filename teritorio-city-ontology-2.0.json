@@ -3428,7 +3428,7 @@
           "style": "⬤",
           "priority": 20,
           "osm_selector": [
-            "[\"local_authority:FR\"~\"CC|CA\"][government=local_authority][office=government]"
+            "[\"local_authority:FR\"~\"^(CC|CA)$\"][government=local_authority][office=government]"
           ],
           "properties_extra": [
             "base",
@@ -3828,7 +3828,7 @@
               "style": "◯",
               "priority": 500,
               "osm_selector": [
-                "[access!~\"no|private\"][amenity=toilets]"
+                "[access!~\"^(no|private)$\"][amenity=toilets]"
               ],
               "properties_extra": [
                 "base",
@@ -4671,7 +4671,7 @@
               "style": "⬤",
               "priority": 200,
               "osm_selector": [
-                "[\"service:bicycle:rental\"=yes][shop~\"bicycle|sports\"]"
+                "[\"service:bicycle:rental\"=yes][shop~\"^(bicycle|sports)$\"]"
               ],
               "properties_extra": [
                 "base",
@@ -6388,7 +6388,7 @@
               "style": "•",
               "priority": 800,
               "osm_selector": [
-                "[artwork_type!~\"statue|sculpture|mural|graffiti\"][tourism=artwork]"
+                "[artwork_type!~\"^(statue|sculpture|mural|graffiti)$\"][tourism=artwork]"
               ],
               "properties_extra": [
                 "base",
@@ -9027,7 +9027,7 @@
           "style": "⬤",
           "priority": 500,
           "osm_selector": [
-            "[\"community_centre:for\"!~\"juvenile|child\"][amenity=community_centre]"
+            "[\"community_centre:for\"!~\"^(juvenile|child)$\"][amenity=community_centre]"
           ],
           "properties_extra": [
             "base",
@@ -9990,8 +9990,8 @@
           "style": "⬤",
           "priority": 101,
           "osm_selector": [
-            "[amenity=school][\"school:FR\"~\"primaire|élémentaire\"]",
-            "[amenity=school][\"school:MG\"~\"primaire|élémentaire\"]"
+            "[amenity=school][\"school:FR\"~\"^(primaire|élémentaire)$\"]",
+            "[amenity=school][\"school:MG\"~\"^(primaire|élémentaire)$\"]"
           ],
           "properties_extra": [
             "base",
