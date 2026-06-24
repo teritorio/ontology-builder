@@ -4769,7 +4769,9 @@
                 "base",
                 "access",
                 "disabled",
-                "bicycle"
+                "bicycle",
+                "acces_details",
+                "fee"
               ],
               "popup_attributes": [
                 "group_popup_parking"
@@ -16789,7 +16791,13 @@
           {
             "value": "yes",
             "label": {
-              "fr-FR": "urgence"
+              "fr-FR": "accueil d'urgence"
+            }
+          },
+          {
+            "value": "no",
+            "label": {
+              "fr-FR": "pas d'accueil d'urgence"
             }
           }
         ]
