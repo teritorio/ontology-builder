@@ -10829,13 +10829,13 @@
           {
             "value": "yes",
             "label": {
-              "fr-FR": "pour voiture"
+              "fr-FR": "accessible aux voitures"
             }
           },
           {
             "value": "no",
             "label": {
-              "fr-FR": "pas de voiture"
+              "fr-FR": "non accessible aux voitures"
             }
           }
         ]
@@ -10849,13 +10849,13 @@
           {
             "value": "yes",
             "label": {
-              "fr-FR": "circulation à vélo possible"
+              "fr-FR": "accessible aux vélos"
             }
           },
           {
             "value": "no",
             "label": {
-              "fr-FR": "pas de vélo"
+              "fr-FR": "non accessible aux vélos"
             }
           },
           {
@@ -10874,20 +10874,20 @@
       },
       "scooter": {
         "label": {
-          "fr-FR": "trotinette"
+          "fr-FR": "trottinette"
         },
         "is_array": false,
         "values": [
           {
             "value": "yes",
             "label": {
-              "fr-FR": "pur trotinette"
+              "fr-FR": "accessible aux trottinettes"
             }
           },
           {
             "value": "no",
             "label": {
-              "fr-FR": "pas de trotinette"
+              "fr-FR": "non accessible aux trottinettes"
             }
           }
         ]
@@ -10901,13 +10901,13 @@
           {
             "value": "yes",
             "label": {
-              "fr-FR": "pour camion"
+              "fr-FR": "accessible aux camions"
             }
           },
           {
             "value": "no",
             "label": {
-              "fr-FR": "pas de camion"
+              "fr-FR": "non accessible aux camions"
             }
           }
         ]
@@ -10921,13 +10921,13 @@
           {
             "value": "yes",
             "label": {
-              "fr-FR": "pour moto"
+              "fr-FR": "accessible motos"
             }
           },
           {
             "value": "no",
             "label": {
-              "fr-FR": "pas de moto"
+              "fr-FR": "non accessible aux motos"
             }
           }
         ]
@@ -10950,7 +10950,7 @@
       },
       "toilets:wheelchair": {
         "label": {
-          "fr-FR": "accesibilité des toilettes"
+          "fr-FR": "accessibilité des toilettes"
         },
         "is_array": false,
         "values": [
